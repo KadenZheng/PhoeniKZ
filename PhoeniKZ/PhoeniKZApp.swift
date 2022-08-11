@@ -2,7 +2,7 @@
 //  PhoeniKZApp.swift
 //  PhoeniKZ
 //
-//  Created by LaptopCartUser on 8/10/22.
+//  Created by Kaden Zheng on 8/10/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct PhoeniKZApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		884B5F1428A43DFC0022745E /* PhoeniKZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B5F1328A43DFC0022745E /* PhoeniKZApp.swift */; };
-		884B5F1628A43DFC0022745E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B5F1528A43DFC0022745E /* ContentView.swift */; };
+		884B5F1628A43DFC0022745E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B5F1528A43DFC0022745E /* HomeView.swift */; };
 		884B5F1828A43E000022745E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884B5F1728A43E000022745E /* Assets.xcassets */; };
 		884B5F1B28A43E000022745E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884B5F1A28A43E000022745E /* Preview Assets.xcassets */; };
+		88A2986F28A4404800E2A2B5 /* HomeViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2986E28A4404800E2A2B5 /* HomeViewCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		884B5F1028A43DFC0022745E /* PhoeniKZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoeniKZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		884B5F1328A43DFC0022745E /* PhoeniKZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoeniKZApp.swift; sourceTree = "<group>"; };
-		884B5F1528A43DFC0022745E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		884B5F1528A43DFC0022745E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		884B5F1728A43E000022745E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884B5F1A28A43E000022745E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88A2986E28A4404800E2A2B5 /* HomeViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				884B5F1328A43DFC0022745E /* PhoeniKZApp.swift */,
-				884B5F1528A43DFC0022745E /* ContentView.swift */,
+				884B5F2128A43E900022745E /* Views */,
+				884B5F2328A43E980022745E /* Models */,
+				884B5F2228A43E940022745E /* ViewModels */,
+				884B5F2428A43EA10022745E /* Helpers */,
 				884B5F1728A43E000022745E /* Assets.xcassets */,
 				884B5F1928A43E000022745E /* Preview Content */,
 			);
@@ -65,6 +70,44 @@
 				884B5F1A28A43E000022745E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		884B5F2128A43E900022745E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				884B5F1528A43DFC0022745E /* HomeView.swift */,
+				88A2986D28A4402700E2A2B5 /* Reusables */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		884B5F2228A43E940022745E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		884B5F2328A43E980022745E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		884B5F2428A43EA10022745E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		88A2986D28A4402700E2A2B5 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				88A2986E28A4404800E2A2B5 /* HomeViewCard.swift */,
+			);
+			path = Reusables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884B5F1628A43DFC0022745E /* ContentView.swift in Sources */,
+				88A2986F28A4404800E2A2B5 /* HomeViewCard.swift in Sources */,
+				884B5F1628A43DFC0022745E /* HomeView.swift in Sources */,
 				884B5F1428A43DFC0022745E /* PhoeniKZApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
