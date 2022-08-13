@@ -11,7 +11,7 @@ import SwiftUI
 struct PhoeniKZApp: App {
     var body: some Scene {
         WindowGroup {
-            TeacherView()
+            HomeTabView()
                 .environmentObject(Manager())
         }
     }

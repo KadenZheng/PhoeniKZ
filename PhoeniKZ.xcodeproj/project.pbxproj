@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8841336028A744C700F888DD /* RoundedContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841335F28A744C700F888DD /* RoundedContactCard.swift */; };
+		8841336228A74A0B00F888DD /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841336128A74A0B00F888DD /* HomeTabView.swift */; };
+		8841336428A74A1800F888DD /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841336328A74A1800F888DD /* ActivitiesView.swift */; };
+		8841336628A74ADC00F888DD /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841336528A74ADC00F888DD /* ResourcesView.swift */; };
 		884B5F1428A43DFC0022745E /* PhoeniKZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B5F1328A43DFC0022745E /* PhoeniKZApp.swift */; };
 		884B5F1628A43DFC0022745E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B5F1528A43DFC0022745E /* HomeView.swift */; };
 		884B5F1828A43E000022745E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884B5F1728A43E000022745E /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8841335F28A744C700F888DD /* RoundedContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedContactCard.swift; sourceTree = "<group>"; };
+		8841336128A74A0B00F888DD /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		8841336328A74A1800F888DD /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
+		8841336528A74ADC00F888DD /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
 		884B5F1028A43DFC0022745E /* PhoeniKZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoeniKZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		884B5F1328A43DFC0022745E /* PhoeniKZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoeniKZApp.swift; sourceTree = "<group>"; };
 		884B5F1528A43DFC0022745E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -54,6 +62,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8841336728A80CA400F888DD /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				88A7E22A28A4C0760052F5C5 /* TeacherView.swift */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		8841336828A80CB000F888DD /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
 		884B5F0728A43DFC0022745E = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				884B5F1328A43DFC0022745E /* PhoeniKZApp.swift */,
+				8841336128A74A0B00F888DD /* HomeTabView.swift */,
 				884B5F2128A43E900022745E /* Views */,
 				884B5F2228A43E940022745E /* ViewModels */,
 				884B5F2328A43E980022745E /* Models */,
@@ -96,8 +120,11 @@
 		884B5F2128A43E900022745E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8841336828A80CB000F888DD /* MainViews */,
 				884B5F1528A43DFC0022745E /* HomeView.swift */,
-				88A7E22A28A4C0760052F5C5 /* TeacherView.swift */,
+				8841336328A74A1800F888DD /* ActivitiesView.swift */,
+				8841336528A74ADC00F888DD /* ResourcesView.swift */,
+				8841336728A80CA400F888DD /* DetailViews */,
 				88A2986D28A4402700E2A2B5 /* Reusables */,
 			);
 			path = Views;
@@ -143,6 +170,7 @@
 				88A2986E28A4404800E2A2B5 /* HomeViewCard.swift */,
 				8891924428A6F5D100A1CB0A /* LeadingWideCard.swift */,
 				8891924828A6F99800A1CB0A /* CenteredWideCard.swift */,
+				8841335F28A744C700F888DD /* RoundedContactCard.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -239,10 +267,14 @@
 				889390EB28A4B8BF005E88C0 /* DataService.swift in Sources */,
 				8891924928A6F99800A1CB0A /* CenteredWideCard.swift in Sources */,
 				8891924528A6F5D100A1CB0A /* LeadingWideCard.swift in Sources */,
+				8841336628A74ADC00F888DD /* ResourcesView.swift in Sources */,
+				8841336228A74A0B00F888DD /* HomeTabView.swift in Sources */,
 				889390E928A4B858005E88C0 /* Manager.swift in Sources */,
 				88A7E22B28A4C0760052F5C5 /* TeacherView.swift in Sources */,
 				88A2986F28A4404800E2A2B5 /* HomeViewCard.swift in Sources */,
 				884B5F1628A43DFC0022745E /* HomeView.swift in Sources */,
+				8841336428A74A1800F888DD /* ActivitiesView.swift in Sources */,
+				8841336028A744C700F888DD /* RoundedContactCard.swift in Sources */,
 				884B5F1428A43DFC0022745E /* PhoeniKZApp.swift in Sources */,
 				889390E228A4AB8D005E88C0 /* NavigationBar.swift in Sources */,
 				88A7E22D28A4C33C0052F5C5 /* FacultyCard.swift in Sources */,

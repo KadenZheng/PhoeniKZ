@@ -18,6 +18,8 @@ struct NavigationBar: View {
             Color.clear
                 .background(.ultraThinMaterial)
                 .blur(radius: 10)
+                .scaleEffect(1.3)
+                .edgesIgnoringSafeArea(.all)
             
             Text(text)
                 .font(.largeTitle.weight(.bold))

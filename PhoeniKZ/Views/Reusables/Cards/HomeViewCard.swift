@@ -11,7 +11,7 @@ struct HomeViewCard: View {
     
     @State var image: String
     @State var title: String
-    @State var caption: String
+    @State var caption: String?
     
     @State var rectangleWidth: CGFloat
     @State var rectangleHeight: CGFloat
@@ -46,20 +46,20 @@ struct HomeViewCard: View {
                 
                 VStack (alignment: .leading) {
                     
-                    Text("Title")
+                    Text(title)
                         .bold()
                         .font(.title)
                         .padding(.bottom, 2)
                         .shadow(color: .gray, radius: 0.5, x: 0.5, y: 0.5)
                     
-                    Text("Caption")
+                    if caption != nil {
+                    Text(caption!)
                         .font(.subheadline)
                         .foregroundColor(Color(red: 105/255, green: 105/255, blue: 105/255))
                         .shadow(color: .gray, radius: 0.5, x: 0.5, y: 0.5)
-                    
+                    }
                 }.padding(.leading, 20)
                  .padding(.bottom, 30)
-                
             }
         }
     }

@@ -10,8 +10,8 @@ import SwiftUI
 struct CenteredWideCard: View {
     
     @State var title: String
-    @State var icon1: String
-    @State var icon2: String
+    @State var icon1: String?
+    @State var icon2: String?
     
     var body: some View {
         
@@ -25,9 +25,13 @@ struct CenteredWideCard: View {
             
             HStack {
                 
-                Image(systemName: icon1)
+                if icon1 != nil {
+                
+                Image(systemName: icon1!)
                     .resizable()
                     .frame(width: 23, height: 23)
+                    
+                }
                 
                 HStack {
                     
@@ -36,10 +40,13 @@ struct CenteredWideCard: View {
                     
                 }.frame(width: 250, alignment: .center)
                 
-                Image(systemName: icon2)
+                if icon2 != nil {
+                
+                Image(systemName: icon2!)
                     .resizable()
                     .frame(width: 23, height: 23)
                 
+                }
             }
         }
         

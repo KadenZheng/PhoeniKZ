@@ -11,7 +11,7 @@ struct ImageBar: View {
     
     @State var image: String
     @State var titleText: String
-    @State var subtitleText: String
+    @State var subtitleText: String?
     
     var body: some View {
         
@@ -31,15 +31,17 @@ struct ImageBar: View {
                     .foregroundColor(.white)
                     .font(.largeTitle.weight(.bold))
                     .shadow(color: .black, radius: 2, x: 1, y: 1)
-                    .frame(width: UIScreen.main.bounds.size.width - 20, height: 100, alignment: .bottomLeading)
+                    .frame(width: UIScreen.main.bounds.size.width - 20, height: 200, alignment: .bottomLeading)
                 
-                Text(subtitleText)
-                    .font(.title3.weight(.medium))
-                    .foregroundColor(Color(red: 210/255, green: 210/255, blue: 210/255))
-                    .shadow(color: .black, radius: 2, x: 1, y: 1)
+                if subtitleText != nil {
+                    Text(subtitleText!)
+                        .font(.title3.weight(.medium))
+                        .foregroundColor(Color(red: 210/255, green: 210/255, blue: 210/255))
+                        .shadow(color: .black, radius: 2, x: 1, y: 1)
+                }
             }.padding(.leading)
         }
-        
+        .padding(.bottom, 40)
     }
 }
 
