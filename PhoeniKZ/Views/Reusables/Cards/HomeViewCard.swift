@@ -33,6 +33,7 @@ struct HomeViewCard: View {
                 .scaledToFill()
                 .cornerRadius(10)
                 .frame(width: rectangleWidth, height: rectangleHeight)
+                .blur(radius: 1)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
             
             

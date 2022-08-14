@@ -30,13 +30,9 @@ struct ActivitiesView: View {
                         
                         VStack (alignment: .leading) {
                             
-                            HStack {
-                                
-                                Text("Schoolwide Events")
-                                    .font(.title.weight(.semibold))
-                                
-                            }
-                            .padding(.horizontal)
+                            Text("Schoolwide Events")
+                                .font(.title.weight(.semibold))
+                                .padding(.horizontal)
                             
                             ScrollView (.horizontal, showsIndicators: false) {
                                 

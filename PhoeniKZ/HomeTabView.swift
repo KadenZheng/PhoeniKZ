@@ -41,6 +41,7 @@ struct HomeTabView: View {
                     }
                 }
                 .tag(2)
+            
         }
         
     }

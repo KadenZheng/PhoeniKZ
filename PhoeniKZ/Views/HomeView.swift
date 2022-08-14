@@ -15,7 +15,7 @@ struct HomeView: View {
     var body: some View {
         
         NavigationView {
-        
+            
             GeometryReader { geo in
                 
                 ScrollView (showsIndicators: false) {
@@ -29,8 +29,14 @@ struct HomeView: View {
                                 .padding(.bottom, 40)
                             
                             // MARK: - Read Latest
-                            LeadingWideCard(Title: "Phoenix Post", icon: "newspaper")
-                            
+                            ForEach(model.phoenixPost) { post in
+                                NavigationLink {
+                                    PhoenixPostView(content: post.content, image: post.image, title: post.title, author: post.author, publishingDate: post.publishingDate)
+                                } label: {
+                                    LeadingWideCard(Title: "Phoenix Post", icon: "newspaper")
+                                }.scaledToFill()
+                                    .accentColor(.black)
+                            }
                             
                             // MARK: - Club Sign In
                             
@@ -63,7 +69,6 @@ struct HomeView: View {
                                         .frame(width: 17, height: 17)
                                 }
                                 .accentColor(.black)
-                                
                             }
                             .padding(.horizontal)
                             .padding(.bottom, -10)
@@ -77,7 +82,7 @@ struct HomeView: View {
                                         NavigationLink {
                                             EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description)
                                         } label: {
-                                            HomeViewCard(image: event.image, title: event.title, caption: event.caption, rectangleWidth: (geo.size.width+35)/2, rectangleHeight: (geo.size.width-25)/2)
+                                            HomeViewCard(image: event.image, title: event.title, caption: event.caption, rectangleWidth: (geo.size.width+75)/2, rectangleHeight: (geo.size.width-25)/2)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }
@@ -87,6 +92,7 @@ struct HomeView: View {
                                 }
                             }
                         }
+                        
                         
                         Divider()
                             .frame(width: UIScreen.main.bounds.width - 40)
@@ -142,7 +148,7 @@ struct HomeView: View {
                     }
                 }
                 .edgesIgnoringSafeArea(.top)
-                    
+                
             }
             .navigationBarHidden(true)
         }

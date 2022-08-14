@@ -21,6 +21,8 @@ struct ImageBar: View {
                 .resizable()
                 .scaledToFill()
                 .frame(height: 250)
+                .blur(radius: 1.5)
+                .scaleEffect(1.01)
             
             VStack (alignment: .leading, spacing: 10) {
                 
@@ -36,7 +38,7 @@ struct ImageBar: View {
                         .shadow(color: .black, radius: 2, x: 1, y: 1)
                 }
             }
-            .frame(width: UIScreen.main.bounds.size.width - 60, height: 200, alignment: .bottomLeading)
+            .frame(width: UIScreen.main.bounds.size.width - 50, height: 230, alignment: .bottomLeading)
         }
     }
 }

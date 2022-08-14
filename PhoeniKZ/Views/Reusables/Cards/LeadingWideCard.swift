@@ -35,7 +35,7 @@ struct LeadingWideCard: View {
                 Text(Title)
                     .font(.title3.weight(.medium))
                 
-            }.frame(width: 303, alignment: .leading)
+            }.frame(width: 310, alignment: .leading)
             
                 Image(systemName: icon)
                     .resizable()
