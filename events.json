@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Freshmen Orientation",
+        "caption": "Welcome Freshmen!",
+        "image": "red_flowers",
+        "location": "University High",
+        "time": "8 AM - 3 PM",
+        "contact": "Geni Bird",
+        "description": "The Peer Mentors welcome the incoming freshmen with a day filled with activities and fun. Introductions begin at 8 AM starting with presentations by Ms. Hickman and ASB, followed by fun activities, a campus tour, and, finally, bowling and billiards after UHS-provided lunch!"
+    },
+    {
+        "title": "Back to School Night",
+        "caption": "Welcome Parents!",
+        "image": "night_school",
+        "location": "University High",
+        "time": "5 PM - 8 PM",
+        "contact": "Office",
+        "description": "Parents are allowed to come walk their students' schedules and visit the teachers. Meet in the UHS Courtyard and follow the schedule of your student to meet teachers/staff! The front office staff will manage registration questions and information."
+    }
+]
