@@ -21,9 +21,6 @@ struct ImageBar: View {
                 .resizable()
                 .scaledToFill()
                 .frame(height: 250)
-                .edgesIgnoringSafeArea(.all)
-                .scaleEffect(1.01)
-                .blur(radius: 1.5)
             
             VStack (alignment: .leading, spacing: 10) {
                 
@@ -31,7 +28,6 @@ struct ImageBar: View {
                     .foregroundColor(.white)
                     .font(.largeTitle.weight(.bold))
                     .shadow(color: .black, radius: 2, x: 1, y: 1)
-                    .frame(width: UIScreen.main.bounds.size.width - 20, height: 200, alignment: .bottomLeading)
                 
                 if subtitleText != nil {
                     Text(subtitleText!)
@@ -39,9 +35,9 @@ struct ImageBar: View {
                         .foregroundColor(Color(red: 210/255, green: 210/255, blue: 210/255))
                         .shadow(color: .black, radius: 2, x: 1, y: 1)
                 }
-            }.padding(.leading)
+            }
+            .frame(width: UIScreen.main.bounds.size.width - 60, height: 200, alignment: .bottomLeading)
         }
-        .padding(.bottom, 40)
     }
 }
 

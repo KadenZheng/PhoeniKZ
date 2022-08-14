@@ -13,6 +13,8 @@ struct ResourcesView: View {
     
     var body: some View {
         
+        NavigationView {
+        
         GeometryReader { geo in
             
             ScrollView {
@@ -22,8 +24,15 @@ struct ResourcesView: View {
                     // MARK: - Image Bar
                     ImageBar(image: "night_school", titleText: "Resources")
                     
-                    CenteredWideCard(title: "ASC Sign In")
-                        .padding(.bottom)
+                    // MARK: - ASC Sign In
+                    
+                    NavigationLink {
+                        SignInView(name: "", code: "", signInName: "ASC", image: "night_school")
+                    } label: {
+                        CenteredWideCard(title: "ASC Sign In")
+                            .padding(.bottom)
+                    }.accentColor(.black)
+                        .padding(.top, UIScreen.main.bounds.width/10)
                     
                     Divider()
                     
@@ -74,6 +83,8 @@ struct ResourcesView: View {
                 }
             }
             .edgesIgnoringSafeArea(.top)
+        }
+            
         }
     }
 }
