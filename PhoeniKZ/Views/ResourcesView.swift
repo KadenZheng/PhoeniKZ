@@ -10,6 +10,7 @@ import SwiftUI
 struct ResourcesView: View {
     
     @EnvironmentObject var model: Manager
+    @Binding var selectedTab: Int
     
     var body: some View {
         
@@ -89,8 +90,9 @@ struct ResourcesView: View {
     }
 }
 
-struct ResourcesView_Previews: PreviewProvider {
-    static var previews: some View {
-        ResourcesView()
-    }
-}
+//
+//struct ResourcesView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ResourcesView(selectedTab: )
+//    }
+//}

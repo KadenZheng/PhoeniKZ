@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     @EnvironmentObject var model: Manager
+    @Binding var selectedTab: Int
     
     var body: some View {
         
@@ -17,7 +18,7 @@ struct HomeView: View {
         
             GeometryReader { geo in
                 
-                ScrollView {
+                ScrollView (showsIndicators: false) {
                     
                     VStack {
                         
@@ -51,28 +52,37 @@ struct HomeView: View {
                                 Text("Upcoming Events")
                                     .font(.title2.weight(.bold))
                                 
-                                Text("See all events")
-                                    .font(.callout)
-                                    .padding(.leading, 40)
-                                Image(systemName: "arrow.right.circle")
-                                    .resizable()
-                                    .frame(width: 17, height: 17)
+                                Button {
+                                    selectedTab = 1
+                                } label: {
+                                    Text("See all events")
+                                        .font(.callout)
+                                        .padding(.leading, 40)
+                                    Image(systemName: "arrow.right.circle")
+                                        .resizable()
+                                        .frame(width: 17, height: 17)
+                                }
+                                .accentColor(.black)
                                 
                             }
                             .padding(.horizontal)
                             .padding(.bottom, -10)
                             
-                            ScrollView (.horizontal) {
+                            ScrollView (.horizontal, showsIndicators: false) {
                                 
                                 HStack {
                                     
-                                    HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", caption: "Caption", rectangleWidth: (geo.size.width+35)/2, rectangleHeight: (geo.size.width-25)/2)
-                                        .padding(.leading)
-                                        .padding([.bottom, .top, .trailing], 10)
-                                    
-                                    HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", caption: "Caption", rectangleWidth: (geo.size.width+35)/2, rectangleHeight: (geo.size.width-25)/2)
-                                        .padding(.leading)
-                                        .padding([.bottom, .top, .trailing], 10)
+                                    ForEach(model.events) {
+                                        event in
+                                        NavigationLink {
+                                            EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description)
+                                        } label: {
+                                            HomeViewCard(image: event.image, title: event.title, caption: event.caption, rectangleWidth: (geo.size.width+35)/2, rectangleHeight: (geo.size.width-25)/2)
+                                                .padding(.leading)
+                                                .padding([.bottom, .top, .trailing], 10)
+                                        }
+                                        .accentColor(.black)
+                                    }
                                     
                                 }
                             }
@@ -134,6 +144,7 @@ struct HomeView: View {
                 .edgesIgnoringSafeArea(.top)
                     
             }
+            .navigationBarHidden(true)
         }
     }
 }
@@ -148,9 +159,9 @@ func formatDate() -> String {
     
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-            .environmentObject(Manager())
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HomeView(selectedTab: 0)
+//            .environmentObject(Manager())
+//    }
+//}

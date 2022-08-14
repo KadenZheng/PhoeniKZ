@@ -1,8 +1,8 @@
 //
-//  Faculty.swift
+//  Events.swift
 //  PhoeniKZ
 //
-//  Created by LaptopCartUser on 8/10/22.
+//  Created by LaptopCartUser on 8/13/22.
 //
 
 import Foundation

@@ -32,9 +32,8 @@ struct HomeViewCard: View {
                 .resizable()
                 .scaledToFill()
                 .cornerRadius(10)
-                .frame(width: rectangleWidth - 20, height: rectangleHeight - 20)
-                .clipped()
-                .blur(radius: 4)
+                .frame(width: rectangleWidth, height: rectangleHeight)
+                .clipShape(RoundedRectangle(cornerRadius: 20))
             
             
             ZStack (alignment: .bottomLeading) {
@@ -47,19 +46,20 @@ struct HomeViewCard: View {
                 VStack (alignment: .leading) {
                     
                     Text(title)
+                        .foregroundColor(.white)
                         .bold()
-                        .font(.title)
+                        .font(.headline)
                         .padding(.bottom, 2)
-                        .shadow(color: .gray, radius: 0.5, x: 0.5, y: 0.5)
+                        .shadow(color: .black, radius: 0.5, x: 0.5, y: 0.5)
                     
                     if caption != nil {
                     Text(caption!)
-                        .font(.subheadline)
-                        .foregroundColor(Color(red: 105/255, green: 105/255, blue: 105/255))
-                        .shadow(color: .gray, radius: 0.5, x: 0.5, y: 0.5)
+                            .font(.callout)
+                            .foregroundColor(.white)
+                        .shadow(color: .black, radius: 0.5, x: 0.5, y: 0.5)
                     }
-                }.padding(.leading, 20)
-                 .padding(.bottom, 30)
+                }.padding(.leading, 15)
+                 .padding(.bottom, 20)
             }
         }
     }

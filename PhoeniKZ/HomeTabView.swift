@@ -15,7 +15,7 @@ struct HomeTabView: View {
         
         TabView (selection: $selectedTab) {
             
-            HomeView()
+            HomeView(selectedTab: $selectedTab)
                 .tabItem {
                     VStack {
                         Image(systemName: "music.note.house")
@@ -24,7 +24,7 @@ struct HomeTabView: View {
                 }
                 .tag(0)
             
-            ActivitiesView()
+            ActivitiesView(selectedTab: $selectedTab)
                 .tabItem {
                     VStack {
                         Image(systemName: "calendar.circle")
@@ -33,7 +33,7 @@ struct HomeTabView: View {
                 }
                 .tag(1)
             
-            ResourcesView()
+            ResourcesView(selectedTab: $selectedTab)
                 .tabItem {
                     VStack {
                         Image(systemName: "list.bullet.below.rectangle")
