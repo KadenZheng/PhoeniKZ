@@ -12,10 +12,12 @@ class Manager : ObservableObject {
     @Published var faculty = [Faculty]()
     @Published var events = [Event]()
     @Published var phoenixPost = [PhoenixPost]()
+    @Published var categories = [Category]()
     
     init() {
         
-        self.faculty = DataService.getLocalData()
+        self.faculty = DataService.getLocalFacultyData()
+        self.categories = DataService.getLocalCategoriesData()
         
         getRemoteEventsData()
         

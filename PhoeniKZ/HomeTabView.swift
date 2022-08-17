@@ -43,6 +43,7 @@ struct HomeTabView: View {
                 .tag(2)
             
         }
+        .environmentObject(Manager())
         
     }
 }

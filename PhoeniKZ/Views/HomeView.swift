@@ -112,10 +112,14 @@ struct HomeView: View {
                                 
                                 HStack {
                                     
-                                    HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", rectangleWidth: (geo.size.width-10)/2, rectangleHeight: (geo.size.width-80)/2)
-                                        .padding(.leading)
-                                        .padding([.bottom, .top, .trailing], 10)
-                                    
+                                    NavigationLink {
+                                        FacultyListView()
+                                    } label: {
+                                        HomeViewCard(image: "frisbees", title: "Faculty", rectangleWidth: (geo.size.width-10)/2, rectangleHeight: (geo.size.width-80)/2)
+                                            .padding(.leading)
+                                            .padding([.bottom, .top, .trailing], 10)
+                                    }
+
                                 }
                             }
                         }

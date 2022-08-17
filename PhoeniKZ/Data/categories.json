@@ -1,0 +1,43 @@
+[
+    {
+        "name":"All Faculty",
+        "isSelected":false
+    },
+    {
+        "name":"Administration",
+        "isSelected":false
+    },
+    {
+        "name":"English",
+        "isSelected":false
+    },
+    {
+        "name":"Latin",
+        "isSelected":false
+    },
+    {
+        "name":"Mathematics",
+        "isSelected":false
+    },
+    {
+        "name":"P.E.",
+        "isSelected":false
+    },
+    {
+        "name":"Performing Arts",
+        "isSelected":false
+    },
+    {
+        "name":"Science",
+        "isSelected":false
+    },
+    {
+        "name":"Social Science",
+        "isSelected":false
+    },
+    {
+        "name":"Staff",
+        "isSelected":false
+    }
+    
+]

@@ -13,8 +13,8 @@ struct HomeViewCard: View {
     @State var title: String
     @State var caption: String?
     
-    @State var rectangleWidth: CGFloat
-    @State var rectangleHeight: CGFloat
+    @State var rectangleWidth: CGFloat = 0
+    @State var rectangleHeight: CGFloat = 0
     
     var body: some View {
         
@@ -22,7 +22,7 @@ struct HomeViewCard: View {
             
             Rectangle()
             
-                .frame(width: rectangleWidth, height: rectangleHeight)
+                .frame(width: abs(rectangleWidth), height: abs(rectangleHeight))
                 .cornerRadius(20)
                 .shadow(color: .gray, radius: 5, x: 0, y: 0)
                 .foregroundColor(.white)
@@ -32,7 +32,7 @@ struct HomeViewCard: View {
                 .resizable()
                 .scaledToFill()
                 .cornerRadius(10)
-                .frame(width: rectangleWidth, height: rectangleHeight)
+                .frame(width: abs(rectangleWidth), height: abs(rectangleHeight))
                 .blur(radius: 1)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
             
@@ -41,7 +41,7 @@ struct HomeViewCard: View {
                 
                 Rectangle()
                     .foregroundColor(.clear)
-                    .frame(width: rectangleWidth, height: rectangleHeight)
+                    .frame(width: abs(rectangleWidth), height: abs(rectangleHeight))
                     .cornerRadius(20)
                 
                 VStack (alignment: .leading) {
@@ -65,6 +65,7 @@ struct HomeViewCard: View {
         }
     }
 }
+
 
 struct HomeViewCard_Previews: PreviewProvider {
     static var previews: some View {

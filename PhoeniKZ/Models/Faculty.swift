@@ -14,5 +14,6 @@ class Faculty : Identifiable, Decodable {
     var position: String
     var email: String
     var image: String
+    var category: String
     
 }
