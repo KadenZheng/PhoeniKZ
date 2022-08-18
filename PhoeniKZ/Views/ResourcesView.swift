@@ -52,7 +52,7 @@ struct ResourcesView: View {
                             
                             HStack {
                                 
-                                HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", rectangleWidth: (geo.size.width-60)/2, rectangleHeight: (geo.size.width-60)/2)
+                                HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", widthOffset: -60, heightOffset: -60)
                                     .padding(.leading)
                                     .padding([.bottom, .top, .trailing], 10)
                             }
@@ -74,7 +74,7 @@ struct ResourcesView: View {
                             
                             HStack {
                                 
-                                HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", rectangleWidth: (geo.size.width-60)/2, rectangleHeight: (geo.size.width-60)/2)
+                                HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", widthOffset: -60, heightOffset: -60)
                                     .padding(.leading)
                                     .padding([.bottom, .top, .trailing], 10)
                             }

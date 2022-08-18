@@ -43,7 +43,7 @@ struct ActivitiesView: View {
                                         NavigationLink {
                                             EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description)
                                         } label: {
-                                            HomeViewCard(image: event.image, title: event.title, caption: event.caption, rectangleWidth: (geo.size.width+90)/2, rectangleHeight: (geo.size.width-10)/2)
+                                            HomeViewCard(image: event.image, title: event.title, caption: event.caption, widthOffset: 90, heightOffset: -10)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }
@@ -71,7 +71,7 @@ struct ActivitiesView: View {
                                 
                                 HStack {
                                     
-                                    HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", rectangleWidth: (geo.size.width-60)/2, rectangleHeight: (geo.size.width-60)/2)
+                                    HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", widthOffset: -60, heightOffset: -60)
                                         .padding(.leading)
                                         .padding([.bottom, .top, .trailing], 10)
                                 }

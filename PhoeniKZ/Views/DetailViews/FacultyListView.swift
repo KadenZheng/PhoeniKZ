@@ -29,35 +29,17 @@ struct FacultyListView: View {
                             ForEach(model.categories) { category in
                                 Button {
                                     selectedCategory = category.name
-                                    if category.isSelected == true {
-                                        category.isSelected = false
-                                    } else if category.isSelected == false {
-                                        category.isSelected = true
-                                    }
+                                    category.isSelected.toggle()
                                 } label: {
                                     ZStack {
                                         
-                                        if category.isSelected == false {
-                                            
-                                            Rectangle()
-                                                .foregroundColor(.white)
-                                                .frame(width: 175, height: 40)
-                                                .cornerRadius(15)
-                                                .overlay(
-                                                    RoundedRectangle(cornerRadius: 15)
-                                                        .stroke(Color.black, lineWidth: 1))
-                                            
-                                        } else {
-                                            
-                                            Rectangle()
-                                                .foregroundColor(.gray)
-                                                .frame(width: 175, height: 40)
-                                                .cornerRadius(15)
-                                                .overlay(
-                                                    RoundedRectangle(cornerRadius: 15)
-                                                        .stroke(Color.black, lineWidth: 1))
-                                            
-                                        }
+                                        Rectangle()
+                                            .foregroundColor(category.isSelected ? Color.gray : Color.white)
+                                            .frame(width: 175, height: 40)
+                                            .cornerRadius(15)
+                                            .overlay(
+                                                RoundedRectangle(cornerRadius: 15)
+                                                    .stroke(Color.black, lineWidth: 1))
                                         
                                         Text(category.name)
                                             .font(.subheadline.weight(.medium))
@@ -287,7 +269,6 @@ struct FacultyListView: View {
                                 }
                                 
                             }
-                            
                         }
                         
                         VStack (alignment: .leading) {
@@ -350,7 +331,6 @@ struct FacultyListView: View {
             .padding(.top, 90)
             
             
-        }.overlay(NavigationBar(text: "Text"))
-            .navigationBarHidden(true)
+        }.navigationBarHidden(true)
     }
 }
