@@ -130,7 +130,6 @@ struct EventDetailView: View {
                     
                 }
                 .padding(.horizontal, 38)
-                
             }
         }
     }
