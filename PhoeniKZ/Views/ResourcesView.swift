@@ -23,7 +23,9 @@ struct ResourcesView: View {
                 VStack (spacing: 15) {
                     
                     // MARK: - Image Bar
-                    ImageBar(image: "night_school", titleText: "Resources")
+                    ImageBar(image: "night_school", titleText: "Resources", clipped: true)
+                        .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
+                        .edgesIgnoringSafeArea(.top)
                     
                     // MARK: - ASC Sign In
                     

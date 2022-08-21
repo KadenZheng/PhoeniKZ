@@ -23,7 +23,9 @@ struct HomeView: View {
                     Group {
                         
                         // MARK: - Image Bar
-                        ImageBar(image: "night_school", titleText: "University High", subtitleText: formatDate())
+                        ImageBar(image: "night_school", titleText: "University High", subtitleText: formatDate(), clipped: true)
+                            .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
+                            .edgesIgnoringSafeArea(.top)
                             .padding(.bottom, 40)
                         
                         // MARK: - Read Latest

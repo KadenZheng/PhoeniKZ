@@ -14,6 +14,7 @@ struct FacultyCard: View {
     @State var image: String
     @State var name: String
     @State var position: String
+    @State var email: String
     
     var body: some View {
         
@@ -57,18 +58,24 @@ struct FacultyCard: View {
                 .frame(width: 159, alignment: .leading)
                 .padding(.trailing, 1)
                 
-                ZStack {
+                
                     
-                    // Mail Icon
-                    
-                    Circle()
-                        .foregroundColor(.black)
-                        .frame(width: 45, height: 45)
-                    
-                    Image(systemName: "envelope.fill")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 25, height: 25).foregroundColor(Color.white)
+                    Link(destination: URL(string: "mailto:\(email)")!) {
+                        
+                        // Mail Icon
+                        
+                        ZStack {
+                        
+                        Circle()
+                            .foregroundColor(.black)
+                            .frame(width: 45, height: 45)
+                        
+                        Image(systemName: "envelope.fill")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 25, height: 25).foregroundColor(Color.white)
+                            
+                        }
                     
                 }
                 
@@ -81,6 +88,6 @@ struct FacultyCard: View {
 
 struct FacultyCard_Previews: PreviewProvider {
     static var previews: some View {
-        FacultyCard(image: "BIRD_GENI", name: "Geni Bird", position: "Counselor L-Z")
+        FacultyCard(image: "BIRD_GENI", name: "Geni Bird", position: "Counselor L-Z", email: "gbird@mail.fresnostate.edu")
     }
 }

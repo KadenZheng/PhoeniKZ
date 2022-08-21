@@ -1,205 +1,177 @@
-[
-    {
-        "name": "Jeffie Hickman",
-        "position": "Superintendent/Principal",
-        "email": "jhickman@mail.fresnostate.edu",
-        "category":"Administration",
-        "image": "HICKMAN_JEFFIE"
-    },
+[{
+    "name": "Jeffie Hickman",
+    "position": "Superintendent/Principal",
+    "email": "jhickman@mail.fresnostate.edu",
+    "category": "Administration",
+    "image": "HICKMAN_JEFFIE"
+},
     {
         "name": "Aaron Morgan",
         "position": "Vice Principal",
         "email": "aemorgan@mail.fresnostate.edu",
-        "category":"Administration",
+        "category": "Administration",
         "image": "MORGAN_AARON"
-    },
-    {
+    }, {
         "name": "Rocio Fernandez",
         "position": "Counselor A-k",
         "email": "rociof@mail.fresnostate.edu",
-        "category":"Administration",
+        "category": "Administration",
         "image": "FERNANDEZ_ROCIO"
-    },
-    {
+    }, {
         "name": "Geni Bird",
         "position": "Couneslor L-Z",
         "email": "gbird@mail.fresnostate.edu",
-        "category":"Administration",
+        "category": "Administration",
         "image": "BIRD_GENI"
-    },
-    {
+    }, {
         "name": "Shauna Hill",
         "position": "English 9",
         "email": "shhill@mail.fresnostate.edu",
-        "category":"English",
+        "category": "English",
         "image": "HILL_SHAUNA"
-    },
-    {
+    }, {
         "name": "Tegan Jones",
         "position": "English 10",
         "email": "tjones@mail.fresnostate.edu",
-        "category":"English",
+        "category": "English",
         "image": "red_flowers"
-    },
-    {
+    }, {
         "name": "Dr. Larry Jarocki",
         "position": "A.P. Language & Composition",
         "email": "ljarocki@mail.fresnostate.edu",
-        "category":"English",
+        "category": "English",
         "image": "JAROCKI_LARRY"
-    },
-    {
+    }, {
         "name": "Mark Roberts",
         "position": "A.P. Literature & Composition",
         "email": "mroberts@mail.fresnostate.edu",
-        "category":"English",
+        "category": "English",
         "image": "ROBERTS_MARK"
-    },
-    {
+    }, {
         "name": "Rebecca Ibrahim",
         "position": "Latin I",
         "email": "ribrahim@mail.fresnostate.edu",
-        "category":"Latin",
+        "category": "Latin",
         "image": "IBRAHIM_REBECCA"
-    },
-    {
+    }, {
         "name": "Elizabeth Downer",
         "position": "Latin II",
         "email": "edowner@mail.fresnostate.edu",
-        "category":"Latin",
+        "category": "Latin",
         "image": "DOWNER_ELIZABETH"
-    },
-    {
+    }, {
         "name": "Julio Mondragon",
         "position": "IM 1, IM 2",
         "email": "mondragonj@mail.fresnostate.edu",
-        "category":"Mathematics",
+        "category": "Mathematics",
         "image": "MONDRAGON_JULIO"
-    },
-    {
+    }, {
         "name": "Cari Roche",
         "position": "Advanced Math, IM 1",
         "email": "croche@mail.fresnostate.edu",
-        "category":"Mathematics",
+        "category": "Mathematics",
         "image": "ROCHE_CARI"
-    },
-    {
+    }, {
         "name": "Armando Murillo",
         "position": "A.P. Statistics, IM 1",
         "email": "armandom@mail.fresnostate.edu",
-        "category":"Mathematics",
+        "category": "Mathematics",
         "image": "MURILLO_ARMANDO"
-    },
-    {
+    }, {
         "name": "Michelle Hayden",
         "position": "A.P. Calculus AB/BC, IM 1",
         "email": "aemorgan@mail.fresnostate.edu",
-        "category":"Mathematics",
+        "category": "Mathematics",
         "image": "HAYDEN_MICHELLE"
-    },
-    {
+    }, {
         "name": "Jacques Hagen",
         "position": "Athletic Director, PE 9/10",
         "email": "jahagen@mail.fresnostate.edu",
-        "category":"P.E.",
+        "category": "P.E.",
         "image": "HAGEN_JACQUES"
-    },
-    {
+    }, {
         "name": "Garrett Benslay",
         "position": "Activities Director, PE 11/12",
         "email": "gbenslay@mail.fresnostate.edu",
-        "category":"P.E.",
+        "category": "P.E.",
         "image": "BENSLAY_GARRETT"
-    },
-    {
+    }, {
         "name": "Gerard Jones",
         "position": "Musicianship I/II, String Ensemble",
         "email": "gjones@mail.fresnostate.edu",
-        "category":"Performing Arts",
+        "category": "Performing Arts",
         "image": "JONES_GERARD"
-    },
-    {
+    }, {
         "name": "Dr. Alyson Moore",
         "position": "Musicianship III, A.P. Music Theory, All Choir",
         "email": "ashirk@mail.fresnostate.edu",
-        "category":"Performing Arts",
+        "category": "Performing Arts",
         "image": "MOORE_ALYSON"
-    },
-    {
+    }, {
         "name": "Dr. Randall Cornelison",
         "position": "Musicianship IV, All Band",
         "email": "rcornelison@mail.fresnostate.edu",
-        "category":"Performing Arts",
+        "category": "Performing Arts",
         "image": "CORNELISON_RANDALL"
-    },
-    {
+    }, {
         "name": "Dr. David Gettman",
         "position": "Physics",
         "email": "dgettman@mail.fresnostate.edu",
-        "category":"Science",
+        "category": "Science",
         "image": "GETTMAN_DAVID"
-    },
-    {
+    }, {
         "name": "Brenda Royce",
         "position": "Chemistry",
         "email": "brendar@mail.fresnostate.edu",
-        "category":"Science",
+        "category": "Science",
         "image": "ROYCE_BRENDA"
-    },
-    {
+    }, {
         "name": "Kathryn Dowis",
         "position": "Biology/Zoology",
         "email": "kdowis@mail.fresnostate.edu",
-        "category":"Science",
+        "category": "Science",
         "image": "DOWIS_KATHRYN"
-    },
-    {
+    }, {
         "name": "Sean Canfield",
         "position": "APUSH/ US History, A.P. Government",
         "email": "scanfield@mail.fresnostate.edu",
-        "category":"Social Science",
+        "category": "Social Science",
         "image": "CANFIELD_SEAN"
-    },
-    {
+    }, {
         "name": "Peter Johnson",
         "position": "US History, A.P. Economics",
         "email": "pejohnson@mail.fresnostate.edu",
-        "category":"Social Science",
+        "category": "Social Science",
         "image": "JOHNSON_PETER"
-    },
-    {
+    }, {
         "name": "Jennifer Trauner",
         "position": "Office Manager",
-        "email": "",
-        "category":"Staff",
+        "email": "uhsattendance@gmail.com",
+        "category": "Staff",
         "image": "TRAUNER-MARRETT_JENNIFER"
-    },
-    {
+    }, {
         "name": "Aubrey Der Torosian",
         "position": "Attendance Clerk",
-        "email": "",
-        "category":"Staff",
+        "email": "uhsattendance@gmail.com",
+        "category": "Staff",
         "image": "DERTOROSIAN_AUBREY"
-    },
-    {
+    }, {
         "name": "Deena Klein",
         "position": "Attendance Clerk",
-        "email": "",
-        "category":"Staff",
+        "email": "uhsattendance@gmail.com",
+        "category": "Staff",
         "image": "KLEIN_DEENA"
-    },
-    {
+    }, {
         "name": "Ellie Palomo",
         "position": "Registrar",
         "email": "epalomo@mail.fresnostate.edu",
-        "category":"Staff",
+        "category": "Staff",
         "image": "PALOMO_ELLIE"
-    },
-    {
+    }, {
         "name": "Michael Bird",
         "position": "Network Specialist",
         "email": "mbird@mail.fresnostate.edu",
-        "category":"Staff",
+        "category": "Staff",
         "image": "BIRD_MICHAEL"
     }
 ]

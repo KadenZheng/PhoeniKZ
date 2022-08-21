@@ -12,17 +12,28 @@ struct ImageBar: View {
     @State var image: String
     @State var titleText: String
     @State var subtitleText: String?
+    @State var clipped: Bool
     
     var body: some View {
         
         ZStack {
             
+            if clipped == true {
             Image(image)
                 .resizable()
                 .scaledToFill()
                 .frame(height: 250)
+                .clipped()
                 .blur(radius: 1.5)
                 .scaleEffect(1.01)
+            } else {
+                Image(image)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 250)
+                    .blur(radius: 1.5)
+                    .scaleEffect(1.01)
+            }
             
             VStack (alignment: .leading, spacing: 10) {
                 
@@ -38,13 +49,14 @@ struct ImageBar: View {
                         .shadow(color: .black, radius: 2, x: 1, y: 1)
                 }
             }
-            .frame(width: UIScreen.main.bounds.size.width - 50, height: 230, alignment: .bottomLeading)
+            .frame(width: UIScreen.main.bounds.size.width - 50, height: 200, alignment: .bottomLeading)
         }
+        
     }
 }
 
 struct ImageBar_Previews: PreviewProvider {
     static var previews: some View {
-        ImageBar(image: "night_school", titleText: "University High", subtitleText: "8/12/2022")
+        ImageBar(image: "night_school", titleText: "University High", subtitleText: "8/12/2022", clipped: true)
     }
 }

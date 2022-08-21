@@ -1,5 +1,4 @@
 [
-    
 {
     "name":"Speech/Debate",
     "image":"",
@@ -22,12 +21,6 @@
     "name":"CSF",
     "image":"",
     "advisor":"Mrs. Roche",
-    "meetingDate": ""
-},
-{
-    "name":"BSU",
-    "image":"",
-    "advisor":"Ms. Hickman",
     "meetingDate": ""
 },
 {
