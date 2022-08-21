@@ -1,148 +1,169 @@
-[
-    
-{
-    "name":"Speech/Debate",
-    "image":"",
-    "advisor":"Dr. Jarocki",
-    "meetingDate": "8/19/2022"
-},
-{
-    "name":"ASB",
-    "image":"",
-    "advisor":"Mr. Benslay",
-    "meetingDate": ""
-},
-{
-    "name":"CSF",
-    "image":"",
-    "advisor":"Mrs. Roche",
-    "meetingDate": ""
-},
-{
-    "name":"BSU",
-    "image":"",
-    "advisor":"Ms. Hickman",
-    "meetingDate": ""
-},
-{
-    "name":"Chess Club",
-    "image":"",
-    "advisor":"Mr. Murillo",
-    "meetingDate": ""
-},
-{
-    "name":"Creative Writing",
-    "image":"",
-    "advisor":"Dr. Jarocki",
-    "meetingDate": ""
-},
-{
-    "name":"Drama",
-    "image":"",
-    "advisor":"",
-    "meetingDate": ""
-},
-{
-    "name":"D & D",
-    "image":"",
-    "advisor":"Dr. Gettman",
-    "meetingDate": ""
-},
-{
-    "name":"Earth Club",
-    "image":"",
-    "advisor":"Ms. Dowis",
-    "meetingDate": ""
-},
-{
-    "name":"BSU",
-    "image":"",
-    "advisor":"Ms. Hickman",
-    "meetingDate": ""
-},
-{
-    "name":"Finance Club",
-    "image":"",
-    "advisor":"Mr. Canfield",
-    "meetingDate": ""
-},
-{
-    "name":"Food Club",
-    "image":"",
-    "advisor":"Ms. Dowis/Royce",
-    "meetingDate": ""
-},
-{
-    "name":"GSA",
-    "image":"",
-    "advisor":"Mrs. Fernandez",
-    "meetingDate": ""
-},
-{
-    "name":"Interact Club",
-    "image":"",
-    "advisor":"Mr. Johnson",
-    "meetingDate": ""
-},
-{
-    "name":"Journalism Club",
-    "image":"",
-    "advisor":"Mrs. Downer",
-    "meetingDate": ""
-},
-{
-    "name":"Life Club",
-    "image":"",
-    "advisor":"Mrs. Hill",
-    "meetingDate": ""
-},
-{
-    "name":"Multimedia Club",
-    "image":"",
-    "advisor":"Dr. Cornelison",
-    "meetingDate": ""
-},
-{
-    "name":"Neurodiversity Club",
-    "image":"",
-    "advisor":"Mr. Johnson",
-    "meetingDate": ""
-},
-{
-    "name":"Peer Mentors",
-    "image":"",
-    "advisor":"Mrs. Bird",
-    "meetingDate": ""
-},
-{
-    "name":"Red Cross",
-    "image":"",
-    "advisor":"Mr. Murillo",
-    "meetingDate": ""
-},
-{
-    "name":"Sailing Club",
-    "image":"",
-    "advisor":"Mr. Benslay",
-    "meetingDate": ""
-},
-{
-    "name":"Ski/Snowboarding",
-    "image":"",
-    "advisor":"Mr. Roberts",
-    "meetingDate": ""
-},
-{
-    "name":"Travel Club",
-    "image":"",
-    "advisor":"Mr. Benslay",
-    "meetingDate": ""
-},
-{
-    "name":"Yearbook",
-    "image":"",
-    "advisor":"Dr. Jarocki",
-    "meetingDate": ""
-}
+[{
+		"name": "Speech/Debate",
+		"image": "",
+		"advisor": "Dr. Jarocki",
+		"meetingDate": "8/19/2022",
+		"description": ""
+	},
+	{
+		"name": "ASB",
+		"image": "",
+		"advisor": "Mr. Benslay",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "BSU",
+		"image": "",
+		"advisor": "Ms. Hickman",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "CSF",
+		"image": "",
+		"advisor": "Mrs. Roche",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Chess Club",
+		"image": "",
+		"advisor": "Mr. Murillo",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Creative Writing",
+		"image": "",
+		"advisor": "Dr. Jarocki",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Drama",
+		"image": "",
+		"advisor": "",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "D & D",
+		"image": "",
+		"advisor": "Dr. Gettman",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Earth Club",
+		"image": "",
+		"advisor": "Ms. Dowis",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "BSU",
+		"image": "",
+		"advisor": "Ms. Hickman",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Finance Club",
+		"image": "",
+		"advisor": "Mr. Canfield",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Food Club",
+		"image": "",
+		"advisor": "Ms. Dowis/Royce",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "GSA",
+		"image": "",
+		"advisor": "Mrs. Fernandez",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Interact Club",
+		"image": "",
+		"advisor": "Mr. Johnson",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Journalism Club",
+		"image": "",
+		"advisor": "Mrs. Downer",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Life Club",
+		"image": "",
+		"advisor": "Mrs. Hill",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Multimedia Club",
+		"image": "",
+		"advisor": "Dr. Cornelison",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Neurodiversity Club",
+		"image": "",
+		"advisor": "Mr. Johnson",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Peer Mentors",
+		"image": "",
+		"advisor": "Mrs. Bird",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Red Cross",
+		"image": "",
+		"advisor": "Mr. Murillo",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Sailing Club",
+		"image": "",
+		"advisor": "Mr. Benslay",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Ski/Snowboarding",
+		"image": "",
+		"advisor": "Mr. Roberts",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Travel Club",
+		"image": "",
+		"advisor": "Mr. Benslay",
+		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Yearbook",
+		"image": "",
+		"advisor": "Dr. Jarocki",
+		"meetingDate": "",
+		"description": ""
+	}
 ]
- 
