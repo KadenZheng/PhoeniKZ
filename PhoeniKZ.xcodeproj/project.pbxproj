@@ -12,6 +12,9 @@
 		8841336428A74A1800F888DD /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841336328A74A1800F888DD /* ActivitiesView.swift */; };
 		8841336628A74ADC00F888DD /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841336528A74ADC00F888DD /* ResourcesView.swift */; };
 		8841336B28A8185900F888DD /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841336A28A8185900F888DD /* SignInView.swift */; };
+		88439A5D28AFED0300C0C3FE /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88439A5C28AFED0300C0C3FE /* Club.swift */; };
+		88439A5F28AFED9500C0C3FE /* clubs.json in Resources */ = {isa = PBXBuildFile; fileRef = 88439A5E28AFED9500C0C3FE /* clubs.json */; };
+		88439A6128AFF40B00C0C3FE /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88439A6028AFF40B00C0C3FE /* ClubView.swift */; };
 		884B5F1428A43DFC0022745E /* PhoeniKZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B5F1328A43DFC0022745E /* PhoeniKZApp.swift */; };
 		884B5F1628A43DFC0022745E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B5F1528A43DFC0022745E /* HomeView.swift */; };
 		884B5F1828A43E000022745E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884B5F1728A43E000022745E /* Assets.xcassets */; };
@@ -44,6 +47,9 @@
 		8841336328A74A1800F888DD /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
 		8841336528A74ADC00F888DD /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
 		8841336A28A8185900F888DD /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		88439A5C28AFED0300C0C3FE /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		88439A5E28AFED9500C0C3FE /* clubs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clubs.json; sourceTree = "<group>"; };
+		88439A6028AFF40B00C0C3FE /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
 		884B5F1028A43DFC0022745E /* PhoeniKZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoeniKZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		884B5F1328A43DFC0022745E /* PhoeniKZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoeniKZApp.swift; sourceTree = "<group>"; };
 		884B5F1528A43DFC0022745E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -90,6 +96,7 @@
 				8841336A28A8185900F888DD /* SignInView.swift */,
 				88993C6728A8AD7F00D1BF47 /* PhoenixPostView.swift */,
 				8895193428A95EB100264026 /* FacultyListView.swift */,
+				88439A6028AFF40B00C0C3FE /* ClubView.swift */,
 			);
 			path = DetailViews;
 			sourceTree = "<group>";
@@ -169,6 +176,7 @@
 				88993C6328A8999500D1BF47 /* Faculty.swift */,
 				88993C6928A8BF5800D1BF47 /* PhoenixPost.swift */,
 				8895193828A9CF2700264026 /* Category.swift */,
+				88439A5C28AFED0300C0C3FE /* Club.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 				88993C6528A89A5400D1BF47 /* events.json */,
 				88993C6B28A8C07300D1BF47 /* phoenixpost.json */,
 				8895193628A9CF1800264026 /* categories.json */,
+				88439A5E28AFED9500C0C3FE /* clubs.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -283,6 +292,7 @@
 				88993C6628A89A5400D1BF47 /* events.json in Resources */,
 				8895193728A9CF1800264026 /* categories.json in Resources */,
 				884B5F1B28A43E000022745E /* Preview Assets.xcassets in Resources */,
+				88439A5F28AFED9500C0C3FE /* clubs.json in Resources */,
 				88993C6C28A8C07300D1BF47 /* phoenixpost.json in Resources */,
 				889390E728A4B6C8005E88C0 /* faculty.json in Resources */,
 				884B5F1828A43E000022745E /* Assets.xcassets in Resources */,
@@ -307,6 +317,7 @@
 				8895193528A95EB100264026 /* FacultyListView.swift in Sources */,
 				8841336228A74A0B00F888DD /* HomeTabView.swift in Sources */,
 				8841336B28A8185900F888DD /* SignInView.swift in Sources */,
+				88439A6128AFF40B00C0C3FE /* ClubView.swift in Sources */,
 				889390E928A4B858005E88C0 /* Manager.swift in Sources */,
 				88A7E22B28A4C0760052F5C5 /* TeacherView.swift in Sources */,
 				88A2986F28A4404800E2A2B5 /* HomeViewCard.swift in Sources */,
@@ -315,6 +326,7 @@
 				8841336428A74A1800F888DD /* ActivitiesView.swift in Sources */,
 				8841336028A744C700F888DD /* RoundedContactCard.swift in Sources */,
 				88993C6A28A8BF5800D1BF47 /* PhoenixPost.swift in Sources */,
+				88439A5D28AFED0300C0C3FE /* Club.swift in Sources */,
 				884B5F1428A43DFC0022745E /* PhoeniKZApp.swift in Sources */,
 				889390E228A4AB8D005E88C0 /* NavigationBar.swift in Sources */,
 				88A7E22D28A4C33C0052F5C5 /* FacultyCard.swift in Sources */,

@@ -23,13 +23,13 @@ struct FacultyListView: View {
                     Divider()
                     
                     ScrollView (.horizontal, showsIndicators: false) {
+                        
                         HStack {
                             
                             // MARK: - Category Buttons
                             ForEach(model.categories) { category in
                                 Button {
                                     selectedCategory = category.name
-                                    category.isSelected.toggle()
                                 } label: {
                                     ZStack {
                                         
@@ -48,6 +48,9 @@ struct FacultyListView: View {
                                     .accentColor(.black)
                                     .padding(.vertical, 10)
                                     
+                                }
+                                .onTapGesture {
+                                    category.isSelected.toggle()
                                 }
                                 
                             }
@@ -81,7 +84,7 @@ struct FacultyListView: View {
                         ForEach(model.faculty) { faculty in
                             
                             if faculty.category == "Administration" {
-                                FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                     .padding(.top)
                             }
                             
@@ -109,7 +112,7 @@ struct FacultyListView: View {
                             ForEach(model.faculty) { faculty in
                                 
                                 if faculty.category == "English" {
-                                    FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                    FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                         .padding(.top)
                                 }
                                 
@@ -134,7 +137,7 @@ struct FacultyListView: View {
                             ForEach(model.faculty) { faculty in
                                 
                                 if faculty.category == "Latin" {
-                                    FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                    FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                         .padding(.top)
                                 }
                                 
@@ -160,7 +163,7 @@ struct FacultyListView: View {
                             ForEach(model.faculty) { faculty in
                                 
                                 if faculty.category == "Mathematics" {
-                                    FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                    FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                         .padding(.top)
                                 }
                                 
@@ -185,7 +188,7 @@ struct FacultyListView: View {
                             ForEach(model.faculty) { faculty in
                                 
                                 if faculty.category == "P.E." {
-                                    FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                    FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                         .padding(.top)
                                 }
                                 
@@ -210,7 +213,7 @@ struct FacultyListView: View {
                             ForEach(model.faculty) { faculty in
                                 
                                 if faculty.category == "Performing Arts" {
-                                    FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                    FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                         .padding(.top)
                                 }
                                 
@@ -239,7 +242,7 @@ struct FacultyListView: View {
                             ForEach(model.faculty) { faculty in
                                 
                                 if faculty.category == "Science" {
-                                    FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                    FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                         .padding(.top)
                                 }
                                 
@@ -264,7 +267,7 @@ struct FacultyListView: View {
                             ForEach(model.faculty) { faculty in
                                 
                                 if faculty.category == "Social Science" {
-                                    FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                    FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                         .padding(.top)
                                 }
                                 
@@ -288,7 +291,7 @@ struct FacultyListView: View {
                             ForEach(model.faculty) { faculty in
                                 
                                 if faculty.category == "Staff" {
-                                    FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                    FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                         .padding(.top)
                                 }
                                 
@@ -317,7 +320,7 @@ struct FacultyListView: View {
                         ForEach(model.faculty) { faculty in
                             
                             if faculty.category == selectedCategory {
-                                FacultyCard(image: "mosaic_phoenix-black", name: faculty.name, position: faculty.position)
+                                FacultyCard(image: faculty.image, name: faculty.name, position: faculty.position)
                                     .padding(.top)
                             }
                             
@@ -328,9 +331,8 @@ struct FacultyListView: View {
                 }
                 
             }
-            .padding(.top, 90)
             
             
-        }.navigationBarHidden(true)
+        }
     }
 }

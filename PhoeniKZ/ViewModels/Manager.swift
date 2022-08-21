@@ -13,6 +13,7 @@ class Manager : ObservableObject {
     @Published var events = [Event]()
     @Published var phoenixPost = [PhoenixPost]()
     @Published var categories = [Category]()
+    @Published var clubs = [Club]()
     
     init() {
         
@@ -22,6 +23,8 @@ class Manager : ObservableObject {
         getRemoteEventsData()
         
         getRemotePhoenixPost()
+        
+        getRemoteClubData()
         
     }
     
@@ -129,6 +132,63 @@ class Manager : ObservableObject {
                 DispatchQueue.main.async {
                     // Append parsed papers into phoenixpost property
                     self.phoenixPost += decodedPP
+                }
+            }
+            catch {
+                // Couldn't parse json
+                print(error.localizedDescription)
+            }
+        }
+        
+        // Kick off data task
+        dataTask.resume()
+    }
+    
+    // MARK: - Remote Club Data
+    
+    func getRemoteClubData() {
+        
+        // String path
+        let urlString = "https://kadenzheng.github.io/PhoeniKZ/clubs.json"
+        
+        // Create a url object
+        let url = URL(string: urlString)
+        
+        guard url != nil else {
+            // Couldn't create url
+            print("URL was nil")
+            return
+        }
+        
+        // Create a URLRequest object
+        let request = URLRequest(url: url!)
+        
+        // Get the session and kick off the task
+        let session = URLSession.shared
+        
+        let dataTask = session.dataTask(with: request) { (data, response, error) in
+            
+            // Check if there's an error
+            guard error == nil else {
+                // There was an error
+                print(error!.localizedDescription)
+                return
+            }
+            
+            do {
+                // Create json decoder
+                let decoder = JSONDecoder()
+                
+                // Decode
+                let decodedClubs = try decoder.decode([Club].self, from: data!)
+                
+                for r in decodedClubs {
+                    r.id = UUID()
+                }
+                
+                DispatchQueue.main.async {
+                    // Append parsed papers into phoenixpost property
+                    self.clubs += decodedClubs
                 }
             }
             catch {

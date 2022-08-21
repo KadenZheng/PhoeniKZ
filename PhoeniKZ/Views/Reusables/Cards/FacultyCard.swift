@@ -37,8 +37,10 @@ struct FacultyCard: View {
                 Image(image)
                     .resizable()
                     .scaledToFill()
+                    .frame(width: 100, height: 115)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .frame(width: 100, height: 100)
+                    .clipped()
+                    .padding(.leading, -5)
                 
                 // Faculty Info
                 
@@ -79,6 +81,6 @@ struct FacultyCard: View {
 
 struct FacultyCard_Previews: PreviewProvider {
     static var previews: some View {
-        FacultyCard(image: "mosaic_phoenix-black", name: "Aaron Morgan", position: "Vice Principal")
+        FacultyCard(image: "BIRD_GENI", name: "Geni Bird", position: "Counselor L-Z")
     }
 }

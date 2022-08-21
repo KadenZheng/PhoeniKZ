@@ -15,17 +15,17 @@ struct HomeView: View {
     var body: some View {
         
         NavigationView {
-
+            
             ScrollView (showsIndicators: false) {
-
+                
                 VStack {
-
+                    
                     Group {
-
+                        
                         // MARK: - Image Bar
                         ImageBar(image: "night_school", titleText: "University High", subtitleText: formatDate())
                             .padding(.bottom, 40)
-
+                        
                         // MARK: - Read Latest
                         ForEach(model.phoenixPost) { post in
                             NavigationLink {
@@ -35,27 +35,27 @@ struct HomeView: View {
                             }.scaledToFill()
                                 .accentColor(.black)
                         }
-
+                        
                         // MARK: - Club Sign In
-
+                        
                         NavigationLink {
                             SignInView(name: "", code: "", signInName: "Club", image: "night_school")
                         } label: {
                             CenteredWideCard(title: "Club Sign In", icon1: "arrowtriangle.right.fill", icon2: "arrowtriangle.left.fill")
                                 .padding(.bottom)
                         }.accentColor(.black)
-
+                        
                     }
-
+                    
                     // MARK: - Events Scroll
-
+                    
                     VStack (alignment: .leading) {
-
+                        
                         HStack {
-
+                            
                             Text("Upcoming Events")
                                 .font(.title2.weight(.bold))
-
+                            
                             Button {
                                 selectedTab = 1
                             } label: {
@@ -70,11 +70,11 @@ struct HomeView: View {
                         }
                         .padding(.horizontal)
                         .padding(.bottom, -10)
-
+                        
                         ScrollView (.horizontal, showsIndicators: false) {
-
+                            
                             HStack {
-
+                                
                                 ForEach(model.events) {
                                     event in
                                     NavigationLink {
@@ -86,30 +86,31 @@ struct HomeView: View {
                                     }
                                     .accentColor(.black)
                                 }
-
+                                
                             }
                         }
                     }
-
-
+                    
+                    
                     Divider()
                         .frame(width: UIScreen.main.bounds.width - 40)
-
+                    
                     // MARK: - School Life Scroll
                     VStack (alignment: .leading) {
-
+                        
                         HStack {
-
+                            
                             Text("School Life")
                                 .font(.title2.weight(.bold))
-
+                            
                         }.padding(.horizontal)
                             .padding(.bottom, -10)
-
+                        
                         ScrollView (.horizontal) {
-
+                            
                             HStack {
                                 
+                                // MARK: - Faculty View
                                 NavigationLink {
                                     FacultyListView()
                                 } label: {
@@ -118,35 +119,49 @@ struct HomeView: View {
                                         .padding([.bottom, .top, .trailing], 10)
                                 }
                                 
+                                // MARK: - Club View
+                                NavigationLink {
+                                    ClubView()
+                                } label: {
+                                    HomeViewCard(image: "red_flowers", title: "Clubs", widthOffset: -10, heightOffset: -80)
+                                        .padding(.leading)
+                                        .padding([.bottom, .top, .trailing], 10)
+                                }
+                                
                             }
                         }
                     }
-
+                    
                     Divider()
-
+                    
                     // MARK: - Links
                     
                     Group {
-
+                        
                         Text("Powerschool")
                             .font(.title3)
-
+                        
                         Divider()
-
+                        
                         Text("Google Sites")
                             .font(.title3)
-
+                        
                         Divider()
-
+                        
                         HStack (spacing: 13) {
-                            RoundedContactCard(image: "phone.circle.fill", rectangleWidth: 160)
-
-                            RoundedContactCard(image: "envelope.circle.fill", rectangleWidth: 160)
-
+                            Link(destination: URL(string: "tel:5598925368")!) {
+                                RoundedContactCard(image: "phone.circle.fill", rectangleWidth: 160)
+                            }
+                            
+                            Link(destination: URL(string: "mailto:uhsattendance@gmail.com")!) {
+                                RoundedContactCard(image: "envelope.circle.fill", rectangleWidth: 160)
+                            }
+                            
                         }.padding(.top)
-
+                            .accentColor(.black)
+                        
                     }
-
+                    
                 }
             }
             .edgesIgnoringSafeArea(.top)
