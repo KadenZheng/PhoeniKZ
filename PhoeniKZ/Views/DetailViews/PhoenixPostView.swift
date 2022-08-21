@@ -29,6 +29,7 @@ struct PhoenixPostView: View {
                         .resizable()
                         .frame(width: UIScreen.main.bounds.width, height: 325)
                         .scaledToFill()
+                        .blur(radius: 1)
                         .clipped()
                         
                     VStack (spacing: 20) {

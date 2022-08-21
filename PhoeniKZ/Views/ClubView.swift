@@ -22,9 +22,9 @@ struct ClubView: View {
                         ForEach(model.clubs) { club in
                             
                             NavigationLink {
-                                EventDetailView(title: club.name, caption: club.advisor, image: "frisbees", location: nil, time: club.meetingDate, contact: nil, description: "Description")
+                                ClubDetailView(clubAdvisor: club.advisor, meetingDate: club.meetingDate, description: "Description", image: model.randomImages[random()], clubName: club.name)
                             } label: {
-                                HomeViewCard(image: "frisbees", title: club.name, caption: club.advisor, widthOffset: -80, heightOffset: -80)
+                                HomeViewCard(image: model.randomImages[random()], title: club.name, caption: club.advisor, widthOffset: -80, heightOffset: -80)
                             }
                         }
                         
@@ -33,6 +33,10 @@ struct ClubView: View {
         }
         .navigationTitle("Clubs")
     }
+}
+
+func random() -> Int {
+    return Int.random(in: 0..<6)
 }
 
 struct ClubView_Previews: PreviewProvider {

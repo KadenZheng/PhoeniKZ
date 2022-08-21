@@ -14,6 +14,7 @@ class Manager : ObservableObject {
     @Published var phoenixPost = [PhoenixPost]()
     @Published var categories = [Category]()
     @Published var clubs = [Club]()
+    @Published var randomImages: [String] = ["bench", "frisbees", "pinecones", "mosaic_phoenix-black", "night_school", "red_flowers"]
     
     init() {
         

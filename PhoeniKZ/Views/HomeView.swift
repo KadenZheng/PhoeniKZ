@@ -108,7 +108,7 @@ struct HomeView: View {
                         }.padding(.horizontal)
                             .padding(.bottom, -10)
                         
-                        ScrollView (.horizontal) {
+                        ScrollView (.horizontal, showsIndicators: false) {
                             
                             HStack {
                                 
