@@ -14,6 +14,7 @@ class Manager : ObservableObject {
     @Published var phoenixPost = [PhoenixPost]()
     @Published var categories = [Category]()
     @Published var clubs = [Club]()
+    @Published var bulletinData = [Bulletin]()
     @Published var randomImages: [String] = ["bench", "frisbees", "pinecones", "mosaic_phoenix-black", "night_school", "red_flowers"]
     
     init() {
@@ -26,6 +27,8 @@ class Manager : ObservableObject {
         getRemotePhoenixPost()
         
         getRemoteClubData()
+        
+        getRemoteBulletinData()
         
     }
     
@@ -200,5 +203,63 @@ class Manager : ObservableObject {
         
         // Kick off data task
         dataTask.resume()
+    }
+    
+    // MARK: - Remote Bulletin
+    
+        func getRemoteBulletinData() {
+        
+        // String path
+        let urlString = "https://kadenzheng.github.io/PhoeniKZ/bulletin.json"
+        
+        // Create a url object
+        let url = URL(string: urlString)
+        
+        guard url != nil else {
+            // Couldn't create url
+            print("URL was nil")
+            return
+        }
+        
+        // Create a URLRequest object
+        let request = URLRequest(url: url!)
+        
+        // Get the session and kick off the task
+        let session = URLSession.shared
+        
+        let dataTask = session.dataTask(with: request) { (data, response, error) in
+            
+            // Check if there's an error
+            guard error == nil else {
+                // There was an error
+                print(error!.localizedDescription)
+                return
+            }
+            
+            do {
+                // Create json decoder
+                let decoder = JSONDecoder()
+                
+                // Decode
+                let bulletinDataDecoded = try decoder.decode([Bulletin].self, from: data!)
+                
+                for r in bulletinDataDecoded {
+                    r.id = UUID()
+                }
+                
+                DispatchQueue.main.async {
+                    // Append parsed events into events property
+                    self.bulletinData += bulletinDataDecoded
+                }
+            }
+            catch {
+                // Couldn't parse json
+                print(error.localizedDescription)
+            }
+        }
+        
+        // Kick off data task
+        dataTask.resume()
+        
     }
 }

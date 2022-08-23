@@ -21,10 +21,10 @@ struct BulletinDetailView: View {
                     
                     Rectangle()
                         .frame(height: 100)
-                        .cornerRadius(25, corners: [.topLeft, .bottomRight])
+                        .cornerRadius(25, corners: [.topLeft, .topRight])
                         .foregroundColor(.gray)
                     
-                    VStack {
+                    VStack (spacing: 10) {
                         
                         Text("Bulletin")
                             .font(.title2.weight(.medium))
@@ -33,6 +33,10 @@ struct BulletinDetailView: View {
                         
                     }
                     
+                }
+                
+                ForEach(model.bulletinData) { bulletin in
+                    Text(bulletin.title)
                 }
                 
             }
@@ -61,5 +65,6 @@ struct RoundedCorner: Shape {
 struct BulletinDetailView_Previews: PreviewProvider {
     static var previews: some View {
         BulletinDetailView()
+            .environmentObject(Manager())
     }
 }
