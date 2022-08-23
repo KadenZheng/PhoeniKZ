@@ -36,7 +36,21 @@ struct BulletinDetailView: View {
                 }
                 
                 ForEach(model.bulletinData) { bulletin in
-                    Text(bulletin.title)
+                    
+                    VStack (alignment: .leading) {
+                        
+                        Text(bulletin.title)
+                            .padding(.leading, 30)
+                        
+                        Text(bulletin.description)
+                            .padding(.leading, 30)
+                        
+                        Divider()
+                            
+                        
+                    }
+                    
+                    
                 }
                 
             }
