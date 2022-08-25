@@ -34,22 +34,49 @@ struct BulletinDetailView: View {
                     }
                     
                 }
+                .padding(.bottom, 10)
+                .padding(.top, 10)
                 
                 ForEach(model.bulletinData) { bulletin in
                     
-                    VStack (alignment: .leading) {
+                    NavigationLink {
+                        BulletinDetailDetailView(title: bulletin.title, description: bulletin.description)
+                    } label: {
                         
-                        Text(bulletin.title)
-                            .padding(.leading, 30)
-                        
-                        Text(bulletin.description)
-                            .padding(.leading, 30)
-                        
-                        Divider()
+                        VStack {
                             
-                        
+                            HStack {
+                                
+                                VStack (alignment: .leading) {
+                                    
+                                    
+                                    Text(bulletin.title)
+                                        .font(.headline.weight(.medium))
+                                        .foregroundColor(.black)
+                                    
+                                    Text(bulletin.description)
+                                        .font(.subheadline.weight(.light))
+                                        .multilineTextAlignment(.leading)
+                                        .foregroundColor(.black)
+                                        .lineLimit(2)
+                                    
+                                }
+                                
+                                Spacer()
+                                
+                                Image(systemName: "arrow.right")
+                                    .padding(.trailing)
+                                    .foregroundColor(.gray)
+                                
+                            }
+                            .frame(width: UIScreen.main.bounds.width - 30, alignment: .leading)
+                            
+                            
+                            Divider()
+                                .frame(width: UIScreen.main.bounds.width, alignment: .center)
+                            
+                        }
                     }
-                    
                     
                 }
                 

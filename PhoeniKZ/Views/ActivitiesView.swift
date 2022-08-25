@@ -69,12 +69,17 @@ struct ActivitiesView: View {
                             
                             ScrollView (.horizontal) {
                                 
-                                HStack {
-                                    
-                                    HomeViewCard(image: "mosaic_phoenix-transparent", title: "Title", widthOffset: -60, heightOffset: -60)
-                                        .padding(.leading)
-                                        .padding([.bottom, .top, .trailing], 10)
+                                NavigationLink {
+                                    BulletinDetailView()
+                                } label: {
+                                    HStack {
+                                        
+                                        HomeViewCard(image: "mosaic_phoenix-transparent", title: "Bulletin", widthOffset: -60, heightOffset: -60)
+                                            .padding(.leading)
+                                            .padding([.bottom, .top, .trailing], 10)
+                                    }
                                 }
+
                             }
                         }
                         

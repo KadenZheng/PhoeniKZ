@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882EE98D28B7D8E800A31664 /* BulletinDetailDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882EE98C28B7D8E800A31664 /* BulletinDetailDetailView.swift */; };
 		8841336028A744C700F888DD /* RoundedContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841335F28A744C700F888DD /* RoundedContactCard.swift */; };
 		8841336228A74A0B00F888DD /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841336128A74A0B00F888DD /* HomeTabView.swift */; };
 		8841336428A74A1800F888DD /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841336328A74A1800F888DD /* ActivitiesView.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		882EE98C28B7D8E800A31664 /* BulletinDetailDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletinDetailDetailView.swift; sourceTree = "<group>"; };
 		8841335F28A744C700F888DD /* RoundedContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedContactCard.swift; sourceTree = "<group>"; };
 		8841336128A74A0B00F888DD /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		8841336328A74A1800F888DD /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				8841336A28A8185900F888DD /* SignInView.swift */,
 				88993C6728A8AD7F00D1BF47 /* PhoenixPostView.swift */,
 				88885E5428B47BA500A8857A /* BulletinDetailView.swift */,
+				882EE98C28B7D8E800A31664 /* BulletinDetailDetailView.swift */,
 			);
 			path = DetailViews;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8891D52628B2A3B50060B2B4 /* ClubDetailView.swift in Sources */,
+				882EE98D28B7D8E800A31664 /* BulletinDetailDetailView.swift in Sources */,
 				88993C6428A8999500D1BF47 /* Faculty.swift in Sources */,
 				889390E428A4B62F005E88C0 /* Event.swift in Sources */,
 				88885E5728B47C8A00A8857A /* Bulletin.swift in Sources */,
