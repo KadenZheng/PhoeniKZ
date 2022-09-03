@@ -21,6 +21,7 @@
 		884B5F1828A43E000022745E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884B5F1728A43E000022745E /* Assets.xcassets */; };
 		884B5F1B28A43E000022745E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884B5F1A28A43E000022745E /* Preview Assets.xcassets */; };
 		88732F6128A5FDDE00C9C8BD /* ImageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88732F6028A5FDDE00C9C8BD /* ImageBar.swift */; };
+		8886719B28BE81E600A16706 /* bulletin.json in Resources */ = {isa = PBXBuildFile; fileRef = 8886719A28BE81E600A16706 /* bulletin.json */; };
 		88885E5528B47BA500A8857A /* BulletinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88885E5428B47BA500A8857A /* BulletinDetailView.swift */; };
 		88885E5728B47C8A00A8857A /* Bulletin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88885E5628B47C8A00A8857A /* Bulletin.swift */; };
 		8891924528A6F5D100A1CB0A /* LeadingWideCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891924428A6F5D100A1CB0A /* LeadingWideCard.swift */; };
@@ -60,6 +61,7 @@
 		884B5F1728A43E000022745E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884B5F1A28A43E000022745E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88732F6028A5FDDE00C9C8BD /* ImageBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBar.swift; sourceTree = "<group>"; };
+		8886719A28BE81E600A16706 /* bulletin.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bulletin.json; sourceTree = "<group>"; };
 		88885E5428B47BA500A8857A /* BulletinDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletinDetailView.swift; sourceTree = "<group>"; };
 		88885E5628B47C8A00A8857A /* Bulletin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulletin.swift; sourceTree = "<group>"; };
 		8891924428A6F5D100A1CB0A /* LeadingWideCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadingWideCard.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 			children = (
 				889390E628A4B6C8005E88C0 /* faculty.json */,
 				88993C6528A89A5400D1BF47 /* events.json */,
+				8886719A28BE81E600A16706 /* bulletin.json */,
 				88993C6B28A8C07300D1BF47 /* phoenixpost.json */,
 				8895193628A9CF1800264026 /* categories.json */,
 				88439A5E28AFED9500C0C3FE /* clubs.json */,
@@ -302,6 +305,7 @@
 				8895193728A9CF1800264026 /* categories.json in Resources */,
 				884B5F1B28A43E000022745E /* Preview Assets.xcassets in Resources */,
 				88439A5F28AFED9500C0C3FE /* clubs.json in Resources */,
+				8886719B28BE81E600A16706 /* bulletin.json in Resources */,
 				88993C6C28A8C07300D1BF47 /* phoenixpost.json in Resources */,
 				889390E728A4B6C8005E88C0 /* faculty.json in Resources */,
 				884B5F1828A43E000022745E /* Assets.xcassets in Resources */,

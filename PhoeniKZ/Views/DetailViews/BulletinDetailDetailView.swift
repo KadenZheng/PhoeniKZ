@@ -27,6 +27,7 @@ struct BulletinDetailDetailView: View {
                         .font(.title.weight(.medium))
                         .foregroundColor(.white)
                         .padding(.bottom)
+                        .multilineTextAlignment(.center)
                     
                 }
                 .frame(maxHeight: UIScreen.main.bounds.height, alignment: .top)

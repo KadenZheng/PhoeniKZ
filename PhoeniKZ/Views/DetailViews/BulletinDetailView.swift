@@ -10,6 +10,7 @@ import SwiftUI
 struct BulletinDetailView: View {
     
     @EnvironmentObject var model: Manager
+    @State var selectedCategory: String
     
     var body: some View {
         
@@ -34,47 +35,50 @@ struct BulletinDetailView: View {
                     }
                     
                 }
+                .padding(.top, -30)
                 .padding(.bottom, 10)
-                .padding(.top, 10)
                 
                 ForEach(model.bulletinData) { bulletin in
                     
-                    NavigationLink {
-                        BulletinDetailDetailView(title: bulletin.title, description: bulletin.description)
-                    } label: {
+                    if bulletin.category == selectedCategory {
                         
-                        VStack {
+                        NavigationLink {
+                            BulletinDetailDetailView(title: bulletin.title, description: bulletin.description)
+                        } label: {
                             
-                            HStack {
+                            VStack {
                                 
-                                VStack (alignment: .leading) {
+                                HStack {
                                     
+                                    VStack (alignment: .leading) {
+                                        
+                                        
+                                        Text(bulletin.title)
+                                            .font(.headline.weight(.medium))
+                                            .foregroundColor(.black)
+                                        
+                                        Text(bulletin.description)
+                                            .font(.subheadline.weight(.light))
+                                            .multilineTextAlignment(.leading)
+                                            .foregroundColor(.black)
+                                            .lineLimit(2)
+                                        
+                                    }
                                     
-                                    Text(bulletin.title)
-                                        .font(.headline.weight(.medium))
-                                        .foregroundColor(.black)
+                                    Spacer()
                                     
-                                    Text(bulletin.description)
-                                        .font(.subheadline.weight(.light))
-                                        .multilineTextAlignment(.leading)
-                                        .foregroundColor(.black)
-                                        .lineLimit(2)
+                                    Image(systemName: "arrow.right")
+                                        .padding(.trailing)
+                                        .foregroundColor(.gray)
                                     
                                 }
+                                .frame(width: UIScreen.main.bounds.width - 30, alignment: .leading)
                                 
-                                Spacer()
                                 
-                                Image(systemName: "arrow.right")
-                                    .padding(.trailing)
-                                    .foregroundColor(.gray)
+                                Divider()
+                                    .frame(width: UIScreen.main.bounds.width, alignment: .center)
                                 
                             }
-                            .frame(width: UIScreen.main.bounds.width - 30, alignment: .leading)
-                            
-                            
-                            Divider()
-                                .frame(width: UIScreen.main.bounds.width, alignment: .center)
-                            
                         }
                     }
                     
@@ -82,6 +86,7 @@ struct BulletinDetailView: View {
                 
             }
         }
+        .navigationBarHidden(false)
         
     }
 }
@@ -100,12 +105,5 @@ struct RoundedCorner: Shape {
     func path(in rect: CGRect) -> Path {
         let path = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
         return Path(path.cgPath)
-    }
-}
-
-struct BulletinDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        BulletinDetailView()
-            .environmentObject(Manager())
     }
 }

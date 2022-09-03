@@ -18,7 +18,7 @@ struct ActivitiesView: View {
             
             GeometryReader { geo in
                 
-                ScrollView {
+                ScrollView (showsIndicators: false) {
                     
                     VStack (alignment: .leading, spacing: 20) {
                         
@@ -62,24 +62,48 @@ struct ActivitiesView: View {
                             
                             HStack {
                                 
-                                Text("Updates")
+                                Text("Bulletin")
                                     .font(.title2.weight(.semibold))
                                 
                             }.padding(.horizontal)
                             
-                            ScrollView (.horizontal) {
+                            ScrollView (.horizontal, showsIndicators: false) {
                                 
-                                NavigationLink {
-                                    BulletinDetailView()
-                                } label: {
-                                    HStack {
-                                        
-                                        HomeViewCard(image: "mosaic_phoenix-transparent", title: "Bulletin", widthOffset: -60, heightOffset: -60)
-                                            .padding(.leading)
-                                            .padding([.bottom, .top, .trailing], 10)
+                                HStack {
+                                    
+                                    NavigationLink {
+                                        BulletinDetailView(selectedCategory: "New")
+                                    } label: {
+                                        HStack {
+                                            
+                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "New", widthOffset: -60, heightOffset: -60)
+                                                .padding(.leading)
+                                                .padding([.bottom, .top, .trailing], 10)
+                                        }
+                                    }
+                                    
+                                    NavigationLink {
+                                        BulletinDetailView(selectedCategory: "Club/Sports")
+                                    } label: {
+                                        HStack {
+                                            
+                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "Clubs/Sports", widthOffset: -60, heightOffset: -60)
+                                                .padding(.leading)
+                                                .padding([.bottom, .top, .trailing], 10)
+                                        }
+                                    }
+                                    
+                                    NavigationLink {
+                                        BulletinDetailView(selectedCategory: "Parents")
+                                    } label: {
+                                        HStack {
+                                            
+                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "Parents", widthOffset: -60, heightOffset: -60)
+                                                .padding(.leading)
+                                                .padding([.bottom, .top, .trailing], 10)
+                                        }
                                     }
                                 }
-
                             }
                         }
                         
@@ -95,17 +119,27 @@ struct ActivitiesView: View {
                                 .foregroundColor(.gray)
                                 .frame(width: UIScreen.main.bounds.width - 40)
                             
-                            HStack {
+                            // MARK: - Club Meetings
+                            
+                            ForEach (model.bulletinData) { bulletin in
                                 
-                                Text("Club Name")
-                                    .font(.subheadline)
+                                if bulletin.meetingDate != nil {
+                                    
+                                    HStack {
+                                        
+                                        Text(bulletin.title)
+                                            .font(.subheadline)
+                                        
+                                        Spacer()
+                                        
+                                        Text(bulletin.meetingDate!)
+                                            .font(.subheadline)
+                                        
+                                    }.frame(width: UIScreen.main.bounds.width - 50)
+                                }
                                 
-                                Spacer()
-                                
-                                Text("08/13/2022")
-                                    .font(.subheadline)
-                                
-                            }.frame(width: UIScreen.main.bounds.width - 50)
+                            }
+                            
                             
                             HLine().stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
                                 .foregroundColor(.gray)
