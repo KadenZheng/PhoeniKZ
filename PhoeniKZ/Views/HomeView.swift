@@ -140,13 +140,18 @@ struct HomeView: View {
                     
                     Group {
                         
-                        Text("Powerschool")
-                            .font(.title3)
+                        Link(destination: URL(string: "https://apps.apple.com/us/app/powerschool-mobile/id973741088")!) {
+                            Text("Powerschool")
+                                .font(.title3)
+                        }.accentColor(.black)
                         
                         Divider()
                         
-                        Text("Google Sites")
-                            .font(.title3)
+                        Link(destination: URL(string: "http://uhsfresno.com/courses.html")!) {
+                            Text("Google Sites")
+                                .font(.title3)
+                        }.accentColor(.black)
+                        
                         
                         Divider()
                         
