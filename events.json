@@ -1,22 +1,22 @@
 [
     {
-        "title": "Freshmen Orientation",
-        "caption": "Welcome Freshmen!",
-        "image": "red_flowers",
-        "location": "University High",
-        "time": "8 AM - 3 PM",
-        "contact": "Geni Bird",
-        "imageURL":"https://kadenzheng.github.io/PhoeniKZ/IMG_1612.jpg",
-        "description": "The Peer Mentors welcome the incoming freshmen with a day filled with activities and fun. Introductions begin at 8 AM starting with presentations by Ms. Hickman and ASB, followed by fun activities, a campus tour, and, finally, bowling and billiards after UHS-provided lunch!"
+        "title": "Travel Club Meeting",
+        "caption": "September 6th",
+        "image": "",
+        "location": "Room 109",
+        "time": "6:30 PM - 7:30 PM",
+        "contact": "Mr. Benslay",
+        "imageURL":"https://kadenzheng.github.io/PhoeniKZ/IMG_1284.jpg",
+        "description": "Attend this meeting to learn more about the travel club's itinerary for its trip in the summer of 2024."
     },
     {
-        "title": "Back to School Night",
-        "caption": "Welcome Parents!",
+        "title": "Senior Portraits",
+        "caption": "September 17th",
         "image": "night_school",
-        "location": "University High",
-        "time": "5 PM - 8 PM",
+        "location": "Courtyard",
+        "time": "10 AM - 12 PM",
         "contact": "Office",
-        "imageURL":"https://kadenzheng.github.io/PhoeniKZ/IMG_1612.jpg",
-        "description": "Parents are allowed to come walk their students' schedules and visit the teachers. Meet in the UHS Courtyard and follow the schedule of your student to meet teachers/staff! The front office staff will manage registration questions and information."
+        "imageURL":"https://kadenzheng.github.io/PhoeniKZ/DCS_0093.jpg",
+        "description": "Seniors will take their senior portraits and circle personality pictures on September 17th. Contact the office for more information."
     }
 ]
