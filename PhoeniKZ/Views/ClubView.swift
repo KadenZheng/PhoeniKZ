@@ -24,7 +24,7 @@ struct ClubView: View {
                             NavigationLink {
                                 ClubDetailView(clubAdvisor: club.advisor, meetingDate: club.meetingDate, description: "Description", image: model.randomImages[random()], clubName: club.name)
                             } label: {
-                                HomeViewCard(image: model.randomImages[random()], title: club.name, caption: club.advisor, widthOffset: -80, heightOffset: -80)
+                                HomeViewCard(image: model.randomImages[random()], title: club.name, caption: club.advisor, blur: true, async: false, widthOffset: -80, heightOffset: -80)
                             }
                         }
                         

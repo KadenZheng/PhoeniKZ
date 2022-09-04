@@ -82,7 +82,7 @@ struct HomeView: View {
                                     NavigationLink {
                                         EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description)
                                     } label: {
-                                        HomeViewCard(image: event.image, title: event.title, caption: event.caption, widthOffset: 75, heightOffset: -25)
+                                        HomeViewCard(image: event.image, title: event.title, caption: event.caption, blur: true, async: true, imageURL: event.imageURL, widthOffset: 75, heightOffset: -25)
                                             .padding(.leading)
                                             .padding([.bottom, .top, .trailing], 10)
                                     }
@@ -116,7 +116,7 @@ struct HomeView: View {
                                 NavigationLink {
                                     FacultyListView()
                                 } label: {
-                                    HomeViewCard(image: "mosaic_phoenix-black", title: "Faculty", widthOffset: -10, heightOffset: -80)
+                                    HomeViewCard(image: "mosaic_phoenix-black", title: "Faculty", blur: true, async: false, widthOffset: -10, heightOffset: -80)
                                         .padding(.leading)
                                         .padding([.bottom, .top, .trailing], 10)
                                 }
@@ -125,7 +125,7 @@ struct HomeView: View {
                                 NavigationLink {
                                     ClubView()
                                 } label: {
-                                    HomeViewCard(image: "red_flowers", title: "Clubs", widthOffset: -10, heightOffset: -80)
+                                    HomeViewCard(image: "red_flowers", title: "Clubs", blur: true, async: false, widthOffset: -10, heightOffset: -80)
                                         .padding(.leading)
                                         .padding([.bottom, .top, .trailing], 10)
                                 }
@@ -156,7 +156,7 @@ struct HomeView: View {
                         Divider()
                         
                         HStack (spacing: 13) {
-                            Link(destination: URL(string: "tel:5598925368")!) {
+                            Link(destination: URL(string: "tel:5592788263")!) {
                                 RoundedContactCard(image: "phone.circle.fill", rectangleWidth: 160)
                             }
                             
@@ -174,6 +174,7 @@ struct HomeView: View {
             .edgesIgnoringSafeArea(.top)
             .navigationBarHidden(true)
         }
+        
     }
 }
 

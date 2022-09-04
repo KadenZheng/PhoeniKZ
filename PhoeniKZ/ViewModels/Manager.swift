@@ -81,7 +81,7 @@ class Manager : ObservableObject {
             }
             catch {
                 // Couldn't parse json
-                print(error.localizedDescription)
+                print(error)
             }
         }
         
@@ -140,7 +140,7 @@ class Manager : ObservableObject {
             }
             catch {
                 // Couldn't parse json
-                print(error.localizedDescription)
+                print(error)
             }
         }
         
@@ -197,7 +197,7 @@ class Manager : ObservableObject {
             }
             catch {
                 // Couldn't parse json
-                print(error.localizedDescription)
+                print(error)
             }
         }
         
@@ -254,7 +254,7 @@ class Manager : ObservableObject {
             }
             catch {
                 // Couldn't parse json
-                print(error.localizedDescription)
+                print(error)
             }
         }
         

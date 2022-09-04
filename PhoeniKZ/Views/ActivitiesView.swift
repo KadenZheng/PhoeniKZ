@@ -43,7 +43,7 @@ struct ActivitiesView: View {
                                         NavigationLink {
                                             EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description)
                                         } label: {
-                                            HomeViewCard(image: event.image, title: event.title, caption: event.caption, widthOffset: 90, heightOffset: -10)
+                                            HomeViewCard(image: event.image, title: event.title, caption: event.caption, blur: true, async: true, imageURL: event.imageURL, widthOffset: 90, heightOffset: -10)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }
@@ -76,7 +76,7 @@ struct ActivitiesView: View {
                                     } label: {
                                         HStack {
                                             
-                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "New", widthOffset: -60, heightOffset: -60)
+                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "New", blur: true, async: false, widthOffset: -60, heightOffset: -60)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }
@@ -87,7 +87,7 @@ struct ActivitiesView: View {
                                     } label: {
                                         HStack {
                                             
-                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "Clubs/Sports", widthOffset: -60, heightOffset: -60)
+                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "Clubs/Sports", blur: true, async: false, widthOffset: -60, heightOffset: -60)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }
@@ -98,7 +98,7 @@ struct ActivitiesView: View {
                                     } label: {
                                         HStack {
                                             
-                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "Parents", widthOffset: -60, heightOffset: -60)
+                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "Parents", blur: true, async: false, widthOffset: -60, heightOffset: -60)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }
@@ -144,7 +144,6 @@ struct ActivitiesView: View {
                             HLine().stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
                                 .foregroundColor(.gray)
                                 .frame(width: UIScreen.main.bounds.width - 40)
-                            
                             
                         }
                     }

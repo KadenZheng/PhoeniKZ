@@ -16,6 +16,7 @@ class Event : Identifiable, Decodable {
     var location: String
     var time: String
     var contact: String
+    var imageURL: String
     var description: String
     
 }
