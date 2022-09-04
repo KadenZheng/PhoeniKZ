@@ -23,7 +23,7 @@ struct HomeView: View {
                     Group {
                         
                         // MARK: - Image Bar
-                        ImageBar(image: "night_school", titleText: "University High", subtitleText: formatDate(), clipped: true)
+                        ImageBar(image: "night_school", titleText: "University High", subtitleText: formatDate(), clipped: true, async: false)
                             .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
                             .edgesIgnoringSafeArea(.top)
                             .padding(.bottom, 40)
@@ -80,7 +80,7 @@ struct HomeView: View {
                                 ForEach(model.events) {
                                     event in
                                     NavigationLink {
-                                        EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description)
+                                        EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description, asyncBool: true, imageURLE: event.imageURL)
                                     } label: {
                                         HomeViewCard(image: event.image, title: event.title, caption: event.caption, blur: true, async: true, imageURL: event.imageURL, widthOffset: 75, heightOffset: -25)
                                             .padding(.leading)

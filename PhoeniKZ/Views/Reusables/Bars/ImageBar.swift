@@ -13,26 +13,44 @@ struct ImageBar: View {
     @State var titleText: String
     @State var subtitleText: String?
     @State var clipped: Bool
+    @State var async: Bool
+    @State var imageURL: String?
     
     var body: some View {
         
         ZStack {
             
-            if clipped == true {
-            Image(image)
-                .resizable()
-                .scaledToFill()
-                .frame(height: 250)
-                .clipped()
-                .blur(radius: 1.5)
-                .scaleEffect(1.01)
+            if async {
+                AsyncImage(url: URL(string: imageURL!)) { asyncImage in
+                    
+                    asyncImage
+                        .resizable()
+                        .scaledToFill()
+                        .frame(height: 250)
+                        .clipped()
+                        .blur(radius: 1.5)
+                        .scaleEffect(1.01)
+                    
+                } placeholder: {
+                    Color.purple.opacity(0.1)
+                }
             } else {
-                Image(image)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 250)
-                    .blur(radius: 1.5)
-                    .scaleEffect(1.01)
+                if clipped == true {
+                    Image(image)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(height: 250)
+                        .clipped()
+                        .blur(radius: 1.5)
+                        .scaleEffect(1.01)
+                } else {
+                    Image(image)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(height: 250)
+                        .blur(radius: 1.5)
+                        .scaleEffect(1.01)
+                }
             }
             
             VStack (alignment: .leading, spacing: 10) {
@@ -57,6 +75,6 @@ struct ImageBar: View {
 
 struct ImageBar_Previews: PreviewProvider {
     static var previews: some View {
-        ImageBar(image: "night_school", titleText: "University High", subtitleText: "8/12/2022", clipped: true)
+        ImageBar(image: "night_school", titleText: "University High", subtitleText: "8/12/2022", clipped: true, async: true)
     }
 }

@@ -16,6 +16,8 @@ struct EventDetailView: View {
     @State var time: String
     @State var contact: String?
     @State var description: String
+    @State var asyncBool: Bool
+    @State var imageURLE: String?
     
     var body: some View {
         
@@ -23,7 +25,7 @@ struct EventDetailView: View {
             
             // MARK: - Image Bar
             
-            ImageBar(image: image, titleText: title, subtitleText: caption, clipped: false)
+            ImageBar(image: image, titleText: title, subtitleText: caption, clipped: false, async: asyncBool, imageURL: imageURLE)
                 .frame(width: UIScreen.main.bounds.width, height: 250, alignment: .bottom)
                 .edgesIgnoringSafeArea(.top)
                 .padding(.bottom, 30)
@@ -135,8 +137,8 @@ struct EventDetailView: View {
     }
 }
 
-struct DetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        EventDetailView(title: "Magic of the Arts", caption: "All School", image: "red_flowers", location: "nil", time: "All Day", contact: "nil", description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean et est a dui semper facilisis. Pellentesque placerat elit a nunc. Nullam tortor odio, rutrum quis, egestas ut, posuere sed, felis. Vestibulum placerat feugiat nisl. Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est.")
-    }
-}
+//struct DetailView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        EventDetailView(title: "Magic of the Arts", caption: "All School", image: "red_flowers", location: "nil", time: "All Day", contact: "nil", description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean et est a dui semper facilisis. Pellentesque placerat elit a nunc. Nullam tortor odio, rutrum quis, egestas ut, posuere sed, felis. Vestibulum placerat feugiat nisl. Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est.", asyncBool: true)
+//    }
+//}
