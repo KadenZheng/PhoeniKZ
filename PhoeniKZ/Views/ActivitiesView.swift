@@ -76,7 +76,7 @@ struct ActivitiesView: View {
                                     } label: {
                                         HStack {
                                             
-                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "New", blur: true, async: false, widthOffset: -60, heightOffset: -60)
+                                            HomeViewCard(image: "New", title: "New", blur: true, async: false, widthOffset: -60, heightOffset: -60)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }
@@ -87,7 +87,7 @@ struct ActivitiesView: View {
                                     } label: {
                                         HStack {
                                             
-                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "Clubs/Sports", blur: true, async: false, widthOffset: -60, heightOffset: -60)
+                                            HomeViewCard(image: "Sports", title: "Clubs/Sports", blur: true, async: false, widthOffset: -60, heightOffset: -60)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }
@@ -98,7 +98,7 @@ struct ActivitiesView: View {
                                     } label: {
                                         HStack {
                                             
-                                            HomeViewCard(image: "mosaic_phoenix-transparent", title: "Parents", blur: true, async: false, widthOffset: -60, heightOffset: -60)
+                                            HomeViewCard(image: "Parents", title: "Parents", blur: true, async: false, widthOffset: -60, heightOffset: -60)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }
