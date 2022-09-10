@@ -11,15 +11,14 @@ import FirebaseFirestore
 
 let db = Firestore.firestore()
 
-let clubs = db.collection("clubs")
-
 struct SignInView: View {
     
-    @State var clubSelection: String?
+    @State var clubSelection: String
     @State var name: String
     @State var code: String
     @State var signInName: String
     @State var image: String
+    @State var gradeLevel: String
     
     
     var body: some View {
@@ -73,15 +72,29 @@ struct SignInView: View {
                     .frame(width: UIScreen.main.bounds.width - 70)
                     .padding(.top, -5)
                 
-                SecureField("Code", text: $code)
+                if clubSelection != "ASC" {
+                    
+                    VStack {
+                        SecureField("Code", text: $code)
+                            .padding(.leading, 50)
+                        
+                        Divider()
+                            .frame(width: UIScreen.main.bounds.width - 70)
+                            .padding(.top, -5)
+                    }
+                }
+                
+                TextField("Grade Level", text: $gradeLevel)
                     .padding(.leading, 50)
+                    .padding(.bottom, 5)
                 
                 Divider()
                     .frame(width: UIScreen.main.bounds.width - 70)
                     .padding(.top, -5)
+                
+                Spacer()
+                
             }
-            
-            Spacer()
             
             ZStack {
                 
@@ -97,7 +110,8 @@ struct SignInView: View {
             .padding(.bottom)
             
             Button {
-                clubs.document(name)
+                let club = db.collection(clubSelection)
+                club.document(name).setData(["Name":name, "Code":code, "Grade Level": gradeLevel, "Date":formatDate()])
             } label: {
                 ZStack {
                     
@@ -114,6 +128,7 @@ struct SignInView: View {
                                 .stroke(Color.black, lineWidth: 1.5))
                 }
             }
+            .accentColor(.black)
             
         }
         .navigationTitle("\(signInName) Sign In")
@@ -121,8 +136,8 @@ struct SignInView: View {
     }
 }
 
-struct SignInView_Previews: PreviewProvider {
-    static var previews: some View {
-        SignInView(name: "Kaden", code: "CODE", signInName: "Club", image: "night_school")
-    }
-}
+//struct SignInView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SignInView(name: "Kaden", code: "CODE", signInName: "Club", image: "night_school")
+//    }
+//}

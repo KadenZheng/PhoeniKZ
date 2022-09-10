@@ -56,7 +56,7 @@ struct HomeView: View {
                             // MARK: - Club Sign In
                             
                             NavigationLink {
-                                SignInView(name: "", code: "", signInName: "Club", image: "night_school")
+                                SignInView(clubSelection: "ASB", name: "", code: "", signInName: "Club", image: "night_school", gradeLevel: "")
                             } label: {
                                 CenteredWideCard(title: "Club Sign In", icon1: "arrowtriangle.right.fill", icon2: "arrowtriangle.left.fill")
                                     .padding(.bottom)
