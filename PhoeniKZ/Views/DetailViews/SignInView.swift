@@ -6,6 +6,12 @@
 //
 
 import SwiftUI
+import FirebaseCore
+import FirebaseFirestore
+
+let db = Firestore.firestore()
+
+let clubs = db.collection("clubs")
 
 struct SignInView: View {
     
@@ -14,6 +20,7 @@ struct SignInView: View {
     @State var code: String
     @State var signInName: String
     @State var image: String
+    
     
     var body: some View {
         
@@ -89,19 +96,23 @@ struct SignInView: View {
             }
             .padding(.bottom)
             
-            ZStack {
-                
-                Text("Submit")
-                    .font(.headline.weight(.medium))
-                
-                Rectangle()
-                    .frame(width: 250, height: 50)
-                    .foregroundColor(.clear)
-                    .border(.black)
-                    .cornerRadius(10)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color.black, lineWidth: 1.5))
+            Button {
+                clubs.document(name)
+            } label: {
+                ZStack {
+                    
+                    Text("Submit")
+                        .font(.headline.weight(.medium))
+                    
+                    Rectangle()
+                        .frame(width: 250, height: 50)
+                        .foregroundColor(.clear)
+                        .border(.black)
+                        .cornerRadius(10)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(Color.black, lineWidth: 1.5))
+                }
             }
             
         }
