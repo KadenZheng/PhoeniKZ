@@ -17,7 +17,7 @@ struct HomeView: View {
         NavigationView {
             
             ZStack {
-//                
+                
                 Rectangle()
                     .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                     .foregroundColor(.black)

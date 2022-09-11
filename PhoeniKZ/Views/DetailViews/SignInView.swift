@@ -20,6 +20,7 @@ struct SignInView: View {
     @State var image: String
     @State var gradeLevel: String
     
+    @EnvironmentObject var model: Manager
     
     var body: some View {
         
@@ -43,9 +44,45 @@ struct SignInView: View {
                             .font(.headline.weight(.medium))
                         
                         Picker("Select Your Club", selection: $clubSelection) {
-                            Text("ASB").tag("ASB")
-                            Text("Pre-Med").tag("Pre-Med")
-                            Text("BSU").tag("BSU")
+                            Group {
+                                
+                                Text("ASB").tag("ASB")
+                                Text("BSU").tag("BSU")
+                                Text("CSF").tag("CSF")
+                                Text("Chess Club").tag("Chess Club")
+                                Text("Creative Writing").tag("Creative Writing")
+                                Text("Debate").tag("Debate")
+                                Text("Drama").tag("Drama")
+                                Text("D & D").tag("D & D")
+                                Text("Earth Club").tag("Earth Club")
+                                Text("BSU").tag("BSU")
+                                
+                            }
+                            
+                            Group {
+                                
+                                Text("Finance Club").tag("Finance Club")
+                                Text("Food Club").tag("Food Club")
+                                Text("GSA").tag("GSA")
+                                Text("Interact Club").tag("Interact Club")
+                                Text("Journalism Club").tag("Journalism Club")
+                                Text("Life Club").tag("Life Club")
+                                Text("Multimedia Club").tag("Multimedia Club")
+                                Text("Neurodiversity Club").tag("Neurodiversity Club")
+                                Text("Peer Mentors").tag("Peer Mentors")
+                                Text("Red Cross").tag("Red Cross")
+                                
+                            }
+                            
+                            Group {
+                                
+                                Text("Sailing Club").tag("Sailing Club")
+                                Text("Ski").tag("Ski")
+                                Text("Speech").tag("Speech")
+                                Text("Travel Club").tag("Travel Club")
+                                Text("Yearbook").tag("Yearbook")
+                                
+                            }
                         }
                         .accentColor(.black)
                     }
@@ -110,8 +147,16 @@ struct SignInView: View {
             .padding(.bottom)
             
             Button {
-                let club = db.collection(clubSelection)
-                club.document(name).setData(["Name":name, "Code":code, "Grade Level": gradeLevel, "Date":formatDate()])
+                
+                if name != "" && code != "" && gradeLevel != "" {
+                    let club = db.collection(clubSelection)
+                    club.document(name).setData(["Name":name, "Code":code, "Grade Level": gradeLevel, "Date":formatDate()])
+                }
+                
+                name = ""
+                code = ""
+                gradeLevel = ""
+                
             } label: {
                 ZStack {
                     
