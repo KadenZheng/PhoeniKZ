@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "ASB",
-		"image": "",
+		"image": "ASB",
 		"advisor": "Mr. Benslay",
 		"meetingDate": "",
 		"description": ""
@@ -21,42 +21,42 @@
 	},
 	{
 		"name": "CSF",
-		"image": "",
+		"image": "CSF",
 		"advisor": "Mrs. Roche",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Chess Club",
-		"image": "",
+		"image": "Chess",
 		"advisor": "Mr. Murillo",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Creative Writing",
-		"image": "",
+		"image": "CreativeWriting",
 		"advisor": "Dr. Jarocki",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Drama",
-		"image": "",
+		"image": "Drama",
 		"advisor": "",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "D & D",
-		"image": "",
+		"image": "D&D",
 		"advisor": "Dr. Gettman",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Earth Club",
-		"image": "",
+		"image": "Earth",
 		"advisor": "Ms. Dowis",
 		"meetingDate": "",
 		"description": ""
@@ -77,14 +77,14 @@
 	},
 	{
 		"name": "Food Club",
-		"image": "",
+		"image": "Food",
 		"advisor": "Ms. Dowis/Royce",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "GSA",
-		"image": "",
+		"image": "GSA",
 		"advisor": "Mrs. Fernandez",
 		"meetingDate": "",
 		"description": ""
@@ -100,61 +100,61 @@
 		"name": "Journalism Club",
 		"image": "",
 		"advisor": "Mrs. Downer",
-		"meetingDate": "",
+		"meetingDate": "Journalism",
 		"description": ""
 	},
 	{
 		"name": "Life Club",
-		"image": "",
+		"image": "Life",
 		"advisor": "Mrs. Hill",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Multimedia Club",
-		"image": "",
+		"image": "Multimedia",
 		"advisor": "Dr. Cornelison",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Neurodiversity Club",
-		"image": "",
+		"image": "Neurodiversity",
 		"advisor": "Mr. Johnson",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Peer Mentors",
-		"image": "",
+		"image": "PeerMentors",
 		"advisor": "Mrs. Bird",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Red Cross",
-		"image": "",
+		"image": "PreMed",
 		"advisor": "Mr. Murillo",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Sailing Club",
-		"image": "",
+		"image": "Sailing",
 		"advisor": "Mr. Benslay",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Ski/Snowboarding",
-		"image": "",
+		"image": "Ski",
 		"advisor": "Mr. Roberts",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Travel Club",
-		"image": "",
+		"image": "Travel",
 		"advisor": "Mr. Benslay",
 		"meetingDate": "",
 		"description": ""
