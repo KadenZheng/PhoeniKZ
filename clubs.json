@@ -2,14 +2,14 @@
 		"name": "Speech/Debate",
 		"image": "D&D",
 		"advisor": "Dr. Jarocki",
-		"meetingDate": "8/19/2022",
+		"meetingDate": "Weekly Wednesdays",
 		"description": ""
 	},
 	{
 		"name": "ASB",
 		"image": "ASB",
 		"advisor": "Mr. Benslay",
-		"meetingDate": "",
+		"meetingDate": "October 20th, 2022",
 		"description": ""
 	},
 	{
@@ -135,7 +135,7 @@
 		"name": "Red Cross",
 		"image": "PreMed",
 		"advisor": "Mr. Murillo",
-		"meetingDate": "",
+		"meetingDate": "9/29/2022",
 		"description": ""
 	},
 	{
@@ -163,7 +163,7 @@
 		"name": "Yearbook",
 		"image": "placeholder",
 		"advisor": "Dr. Jarocki",
-		"meetingDate": "",
+		"meetingDate": "Weekly Mondays",
 		"description": ""
 	}
 ]
