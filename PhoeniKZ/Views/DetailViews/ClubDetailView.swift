@@ -75,6 +75,8 @@ struct ClubDetailView: View {
                         .font(.title3.weight(.medium))
                     Text(meetingDate)
                         .font(.title3.weight(.regular))
+                        .fixedSize(horizontal: false, vertical: true)
+
                 }
                 
             }

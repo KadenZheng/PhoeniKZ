@@ -56,6 +56,7 @@ struct BulletinDetailView: View {
                                         Text(bulletin.title)
                                             .font(.headline.weight(.medium))
                                             .foregroundColor(.black)
+                                            .multilineTextAlignment(.leading)
                                         
                                         Text(bulletin.description)
                                             .font(.subheadline.weight(.light))

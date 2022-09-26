@@ -111,13 +111,9 @@ struct ActivitiesView: View {
                             
                             Divider()
                             
-                            Text("Club Meeting Dates")
+                            Text("Meeting Dates")
                                 .font(.headline.weight(.medium))
                                 .padding(.vertical, 5)
-                            
-                            HLine().stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
-                                .foregroundColor(.gray)
-                                .frame(width: UIScreen.main.bounds.width - 40)
                             
                             // MARK: - Club Meetings
                             
@@ -138,12 +134,11 @@ struct ActivitiesView: View {
                                     }.frame(width: UIScreen.main.bounds.width - 50)
                                 }
                                 
+                                HLine().stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
+                                    .foregroundColor(.gray)
+                                    .frame(width: UIScreen.main.bounds.width - 40)
+                                
                             }
-                            
-                            
-                            HLine().stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
-                                .foregroundColor(.gray)
-                                .frame(width: UIScreen.main.bounds.width - 40)
                             
                         }
                     }
