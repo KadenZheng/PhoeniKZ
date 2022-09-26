@@ -1,22 +1,51 @@
-[
-    {
-        "title": "Travel Club Meeting",
-        "caption": "September 6th",
-        "image": "",
-        "location": "Room 109",
-        "time": "6:30 PM - 7:30 PM",
-        "contact": "Mr. Benslay",
-        "imageURL":"https://kadenzheng.github.io/PhoeniKZ/IMG_1284.jpg",
-        "description": "Attend this meeting to learn more about the travel club's itinerary for its trip in the summer of 2024."
-    },
-    {
-        "title": "Senior Portraits",
-        "caption": "September 17th",
-        "image": "night_school",
-        "location": "Courtyard",
-        "time": "10 AM - 12 PM",
-        "contact": "Office",
-        "imageURL":"https://kadenzheng.github.io/PhoeniKZ/IMG_1284.jpg",
-        "description": "Seniors will take their senior portraits and circle personality pictures on September 17th. Contact the office for more information."
-    }
+[{
+		"title": "Information Day",
+		"caption": "September 26th",
+		"image": "",
+		"location": "Satellite Student Union (CSUF)",
+		"time": "4 PM - 5 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/InfoDay.png",
+		"description": "For any incoming freshmen or transfer students curious about culture, academics, and life at UHS, come to this meeting to learn more about University High School."
+	},
+	{
+		"title": "Boys Bball vs. Big Picture",
+		"caption": "September 28th",
+		"image": "",
+		"location": "CTEC High School",
+		"time": "5:30 PM - 6:15 PM",
+		"contact": "Mr. Murillo",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.png",
+		"description": "Come support our UHS boys basketball versus Big Picture on September 28th: CTEC High School beginning at 5:30 PM. Go UHS!"
+	},
+	{
+		"title": "Girls Bball vs. Big Picture",
+		"caption": "September 28th",
+		"image": "",
+		"location": "CTEC High School",
+		"time": "6:15 PM - 7:15 PM",
+		"contact": "Mr. Murillo",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsBasketball.png",
+		"description": "Come support our UHS girls basketball versus Big Picture on September 28th: CTEC High School beginning at 6:15 PM. Go UHS!"
+	},
+	{
+		"title": "Scout Island",
+		"caption": "September 30th",
+		"image": "",
+		"location": "Scout Island",
+		"time": "8:00 AM - 3:00 PM",
+		"contact": "Dr. Gettman",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ScoutIsland.png",
+		"description": "The freshmen will be going to Scout Island on September 30th for a full-day field trip."
+	},
+	{
+		"title": "Boys Bball vs. Duncan",
+		"caption": "October 5th",
+		"image": "",
+		"location": "Duncan Polytechnical High School",
+		"time": "5:30 PM - 6:15 PM",
+		"contact": "Mr. Murillo",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.png",
+		"description": "Come support our UHS boys basketball versus Duncan Polytechnical on October 5th: Duncan Polytechnical High School beginning at 5:30 PM. Go UHS!"
+	}
 ]
