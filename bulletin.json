@@ -1,24 +1,24 @@
 [{
 		"title": "Info Day September",
 		"category": "New",
-		"description": "Information day Time: 4pm - 5pm Location: Satellite Student Union Parking code: 902450"
+		"description": "Information day Time: 4pm - 5pm //n Location: Satellite Student Union //n Parking code: 902450"
 	},
 	{
 		"title": "Massachusetts Institute of Technology College Visit",
 		"category": "New",
 		"meetingDate":"9/30/2022",
-		"description": "Date: Friday, September 30, 2022 /n Time: 12:30 PM /n Rm. 209"
+		"description": "Date: Friday, September 30, 2022 //n Time: 12:30 PM //n Rm. 209"
 	},
 	{
 		"title": "University of the Pacific College Visit",
 		"category": "New",
 		"meetingDate":"10/3/2022",
-		"description": "Date: Monday October 3, 2022 /n Time: 12:00 PM /n Rm. 209"
+		"description": "Date: Monday October 3, 2022 //n Time: 12:00 PM //n Rm. 209"
 	},
 	{
 		"title": "University of San Fransisco College Visit",
 		"category": "New",
 		"meetingDate":"10/17/2022",
-		"description": "Date: Monday, October 17 & 26, 2022 /n Time: 12:00 PM /n Rm. 209"
+		"description": "Date: Monday, October 17 & 26, 2022 //n Time: 12:00 PM //n Rm. 209"
 	}
 ]
