@@ -29,11 +29,11 @@ struct RoundedContactCard: View {
                 Image(systemName: image)
                     .resizable()
                     .frame(width: 23, height: 23)
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                 
                 Text("Contact Us")
                     .font(.headline.weight(.semibold))
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                 
             }
             

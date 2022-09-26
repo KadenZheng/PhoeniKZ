@@ -22,9 +22,9 @@ struct ClubView: View {
                         ForEach(model.clubs) { club in
                             
                             NavigationLink {
-                                ClubDetailView(clubAdvisor: club.advisor, meetingDate: club.meetingDate, description: "Description", image: model.randomImages[random()], clubName: club.name)
+                                ClubDetailView(clubAdvisor: club.advisor, meetingDate: club.meetingDate, description: "Description", image: club.image, clubName: club.name)
                             } label: {
-                                HomeViewCard(image: model.randomImages[random()], title: club.name, caption: club.advisor, blur: true, async: false, widthOffset: -80, heightOffset: -80)
+                                HomeViewCard(image: club.image, title: club.name, caption: club.advisor, blur: true, async: false, widthOffset: -80, heightOffset: -80)
                             }
                         }
                         

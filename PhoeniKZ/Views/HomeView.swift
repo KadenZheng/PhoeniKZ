@@ -18,9 +18,9 @@ struct HomeView: View {
             
             ZStack {
                 
-                Rectangle()
-                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-                    .foregroundColor(.black)
+//                Rectangle()
+//                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+//                    .foregroundColor(.black)
 
 //                
 //                
@@ -161,7 +161,7 @@ struct HomeView: View {
                             
                             Link(destination: URL(string: "https://apps.apple.com/us/app/powerschool-mobile/id973741088")!) {
                                 Text("Powerschool")
-                                    .foregroundColor(.white)
+                                    .foregroundColor(.black)
                                     .font(.title3)
                             }.accentColor(.black)
                             
@@ -169,7 +169,7 @@ struct HomeView: View {
                             
                             Link(destination: URL(string: "http://uhsfresno.com/courses.html")!) {
                                 Text("Google Sites")
-                                    .foregroundColor(.white)
+                                    .foregroundColor(.black)
                                     .font(.title3)
                             }.accentColor(.black)
                             
@@ -187,7 +187,7 @@ struct HomeView: View {
                                 
                             }.padding(.top)
                                 .accentColor(.black)
-                                .padding(.bottom, 80)
+                                .padding(.bottom)
                             
                         }
                         
