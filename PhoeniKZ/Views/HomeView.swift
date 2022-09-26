@@ -100,9 +100,11 @@ struct HomeView: View {
                                         NavigationLink {
                                             EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description, asyncBool: true, imageURLE: event.imageURL)
                                         } label: {
-                                            HomeViewCard(image: event.image, title: event.title, caption: event.caption, blur: true, async: true, imageURL: event.imageURL, widthOffset: 75, heightOffset: -25)
-                                                .padding(.leading)
-                                                .padding([.bottom, .top, .trailing], 10)
+                                                
+                                                HomeViewCard(image: event.image, title: event.title, caption: event.caption, blur: true, async: true, imageURL: event.imageURL, widthOffset: 75, heightOffset: -25)
+                                                    .padding(.leading)
+                                                    .padding([.bottom, .top, .trailing], 10)
+
                                         }
                                         .accentColor(.black)
                                     }

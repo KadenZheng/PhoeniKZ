@@ -45,7 +45,12 @@ struct HomeViewCard: View {
                             .clipShape(RoundedRectangle(cornerRadius: 20))
                         
                 } placeholder: {
-                    Color.purple.opacity(0.1)
+                    ZStack {
+                    
+                        Color.purple.opacity(0.1)
+                        ProgressView()
+                        
+                    }
                 }
             } else {
                 if blur {

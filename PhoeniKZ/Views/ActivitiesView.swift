@@ -22,9 +22,14 @@ struct ActivitiesView: View {
                     
                     VStack (alignment: .leading, spacing: 20) {
                         
-                        Rectangle()
-                            .foregroundColor(.clear)
-                            .frame(height: 70)
+                        ImageBar(image: "frisbees", titleText: formatDate(), subtitleText: "", clipped: true, async: false)
+                            .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
+                            .edgesIgnoringSafeArea(.top)
+                            .padding(.bottom, 40)
+                        
+//                        Rectangle()
+//                            .foregroundColor(.clear)
+//                            .frame(height: 70)
                         
                         // MARK: - Schoolwide Events Scroll
                         
@@ -142,6 +147,7 @@ struct ActivitiesView: View {
                             
                         }
                     }
+                    .edgesIgnoringSafeArea(.top)
                 }
                 .overlay(
                     NavigationBar(text: "Activities")
@@ -149,7 +155,6 @@ struct ActivitiesView: View {
             }
             .navigationBarHidden(true)
         }
-        
     }
 }
 
