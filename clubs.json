@@ -1,6 +1,6 @@
 [{
 		"name": "Speech/Debate",
-		"image": "",
+		"image": "placeholder",
 		"advisor": "Dr. Jarocki",
 		"meetingDate": "8/19/2022",
 		"description": ""
@@ -14,7 +14,7 @@
 	},
 	{
 		"name": "BSU",
-		"image": "",
+		"image": "placeholder",
 		"advisor": "Ms. Hickman",
 		"meetingDate": "",
 		"description": ""
@@ -63,14 +63,14 @@
 	},
 	{
 		"name": "BSU",
-		"image": "",
+		"image": "placeholder",
 		"advisor": "Ms. Hickman",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Finance Club",
-		"image": "",
+		"image": "placeholder",
 		"advisor": "Mr. Canfield",
 		"meetingDate": "",
 		"description": ""
@@ -91,14 +91,14 @@
 	},
 	{
 		"name": "Interact Club",
-		"image": "",
+		"image": "placeholder",
 		"advisor": "Mr. Johnson",
 		"meetingDate": "",
 		"description": ""
 	},
 	{
 		"name": "Journalism Club",
-		"image": "",
+		"image": "placeholder",
 		"advisor": "Mrs. Downer",
 		"meetingDate": "Journalism",
 		"description": ""
@@ -161,7 +161,7 @@
 	},
 	{
 		"name": "Yearbook",
-		"image": "",
+		"image": "placeholder",
 		"advisor": "Dr. Jarocki",
 		"meetingDate": "",
 		"description": ""
