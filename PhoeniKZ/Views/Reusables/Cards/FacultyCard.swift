@@ -24,7 +24,7 @@ struct FacultyCard: View {
             
             Rectangle()
                 .frame(width: UIScreen.main.bounds.width - 50, height: 90)
-                .foregroundColor(.white)
+                .foregroundColor(Color(red: 105/255, green: 105/255, blue: 105/255))
                 .cornerRadius(10)
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
@@ -48,12 +48,13 @@ struct FacultyCard: View {
                 VStack (alignment: .leading, spacing: 10) {
                     Text(name)
                         .bold()
+                        .foregroundColor(.white)
                         .font(.headline)
                         .lineLimit(2)
                     
                     Text(position)
                         .font(.subheadline)
-                        .foregroundColor(Color(red: 105/255, green: 105/255, blue: 105/255))
+                        .foregroundColor(.white)
                 }
                 .frame(width: 159, alignment: .leading)
                 .padding(.trailing, 1)

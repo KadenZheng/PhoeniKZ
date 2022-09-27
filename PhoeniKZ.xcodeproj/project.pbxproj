@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		1146C4EAEEEB1803F1FE38DE /* Pods-PhoeniKZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoeniKZ.release.xcconfig"; path = "Target Support Files/Pods-PhoeniKZ/Pods-PhoeniKZ.release.xcconfig"; sourceTree = "<group>"; };
-		1802CCB22CD39A74D7E6B260 /* Pods_PhoeniKZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoeniKZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802CCB22CD39A74D7E6B260 /* Pods_PhoeniKZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoeniKZ.framework; path = "../../../Library/Developer/Xcode/DerivedData/PhoeniKZ-ezcxpfddioakxudqwwskfqhkbvjr/Build/Products/Debug-iphoneos/Pods_PhoeniKZ.framework"; sourceTree = SOURCE_ROOT; };
 		240662B1F4894C29F578BA3A /* Pods-PhoeniKZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoeniKZ.debug.xcconfig"; path = "Target Support Files/Pods-PhoeniKZ/Pods-PhoeniKZ.debug.xcconfig"; sourceTree = "<group>"; };
 		882EE98C28B7D8E800A31664 /* BulletinDetailDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletinDetailDetailView.swift; sourceTree = "<group>"; };
 		8841335F28A744C700F888DD /* RoundedContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedContactCard.swift; sourceTree = "<group>"; };
@@ -259,7 +259,6 @@
 				240662B1F4894C29F578BA3A /* Pods-PhoeniKZ.debug.xcconfig */,
 				1146C4EAEEEB1803F1FE38DE /* Pods-PhoeniKZ.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

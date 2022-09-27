@@ -18,140 +18,160 @@ struct ActivitiesView: View {
             
             GeometryReader { geo in
                 
-                ScrollView (showsIndicators: false) {
+                ZStack {
                     
-                    VStack (alignment: .leading, spacing: 20) {
+                    Rectangle()
+                        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                        .foregroundColor(.black)
+                    
+                    ScrollView (showsIndicators: false) {
                         
-                        ImageBar(image: "frisbees", titleText: formatDate(), subtitleText: "", clipped: true, async: false)
-                            .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
-                            .edgesIgnoringSafeArea(.top)
-                            .padding(.bottom, 40)
-                        
-//                        Rectangle()
-//                            .foregroundColor(.clear)
-//                            .frame(height: 70)
-                        
-                        // MARK: - Schoolwide Events Scroll
-                        
-                        VStack (alignment: .leading) {
+                        VStack (alignment: .leading, spacing: 20) {
                             
-                            Text("Schoolwide Events")
-                                .font(.title.weight(.semibold))
-                                .padding(.horizontal)
+                            ImageBar(image: "MOTASeasons", titleText: "", subtitleText: formatDate(), clipped: true, async: false)
+                                .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
+                                .edgesIgnoringSafeArea(.top)
+                                .padding(.bottom, 40)
+                                .padding(.top, -40)
                             
-                            ScrollView (.horizontal, showsIndicators: false) {
+                            //                        Rectangle()
+                            //                            .foregroundColor(.clear)
+                            //                            .frame(height: 70)
+                            
+                            // MARK: - Schoolwide Events Scroll
+                            
+                            VStack (alignment: .leading) {
                                 
-                                HStack {
-                                    
-                                    ForEach(model.events) {
-                                        event in
-                                        NavigationLink {
-                                            EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description, asyncBool: true, imageURLE: event.imageURL)
-                                        } label: {
-                                            HomeViewCard(image: event.image, title: event.title, caption: event.caption, blur: true, async: true, imageURL: event.imageURL, widthOffset: 90, heightOffset: -10)
-                                                .padding(.leading)
-                                                .padding([.bottom, .top, .trailing], 10)
-                                        }
-                                        .accentColor(.black)
-                                    }
-                                    
-                                }
-                            }
-                        }
-                        
-                        Divider()
-                            .frame(width: UIScreen.main.bounds.width - 40)
-                        
-                        // MARK: - School Life Scroll
-                        VStack (alignment: .leading) {
-                            
-                            HStack {
+                                Text("Schoolwide Events")
+                                    .foregroundColor(.white)
+                                    .font(.title.weight(.semibold))
+                                    .padding(.horizontal)
                                 
-                                Text("Bulletin")
-                                    .font(.title2.weight(.semibold))
-                                
-                            }.padding(.horizontal)
-                            
-                            ScrollView (.horizontal, showsIndicators: false) {
-                                
-                                HStack {
-                                    
-                                    NavigationLink {
-                                        BulletinDetailView(selectedCategory: "New")
-                                    } label: {
-                                        HStack {
-                                            
-                                            HomeViewCard(image: "New", title: "New", blur: true, async: false, widthOffset: -60, heightOffset: -60)
-                                                .padding(.leading)
-                                                .padding([.bottom, .top, .trailing], 10)
-                                        }
-                                    }
-                                    
-                                    NavigationLink {
-                                        BulletinDetailView(selectedCategory: "Club/Sports")
-                                    } label: {
-                                        HStack {
-                                            
-                                            HomeViewCard(image: "Sports", title: "Clubs/Sports", blur: true, async: false, widthOffset: -60, heightOffset: -60)
-                                                .padding(.leading)
-                                                .padding([.bottom, .top, .trailing], 10)
-                                        }
-                                    }
-                                    
-                                    NavigationLink {
-                                        BulletinDetailView(selectedCategory: "Parents")
-                                    } label: {
-                                        HStack {
-                                            
-                                            HomeViewCard(image: "Parents", title: "Parents", blur: true, async: false, widthOffset: -60, heightOffset: -60)
-                                                .padding(.leading)
-                                                .padding([.bottom, .top, .trailing], 10)
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        
-                        VStack (alignment: .center) {
-                            
-                            Divider()
-                            
-                            Text("Meeting Dates")
-                                .font(.headline.weight(.medium))
-                                .padding(.vertical, 5)
-                            
-                            // MARK: - Club Meetings
-                            
-                            ForEach (model.bulletinData) { bulletin in
-                                
-                                if bulletin.meetingDate != nil {
+                                ScrollView (.horizontal, showsIndicators: false) {
                                     
                                     HStack {
                                         
-                                        Text(bulletin.title)
-                                            .font(.subheadline)
+                                        ForEach(model.events) {
+                                            event in
+                                            NavigationLink {
+                                                EventDetailView(title: event.title, caption: event.caption, image: event.image, location: event.location, time: event.time, contact: event.contact, description: event.description, asyncBool: true, imageURLE: event.imageURL)
+                                            } label: {
+                                                HomeViewCard(image: event.image, title: event.title, caption: event.caption, blur: true, async: true, imageURL: event.imageURL, widthOffset: 90, heightOffset: -10)
+                                                    .padding(.leading)
+                                                    .padding([.bottom, .top, .trailing], 10)
+                                            }
+                                            .accentColor(.white)
+                                        }
                                         
-                                        Spacer()
-                                        
-                                        Text(bulletin.meetingDate!)
-                                            .font(.subheadline)
-                                        
-                                    }.frame(width: UIScreen.main.bounds.width - 50)
+                                    }
                                 }
-                                
-                                HLine().stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
-                                    .foregroundColor(.gray)
-                                    .frame(width: UIScreen.main.bounds.width - 40)
-                                
                             }
                             
+                            // MARK: - School Life Scroll
+                            VStack (alignment: .leading) {
+                                
+                                HStack {
+                                    
+                                    Text("Bulletin")
+                                        .foregroundColor(.white)
+                                        .font(.title2.weight(.semibold))
+                                    
+                                }.padding(.horizontal)
+                                
+                                ScrollView (.horizontal, showsIndicators: false) {
+                                    
+                                    HStack {
+                                        
+                                        NavigationLink {
+                                            BulletinDetailView(selectedCategory: "New")
+                                        } label: {
+                                            HStack {
+                                                
+                                                HomeViewCard(image: "New", title: "New", blur: true, async: false, widthOffset: -60, heightOffset: -60)
+                                                    .padding(.leading)
+                                                    .padding([.bottom, .top, .trailing], 10)
+                                            }
+                                        }
+                                        
+                                        NavigationLink {
+                                            BulletinDetailView(selectedCategory: "Club/Sports")
+                                        } label: {
+                                            HStack {
+                                                
+                                                HomeViewCard(image: "Sports", title: "Clubs/Sports", blur: true, async: false, widthOffset: -60, heightOffset: -60)
+                                                    .padding(.leading)
+                                                    .padding([.bottom, .top, .trailing], 10)
+                                            }
+                                        }
+                                        
+                                        NavigationLink {
+                                            BulletinDetailView(selectedCategory: "Parents")
+                                        } label: {
+                                            HStack {
+                                                
+                                                HomeViewCard(image: "Parents", title: "Parents", blur: true, async: false, widthOffset: -60, heightOffset: -60)
+                                                    .padding(.leading)
+                                                    .padding([.bottom, .top, .trailing], 10)
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            VStack (alignment: .center) {
+                                
+                                Divider()
+                                    .overlay(.white)
+                                
+                                Text("Meeting Dates")
+                                    .foregroundColor(.white)
+                                    .font(.headline.weight(.medium))
+                                    .padding(.vertical, 5)
+                                
+                                HLine().stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
+                                    .foregroundColor(.white)
+                                    .frame(width: UIScreen.main.bounds.width - 40)
+                                
+                                // MARK: - Club Meetings
+                                
+                                ForEach (model.bulletinData) { bulletin in
+                                    
+                                    if bulletin.meetingDate != nil {
+                                        
+                                        VStack {
+                                            
+                                            HStack {
+                                                
+                                                Text(bulletin.title)
+                                                    .font(.subheadline)
+                                                    .foregroundColor(.white)
+                                                
+                                                Spacer()
+                                                
+                                                Text(bulletin.meetingDate!)
+                                                    .font(.subheadline)
+                                                    .foregroundColor(.white)
+                                                
+                                            }.frame(width: UIScreen.main.bounds.width - 50)
+                                            
+                                            HLine().stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
+                                                .foregroundColor(.white)
+                                                .frame(width: UIScreen.main.bounds.width - 40)
+                                        }
+                                        
+                                    }
+                                    
+                                }
+                                
+                            }
+                            .padding(.bottom, 150)
                         }
+                        .edgesIgnoringSafeArea(.top)
                     }
-                    .edgesIgnoringSafeArea(.top)
+                    .overlay(
+                        NavigationBar(text: "Activities")
+                    )
                 }
-                .overlay(
-                    NavigationBar(text: "Activities")
-                )
             }
             .navigationBarHidden(true)
         }

@@ -21,6 +21,7 @@ struct FacultyListView: View {
                 LazyVStack (alignment: .leading) {
                     
                     Divider()
+                        .overlay(.white)
                     
                     ScrollView (.horizontal, showsIndicators: false) {
                         
@@ -78,6 +79,7 @@ struct FacultyListView: View {
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)
                                 .padding(.leading, 20)
+                                .overlay(.white)
                             
                         }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                         
@@ -104,6 +106,7 @@ struct FacultyListView: View {
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)
                                 .padding(.leading, 20)
+                                .overlay(.white)
                             
                         }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                         
@@ -129,6 +132,7 @@ struct FacultyListView: View {
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)
                                 .padding(.leading, 20)
+                                .overlay(.white)
                             
                         }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                         
@@ -155,6 +159,7 @@ struct FacultyListView: View {
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)
                                 .padding(.leading, 20)
+                                .overlay(.white)
                             
                         }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                         
@@ -180,6 +185,7 @@ struct FacultyListView: View {
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)
                                 .padding(.leading, 20)
+                                .overlay(.white)
                             
                         }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                         
@@ -205,6 +211,7 @@ struct FacultyListView: View {
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)
                                 .padding(.leading, 20)
+                                .overlay(.white)
                             
                         }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                         
@@ -234,6 +241,7 @@ struct FacultyListView: View {
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)
                                 .padding(.leading, 20)
+                                .overlay(.white)
                             
                         }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                         
@@ -259,6 +267,7 @@ struct FacultyListView: View {
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)
                                 .padding(.leading, 20)
+                                .overlay(.white)
                             
                         }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                         
@@ -283,6 +292,7 @@ struct FacultyListView: View {
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)
                                 .padding(.leading, 20)
+                                .overlay(.white)
                             
                         }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                         
@@ -312,6 +322,7 @@ struct FacultyListView: View {
                         Divider()
                             .frame(width: UIScreen.main.bounds.width - 40)
                             .padding(.leading, 20)
+                            .overlay(.white)
                         
                     }.frame(width: UIScreen.main.bounds.width, alignment: .leading)
                     

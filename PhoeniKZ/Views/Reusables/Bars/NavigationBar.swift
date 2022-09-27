@@ -19,6 +19,7 @@ struct NavigationBar: View {
                 .background(.ultraThinMaterial)
                 .blur(radius: 10)
                 .scaleEffect(1.3)
+                .opacity(0.8)
                 .edgesIgnoringSafeArea(.all)
             
             Text(text)

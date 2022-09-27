@@ -18,9 +18,9 @@ struct HomeView: View {
             
             ZStack {
                 
-//                Rectangle()
-//                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-//                    .foregroundColor(.black)
+                Rectangle()
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                    .foregroundColor(.black)
 
 //                
 //                
@@ -50,7 +50,7 @@ struct HomeView: View {
                                 } label: {
                                     LeadingWideCard(Title: "Phoenix Post", icon: "newspaper")
                                 }.scaledToFill()
-                                    .accentColor(.black)
+                                    .accentColor(.white)
                             }
                             
                             // MARK: - Club Sign In
@@ -60,7 +60,7 @@ struct HomeView: View {
                             } label: {
                                 CenteredWideCard(title: "Club Sign In", icon1: "arrowtriangle.right.fill", icon2: "arrowtriangle.left.fill")
                                     .padding(.bottom)
-                            }.accentColor(.black)
+                            }.accentColor(.white)
                             
                         }
                         
@@ -74,19 +74,22 @@ struct HomeView: View {
                                     .foregroundColor(.white)
                                     .font(.title2.weight(.bold))
                                 
+                                Spacer()
+                                
                                 Button {
                                     selectedTab = 1
                                 } label: {
-                                    Text("See all events")
-                                        .foregroundColor(.white)
-                                        .font(.callout)
-                                        .padding(.leading, 40)
-                                    Image(systemName: "arrow.right.circle")
-                                        .resizable()
-                                        .frame(width: 17, height: 17)
-                                        .foregroundColor(.white)
+                                    HStack {
+                                        Text("See all events")
+                                            .foregroundColor(.white)
+                                            .font(.callout)
+                                        Image(systemName: "arrow.right.circle")
+                                            .resizable()
+                                            .frame(width: 17, height: 17)
+                                            .foregroundColor(.white)
+                                    }
                                 }
-                                .accentColor(.black)
+                                .accentColor(.white)
                             }
                             .padding(.horizontal)
                             .padding(.bottom, -10)
@@ -106,7 +109,7 @@ struct HomeView: View {
                                                     .padding([.bottom, .top, .trailing], 10)
 
                                         }
-                                        .accentColor(.black)
+                                        .accentColor(.white)
                                     }
                                     
                                 }
@@ -116,6 +119,7 @@ struct HomeView: View {
                         
                         Divider()
                             .frame(width: UIScreen.main.bounds.width - 40)
+                            .overlay(.white)
                         
                         // MARK: - School Life Scroll
                         VStack (alignment: .leading) {
@@ -156,6 +160,8 @@ struct HomeView: View {
                         }
                         
                         Divider()
+                            .frame(width: UIScreen.main.bounds.width - 40)
+                            .overlay(.white)
                         
                         // MARK: - Links
                         
@@ -163,20 +169,24 @@ struct HomeView: View {
                             
                             Link(destination: URL(string: "https://apps.apple.com/us/app/powerschool-mobile/id973741088")!) {
                                 Text("Powerschool")
-                                    .foregroundColor(.black)
+                                    .foregroundColor(.white)
                                     .font(.title3)
-                            }.accentColor(.black)
+                            }
                             
                             Divider()
+                                .frame(width: UIScreen.main.bounds.width - 40)
+                                .overlay(.white)
                             
                             Link(destination: URL(string: "http://uhsfresno.com/courses.html")!) {
                                 Text("Google Sites")
-                                    .foregroundColor(.black)
+                                    .foregroundColor(.white)
                                     .font(.title3)
-                            }.accentColor(.black)
+                            }
                             
                             
                             Divider()
+                                .frame(width: UIScreen.main.bounds.width - 40)
+                                .overlay(.white)
                             
                             HStack (spacing: 13) {
                                 Link(destination: URL(string: "tel:5592788263")!) {
@@ -189,7 +199,7 @@ struct HomeView: View {
                                 
                             }.padding(.top)
                                 .accentColor(.black)
-                                .padding(.bottom)
+                                .padding(.bottom, 90)
                             
                         }
                         

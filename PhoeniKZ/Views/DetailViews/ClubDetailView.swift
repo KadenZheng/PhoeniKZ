@@ -83,6 +83,7 @@ struct ClubDetailView: View {
             .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
             
             Divider()
+                .overlay(.white)
                 .padding([.top, .bottom])
             
             // Info

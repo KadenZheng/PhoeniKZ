@@ -46,8 +46,9 @@ struct HomeViewCard: View {
                         
                 } placeholder: {
                     ZStack {
-                    
+
                         Color.purple.opacity(0.1)
+                        
                         ProgressView()
                         
                     }

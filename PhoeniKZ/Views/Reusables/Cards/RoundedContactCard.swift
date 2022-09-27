@@ -22,18 +22,18 @@ struct RoundedContactCard: View {
                 .frame(width: rectangleWidth, height: 40)
                 .overlay(
                     RoundedRectangle(cornerRadius: 20)
-                        .stroke(Color.black, lineWidth: 2.5))
+                        .stroke(Color.white, lineWidth: 2.5))
             
             HStack (alignment: .center, spacing: 10) {
                 
                 Image(systemName: image)
                     .resizable()
                     .frame(width: 23, height: 23)
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
                 
                 Text("Contact Us")
                     .font(.headline.weight(.semibold))
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
                 
             }
             

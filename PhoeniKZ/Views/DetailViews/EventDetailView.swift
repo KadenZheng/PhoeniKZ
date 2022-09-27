@@ -109,8 +109,8 @@ struct EventDetailView: View {
                     .padding(.leading, 38)
                     
                     Divider()
+                        .overlay(.white)
                         .padding([.top, .bottom])
-                    
                     
                 }.edgesIgnoringSafeArea(.top)
                 
