@@ -13,9 +13,15 @@ struct ClubView: View {
     
     var body: some View {
         
-        ScrollView {
+        ZStack {
             
-            LazyVStack (alignment: .center) {
+            Rectangle()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .foregroundColor(.black)
+            
+            ScrollView {
+                
+                LazyVStack (alignment: .center) {
                     
                     LazyVGrid (columns: [GridItem(.flexible(), spacing: -10, alignment: .top), GridItem(.flexible(), spacing: -10, alignment: .top)], alignment: .center, spacing: 40, pinnedViews: []) {
                         
@@ -30,8 +36,11 @@ struct ClubView: View {
                         
                     }
                 }
-        }
-        .navigationTitle("Clubs")
+                .padding(.top, 130)
+            }
+            
+        }.navigationTitle("Clubs")
+            
     }
 }
 

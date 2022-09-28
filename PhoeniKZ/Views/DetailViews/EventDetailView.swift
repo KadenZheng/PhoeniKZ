@@ -21,117 +21,134 @@ struct EventDetailView: View {
     
     var body: some View {
         
-        VStack (alignment: .center) {
+        ZStack {
             
-            // MARK: - Image Bar
+            Rectangle()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .foregroundColor(.black)
             
-            ImageBar(image: image, titleText: title, subtitleText: caption, clipped: false, async: asyncBool, imageURL: imageURLE)
-                .frame(width: UIScreen.main.bounds.width, height: 250, alignment: .bottom)
-                .edgesIgnoringSafeArea(.top)
-                .padding(.bottom, 30)
+            VStack (alignment: .center) {
                 
-            
-            VStack (alignment: .leading) {
+                // MARK: - Image Bar
+                
+                ImageBar(image: image, titleText: title, subtitleText: caption, clipped: false, async: asyncBool, imageURL: imageURLE)
+                    .frame(width: UIScreen.main.bounds.width, height: 250, alignment: .bottom)
+                    .edgesIgnoringSafeArea(.top)
+                    .padding(.bottom, 30)
+                
                 
                 VStack (alignment: .leading) {
                     
-                    // MARK: - Information
-                    
-                    VStack (alignment: .leading, spacing: 17) {
+                    VStack (alignment: .leading) {
                         
-                        // Event Information/Date
+                        // MARK: - Information
                         
-                        if location != nil {
+                        VStack (alignment: .leading, spacing: 17) {
                             
-                            HStack {
+                            // Event Information/Date
+                            
+                            if location != nil {
                                 
-                                Image(systemName: "calendar")
-                                    .resizable()
-                                    .frame(width: 40, height: 40)
-                                    .padding(.trailing)
-                                
-                                VStack (alignment: .leading) {
+                                HStack {
                                     
-                                    Text("Location:  \(location!)")
-                                        .font(.title3.weight(.semibold))
+                                    Image(systemName: "calendar")
+                                        .resizable()
+                                        .frame(width: 40, height: 40)
+                                        .padding(.trailing)
+                                        .foregroundColor(.white)
+                                    
+                                    VStack (alignment: .leading) {
+                                        
+                                        Text("Location:  \(location!)")
+                                            .font(.title3.weight(.semibold))
+                                            .foregroundColor(.white)
+                                        
+                                        Text(time)
+                                            .font(.subheadline)
+                                            .padding(.top, -13)
+                                            .foregroundColor(.white)
+                                        
+                                    }
+                                }
+                                
+                            } else {
+                                
+                                HStack {
+                                    
+                                    Image(systemName: "calendar")
+                                        .resizable()
+                                        .frame(width: 40, height: 40)
+                                        .padding(.trailing)
+                                        .foregroundColor(.white)
                                     
                                     Text(time)
-                                        .font(.subheadline)
-                                        .padding(.top, -13)
-                                    
+                                        .font(.title3.weight(.semibold))
+                                        .foregroundColor(.white)
                                 }
+                                
                             }
                             
-                        } else {
-                            
-                            HStack {
+                            if contact != nil {
                                 
-                                Image(systemName: "calendar")
-                                    .resizable()
-                                    .frame(width: 40, height: 40)
-                                    .padding(.trailing)
-                                
-                                Text(time)
-                                    .font(.title3.weight(.semibold))
-                            }
-                            
-                        }
-                        
-                        if contact != nil {
-                            
-                            // Contact Information
-                            HStack (alignment: .bottom) {
-                                
-                                Image(systemName: "person.2.fill")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 45, height: 45)
-                                    .padding(.trailing, 10)
-                                    .padding(.bottom, -5)
-                                
-                                
-                                
+                                // Contact Information
                                 HStack (alignment: .bottom) {
                                     
-                                    Text("Contact:")
-                                        .font(.title3.weight(.regular))
+                                    Image(systemName: "person.2.fill")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 45, height: 45)
+                                        .padding(.trailing, 10)
+                                        .padding(.bottom, -5)
+                                        .foregroundColor(.white)
                                     
-                                    Text(contact!)
-                                        .font(.headline.weight(.medium))
-                                        .padding(.bottom, 1)
+                                    
+                                    
+                                    HStack (alignment: .bottom) {
+                                        
+                                        Text("Contact:")
+                                            .font(.title3.weight(.regular))
+                                            .foregroundColor(.white)
+                                        
+                                        Text(contact!)
+                                            .font(.headline.weight(.medium))
+                                            .padding(.bottom, 1)
+                                            .foregroundColor(.white)
+                                        
+                                    }
                                     
                                 }
-                                
                             }
+                            
                         }
+                        .padding(.leading, 38)
+                        
+                        Divider()
+                            .overlay(.white)
+                            .padding([.top, .bottom])
+                        
+                    }.edgesIgnoringSafeArea(.top)
+                    
+                    Group {
+                        
+                        Text("Information")
+                            .font(.title3.weight(.semibold))
+                            .foregroundColor(.white)
+                        
+                        ScrollView {
+                            
+                            Text(description)
+                                .padding(.bottom)
+                                .multilineTextAlignment(.leading)
+                                .lineLimit(13)
+                                .foregroundColor(.white)
+                            
+                        }
+                        .frame(width: UIScreen.main.bounds.width - 50, height: 350, alignment: .topLeading)
+                        .padding(.bottom, 35)
                         
                     }
-                    .padding(.leading, 38)
-                    
-                    Divider()
-                        .overlay(.white)
-                        .padding([.top, .bottom])
-                    
-                }.edgesIgnoringSafeArea(.top)
-                
-                Group {
-                    
-                    Text("Information")
-                        .font(.title3.weight(.semibold))
-                    
-                    ScrollView {
-                        
-                        Text(description)
-                            .padding(.bottom)
-                            .multilineTextAlignment(.leading)
-                            .lineLimit(13)
-                        
-                    }
-                    .frame(width: UIScreen.main.bounds.width - 50, height: 350, alignment: .topLeading)
-                    .padding(.bottom, 35)
-                    
+                    .padding(.horizontal, 38)
                 }
-                .padding(.horizontal, 38)
             }
         }
     }

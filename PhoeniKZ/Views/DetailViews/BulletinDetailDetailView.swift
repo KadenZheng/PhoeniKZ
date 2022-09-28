@@ -35,6 +35,7 @@ struct BulletinDetailDetailView: View {
                 Text(formatDate())
                     .font(.body.weight(.light))
                     .padding()
+                    .foregroundColor(.white)
                 
                 Divider()
                 
@@ -42,6 +43,7 @@ struct BulletinDetailDetailView: View {
                     .lineSpacing(4)
                     .multilineTextAlignment(.leading)
                     .padding()
+                    .foregroundColor(.white)
                 
             }
             

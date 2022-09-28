@@ -59,7 +59,6 @@ struct FacultyCard: View {
                 .frame(width: 159, alignment: .leading)
                 .padding(.trailing, 1)
                 
-                
                     
                     Link(destination: URL(string: "mailto:\(email)")!) {
                         

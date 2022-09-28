@@ -14,80 +14,91 @@ struct BulletinDetailView: View {
     
     var body: some View {
         
-        ScrollView {
+        ZStack {
             
-            LazyVStack {
+            Rectangle()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .foregroundColor(.black)
+                .edgesIgnoringSafeArea(.all)
+            
+            ScrollView {
                 
-                ZStack {
+                LazyVStack {
                     
-                    Rectangle()
-                        .frame(height: 100)
-                        .cornerRadius(25, corners: [.topLeft, .topRight])
-                        .foregroundColor(.gray)
-                    
-                    VStack (spacing: 10) {
+                    ZStack {
                         
-                        Text("Bulletin")
-                            .font(.title2.weight(.medium))
-                        Text(formatDate())
-                            .font(.headline.weight(.thin))
+                        Rectangle()
+                            .frame(height: 100)
+                            .cornerRadius(25, corners: [.topLeft, .topRight])
+                            .foregroundColor(.gray)
+                        
+                        VStack (spacing: 10) {
+                            
+                            Text("Bulletin")
+                                .font(.title2.weight(.medium))
+                            Text(formatDate())
+                                .font(.headline.weight(.thin))
+                            
+                        }
                         
                     }
+                    .padding(.top, -30)
+                    .padding(.bottom, 10)
                     
-                }
-                .padding(.top, -30)
-                .padding(.bottom, 10)
-                
-                ForEach(model.bulletinData) { bulletin in
-                    
-                    if bulletin.category == selectedCategory {
+                    ForEach(model.bulletinData) { bulletin in
                         
-                        NavigationLink {
-                            BulletinDetailDetailView(title: bulletin.title, description: bulletin.description)
-                        } label: {
+                        if bulletin.category == selectedCategory {
                             
-                            VStack {
+                            NavigationLink {
+                                BulletinDetailDetailView(title: bulletin.title, description: bulletin.description)
+                            } label: {
                                 
-                                HStack {
+                                VStack {
                                     
-                                    VStack (alignment: .leading) {
+                                    HStack {
                                         
+                                        VStack (alignment: .leading) {
+                                            
+                                            
+                                            Text(bulletin.title)
+                                                .font(.headline.weight(.medium))
+                                                .foregroundColor(.white)
+                                                .multilineTextAlignment(.leading)
+                                            
+                                            Text(bulletin.description)
+                                                .font(.subheadline.weight(.light))
+                                                .multilineTextAlignment(.leading)
+                                                .foregroundColor(.white)
+                                                .lineLimit(2)
+                                            
+                                        }
                                         
-                                        Text(bulletin.title)
-                                            .font(.headline.weight(.medium))
+                                        Spacer()
+                                        
+                                        Image(systemName: "arrow.right")
+                                            .padding(.trailing)
                                             .foregroundColor(.white)
-                                            .multilineTextAlignment(.leading)
-                                        
-                                        Text(bulletin.description)
-                                            .font(.subheadline.weight(.light))
-                                            .multilineTextAlignment(.leading)
-                                            .foregroundColor(.white)
-                                            .lineLimit(2)
                                         
                                     }
+                                    .frame(width: UIScreen.main.bounds.width - 30, alignment: .leading)
                                     
-                                    Spacer()
                                     
-                                    Image(systemName: "arrow.right")
-                                        .padding(.trailing)
-                                        .foregroundColor(.gray)
+                                    Divider()
+                                        .frame(width: UIScreen.main.bounds.width, alignment: .center)
+                                        .overlay(.white)
                                     
                                 }
-                                .frame(width: UIScreen.main.bounds.width - 30, alignment: .leading)
-                                
-                                
-                                Divider()
-                                    .frame(width: UIScreen.main.bounds.width, alignment: .center)
-                                
                             }
                         }
+                        
                     }
                     
                 }
-                
+                .padding(.top, 130)
             }
+            
         }
-        .navigationBarHidden(false)
+        
         
     }
 }

@@ -19,98 +19,112 @@ struct ClubDetailView: View {
     
     var body: some View {
         
-        VStack {
-            // Image Bar
+        ZStack {
             
-            ZStack {
+            Rectangle()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .foregroundColor(.black)
+            
+            VStack {
+                // Image Bar
                 
-                Image(image)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 250)
-                    .clipped()
-                    .blur(radius: 1.5)
-                    .scaleEffect(1.01)
-                
-                VStack (alignment: .leading, spacing: 10) {
+                ZStack {
                     
-                    Text(clubName)
+                    Image(image)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(height: 250)
+                        .clipped()
+                        .blur(radius: 1.5)
+                        .scaleEffect(1.01)
+                    
+                    VStack (alignment: .leading, spacing: 10) {
+                        
+                        Text(clubName)
+                            .foregroundColor(.white)
+                            .font(.largeTitle.weight(.bold))
+                            .shadow(color: .black, radius: 2, x: 1, y: 1)
+                        
+                    }
+                    .frame(width: UIScreen.main.bounds.size.width - 50, height: 200, alignment: .bottomLeading)
+                }
+                .padding(.bottom, 25)
+                
+                // Contact
+                
+                VStack (alignment: .leading, spacing: 15) {
+                    HStack {
+                        
+                        Image(systemName: "person.crop.rectangle")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 30, height: 30)
+                            .padding(.trailing)
+                            .foregroundColor(.white)
+                        
+                        Text("Advisor: ")
+                            .font(.title3.weight(.medium))
+                            .foregroundColor(.white)
+                        
+                        Text(clubAdvisor)
+                            .font(.title3.weight(.regular))
+                            .foregroundColor(.white)
+                        
+                    }
+                    
+                    HStack {
+                        
+                        Image(systemName: "calendar")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 30, height: 30)
+                            .padding(.trailing)
+                            .foregroundColor(.white)
+                        
+                        Text("Meeting Date: ")
+                            .font(.title3.weight(.medium))
+                            .foregroundColor(.white)
+                        Text(meetingDate)
+                            .font(.title3.weight(.regular))
+                            .fixedSize(horizontal: false, vertical: true)
+                            .foregroundColor(.white)
+                        
+                    }
+                    
+                }
+                .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
+                
+                Divider()
+                    .overlay(.white)
+                    .padding([.top, .bottom])
+                
+                // Info
+                
+                Group {
+                    
+                    Text("Information")
+                        .font(.title3.weight(.semibold))
+                        .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
                         .foregroundColor(.white)
-                        .font(.largeTitle.weight(.bold))
-                        .shadow(color: .black, radius: 2, x: 1, y: 1)
+                    
+                    ScrollView {
+                        
+                        Text(description)
+                            .padding(.bottom)
+                            .multilineTextAlignment(.leading)
+                            .lineLimit(13)
+                            .foregroundColor(.white)
+                        
+                    }
+                    .frame(width: UIScreen.main.bounds.width - 50, height: 350, alignment: .topLeading)
+                    .padding(.bottom, 35)
                     
                 }
-                .frame(width: UIScreen.main.bounds.size.width - 50, height: 200, alignment: .bottomLeading)
-            }
-            .padding(.bottom, 25)
-            
-            // Contact
-            
-            VStack (alignment: .leading, spacing: 15) {
-                HStack {
-                    
-                    Image(systemName: "person.crop.rectangle")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 30, height: 30)
-                        .padding(.trailing)
-                    
-                    Text("Advisor: ")
-                        .font(.title3.weight(.medium))
-                    
-                    Text(clubAdvisor)
-                        .font(.title3.weight(.regular))
-                    
-                }
-                
-                HStack {
-                    
-                    Image(systemName: "calendar")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 30, height: 30)
-                        .padding(.trailing)
-                    
-                    Text("Meeting Date: ")
-                        .font(.title3.weight(.medium))
-                    Text(meetingDate)
-                        .font(.title3.weight(.regular))
-                        .fixedSize(horizontal: false, vertical: true)
-
-                }
+                .padding(.horizontal, 38)
                 
             }
-            .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
-            
-            Divider()
-                .overlay(.white)
-                .padding([.top, .bottom])
-            
-            // Info
-            
-            Group {
-                
-                Text("Information")
-                    .font(.title3.weight(.semibold))
-                    .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
-                
-                ScrollView {
-                    
-                    Text(description)
-                        .padding(.bottom)
-                        .multilineTextAlignment(.leading)
-                        .lineLimit(13)
-                    
-                }
-                .frame(width: UIScreen.main.bounds.width - 50, height: 350, alignment: .topLeading)
-                .padding(.bottom, 35)
-                
-            }
-            .padding(.horizontal, 38)
-            
+            .edgesIgnoringSafeArea(.top)
         }
-        .edgesIgnoringSafeArea(.top)
-        
     }
 }
 
