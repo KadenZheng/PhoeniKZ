@@ -32,7 +32,7 @@ struct ActivitiesView: View {
                                 .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
                                 .edgesIgnoringSafeArea(.top)
                                 .padding(.bottom, 40)
-                                .padding(.top, -40)
+                                .padding(.top, -50)
                             
                             //                        Rectangle()
                             //                            .foregroundColor(.clear)
