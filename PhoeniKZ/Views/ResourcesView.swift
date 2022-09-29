@@ -39,9 +39,16 @@ struct ResourcesView: View {
                                 SignInView(clubSelection: "ASC", name: "", code: "", signInName: "ASC", image: "night_school", gradeLevel: "")
                             } label: {
                                 CenteredWideCard(title: "ASC Sign In")
-                                    .padding(.bottom)
                             }.accentColor(.white)
-                                .padding(.top, UIScreen.main.bounds.width/10)
+                                .padding(.top, 30)
+                            
+                            // Google Form Counselor
+                            
+                            Link(destination: URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSepuv42sng5L5wy7kFy5btlAXbACojpbGMabraaUrR8aialdA/viewform?vc=0&c=0&w=1&flr=0")!) {
+                                CenteredWideCard(title: "Counselor Form")
+                                    .padding(.bottom)
+                            }
+                            .accentColor(.white)
                             
                             Divider()
                                 .overlay(.white)
