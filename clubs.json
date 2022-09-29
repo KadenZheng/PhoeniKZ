@@ -1,15 +1,16 @@
-[{
-		"name": "Speech/Debate",
-		"image": "D&D",
-		"advisor": "Dr. Jarocki",
-		"meetingDate": "Weekly Wednesdays",
-		"description": ""
-	},
+[
 	{
 		"name": "ASB",
 		"image": "ASB",
 		"advisor": "Mr. Benslay",
 		"meetingDate": "October 20th, 2022",
+		"description": ""
+	},
+	{
+		"name": "Active Minds",
+		"image": "placeholder",
+		"advisor": "Mrs. Bird",
+		"meetingDate": "October 3rd, 2022",
 		"description": ""
 	},
 	{
@@ -143,6 +144,13 @@
 		"image": "Sailing",
 		"advisor": "Mr. Benslay",
 		"meetingDate": "",
+		"description": ""
+	},
+	{
+		"name": "Speech/Debate",
+		"image": "D&D",
+		"advisor": "Dr. Jarocki",
+		"meetingDate": "Weekly Wednesdays",
 		"description": ""
 	},
 	{
