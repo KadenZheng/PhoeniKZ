@@ -1,33 +1,4 @@
-[{
-        "title": "Information Day",
-        "caption": "September 26th",
-        "image": "",
-        "location": "Satellite Student Union (CSUF)",
-        "time": "4 PM - 5 PM",
-        "contact": "Front Office",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/InfoDay.png",
-        "description": "For any incoming freshmen or transfer students curious about culture, academics, and life at UHS, come to this meeting to learn more about University High School."
-    },
-    {
-        "title": "Boys Basketball vs. Big Picture",
-        "caption": "September 28th",
-        "image": "",
-        "location": "CTEC High School",
-        "time": "5:30 PM - 6:15 PM",
-        "contact": "Mr. Murillo",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.png",
-        "description": "Come support our UHS boys basketball versus Big Picture on September 28th: CTEC High School beginning at 5:30 PM. Go UHS!"
-    },
-    {
-        "title": "Girls Basketball vs. Big Picture",
-        "caption": "September 28th",
-        "image": "",
-        "location": "CTEC High School",
-        "time": "6:15 PM - 7:15 PM",
-        "contact": "Mr. Murillo",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsBasketball.png",
-        "description": "Come support our UHS girls basketball versus Big Picture on September 28th: CTEC High School beginning at 6:15 PM. Go UHS!"
-    },
+[
     {
         "title": "Scout Island",
         "caption": "September 30th",
@@ -39,13 +10,33 @@
         "description": "The freshmen will be going to Scout Island on September 30th for a full-day field trip."
     },
     {
-        "title": "Boys Basketball vs. Duncan",
+        "title": "XC @ Golden Eagle",
+        "caption": "September 30th",
+        "image": "",
+        "location": "Woodward Park",
+        "time": "12:30 PM - 5:00 PM",
+        "contact": "Mr. Hagen",
+        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/XC.png",
+        "description": "UHS Cross Country will be competing at the Golden Eagle Invitational! This will be held at Woodward Park from 12:30 PM - 5:00 PM."
+    },
+    {
+        "title": "MOTA Tickets Sales",
+        "caption": "October 3rd",
+        "image": "",
+        "location": "UHS Room 107",
+        "time": "3:00 PM - 5:00 PM",
+        "contact": "Front Office",
+        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/MOTA.png",
+        "description": "MOTA tickets will go on sale beginning October 3rd in Room 107. They will be on sale from 3:00 PM - 5:00 PM."
+    },
+    {
+        "title": "Boys vs. Duncan",
         "caption": "October 5th",
         "image": "",
-        "location": "Duncan Polytechnical High School",
-        "time": "5:30 PM - 6:15 PM",
-        "contact": "Mr. Murillo",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.png",
-        "description": "Come support our UHS boys basketball versus Duncan Polytechnical on October 5th: Duncan Polytechnical High School beginning at 5:30 PM. Go UHS!"
-    }
+        "location": "Duncan Polytechnical",
+        "time": "8:00 AM - 3:00 PM",
+        "contact": "Dr. Gettman",
+        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/ScoutIsland.png",
+        "description": "The freshmen will be going to Scout Island on September 30th for a full-day field trip."
+    },
 ]

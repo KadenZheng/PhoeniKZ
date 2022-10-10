@@ -17,58 +17,66 @@ struct PhoenixPostView: View {
     
     var body: some View {
         
-        ScrollView {
+        ZStack {
             
-            VStack (alignment: .center) {
+            Rectangle()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .foregroundColor(.gray)
+            
+            ScrollView {
                 
-                // MARK: - Title
-                
-                ZStack (alignment: .center) {
-
-                    Image(image)
-                        .resizable()
-                        .frame(width: UIScreen.main.bounds.width, height: 325)
-                        .scaledToFill()
-                        .blur(radius: 1)
-                        .clipped()
+                VStack (alignment: .center) {
+                    
+                    // MARK: - Title
+                    
+                    ZStack (alignment: .center) {
                         
-                    VStack (spacing: 20) {
+                        Image(image)
+                            .resizable()
+                            .frame(width: UIScreen.main.bounds.width, height: 325)
+                            .scaledToFill()
+                            .blur(radius: 1)
+                            .clipped()
                         
-                        ZStack (alignment: .center) {
-                            Text(title)
-                                .font(.title3.weight(.semibold))
-                                .foregroundColor(.white)
-                                .shadow(color: .black, radius: 1, x: 1, y: 1)
-                                .multilineTextAlignment(.center)
-                                .frame(width: UIScreen.main.bounds.width - 65)
+                        VStack (spacing: 20) {
                             
-                            Rectangle()
-                                .foregroundColor(.clear)
-                                .border(.white, width: 8)
-                                .frame(width: UIScreen.main.bounds.width - 40, height: 100)
-                                .shadow(color: .black, radius: 1, x: 1, y: 1)
-                        }
+                            ZStack (alignment: .center) {
+                                Text(title)
+                                    .font(.title3.weight(.semibold))
+                                    .foregroundColor(.white)
+                                    .shadow(color: .black, radius: 1, x: 1, y: 1)
+                                    .multilineTextAlignment(.center)
+                                    .frame(width: UIScreen.main.bounds.width - 65)
+                                
+                                Rectangle()
+                                    .foregroundColor(.clear)
+                                    .border(.white, width: 8)
+                                    .frame(width: UIScreen.main.bounds.width - 40, height: 100)
+                                    .shadow(color: .black, radius: 1, x: 1, y: 1)
+                            }
+                            
+                            
+                            Text("\(author),  \(publishingDate)")
+                                .font(.headline.weight(.medium))
+                                .foregroundColor(.white)
+                                .shadow(color: .black, radius: 0.5, x: 0.5, y: 0.5)
+                        }.padding(.top, 100)
                         
-                        
-                        Text("\(author),  \(publishingDate)")
-                            .font(.headline.weight(.medium))
-                            .foregroundColor(.white)
-                            .shadow(color: .black, radius: 0.5, x: 0.5, y: 0.5)
-                    }.padding(.top, 100)
+                    }
+                    .edgesIgnoringSafeArea(.top)
+                    .padding(.bottom, 50)
+                    
+                    Text(content)
+                        .multilineTextAlignment(.leading)
+                        .frame(width: UIScreen.main.bounds.width - 50, alignment: .topLeading)
+                        .padding(.bottom, 100)
+                    
                     
                 }
-                .edgesIgnoringSafeArea(.top)
-                .padding(.bottom, 50)
-                
-                Text(content)
-                    .multilineTextAlignment(.leading)
-                    .frame(width: UIScreen.main.bounds.width - 50, alignment: .topLeading)
-                    .padding(.bottom, 55)
-                
-                
             }
+            .edgesIgnoringSafeArea(.top)
+            
         }
-        .edgesIgnoringSafeArea(.top)
     }
 }
 

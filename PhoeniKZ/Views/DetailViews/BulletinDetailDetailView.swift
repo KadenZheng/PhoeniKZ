@@ -14,42 +14,56 @@ struct BulletinDetailDetailView: View {
     
     var body: some View {
         
-        ScrollView {
+        ZStack {
             
-            VStack {
+            Rectangle()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .foregroundColor(.black)
+            
+            ScrollView {
                 
-                ZStack (alignment: .bottom) {
+                VStack {
                     
-                    Rectangle()
-                        .frame(height: 150)
+                    ZStack (alignment: .bottom) {
+                        
+                        Rectangle()
+                            .foregroundColor(.gray)
+                            .frame(height: 170)
+                            .frame(maxHeight: UIScreen.main.bounds.height, alignment: .top)
+                        
+                        Text(title)
+                            .font(.title.weight(.medium))
+                            .foregroundColor(.white)
+                            .padding(.bottom)
+                            .multilineTextAlignment(.center)
+                            .padding(.top)
+                        
+                    }
+                    .frame(maxHeight: UIScreen.main.bounds.height, alignment: .top)
                     
-                    Text(title)
-                        .font(.title.weight(.medium))
+                    
+                    Text(formatDate())
+                        .font(.body.weight(.light))
+                        .padding()
                         .foregroundColor(.white)
-                        .padding(.bottom)
-                        .multilineTextAlignment(.center)
+                    
+                    Divider()
+                        .overlay(.white)
+                        .frame(width: UIScreen.main.bounds.width - 40)
+                    
+                    Text(description)
+                        .lineSpacing(4)
+                        .multilineTextAlignment(.leading)
+                        .padding()
+                        .foregroundColor(.white)
                     
                 }
-                .frame(maxHeight: UIScreen.main.bounds.height, alignment: .top)
                 
-                Text(formatDate())
-                    .font(.body.weight(.light))
-                    .padding()
-                    .foregroundColor(.white)
-                
-                Divider()
-                
-                Text(description)
-                    .lineSpacing(4)
-                    .multilineTextAlignment(.leading)
-                    .padding()
-                    .foregroundColor(.white)
                 
             }
-            
+            .edgesIgnoringSafeArea(.top)
             
         }
-        .edgesIgnoringSafeArea(.top)
         
     }
     

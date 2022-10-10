@@ -21,8 +21,6 @@ struct HomeView: View {
                 Rectangle()
                     .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                     .foregroundColor(.black)
-
-//                
 //                
 //                Image("background1")
 //                    .resizable()
