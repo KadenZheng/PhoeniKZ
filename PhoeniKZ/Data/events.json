@@ -1,42 +1,42 @@
 [
     {
-        "title": "Scout Island",
-        "caption": "September 30th",
-        "image": "",
-        "location": "Scout Island",
-        "time": "8:00 AM - 3:00 PM",
-        "contact": "Dr. Gettman",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/ScoutIsland.png",
-        "description": "The freshmen will be going to Scout Island on September 30th for a full-day field trip."
-    },
-    {
-        "title": "XC @ Golden Eagle",
-        "caption": "September 30th",
+        "title": "X-Country Rough Rider Invitational",
+        "caption": "October 14th",
         "image": "",
         "location": "Woodward Park",
-        "time": "12:30 PM - 5:00 PM",
-        "contact": "Mr. Hagen",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/XC.png",
-        "description": "UHS Cross Country will be competing at the Golden Eagle Invitational! This will be held at Woodward Park from 12:30 PM - 5:00 PM."
+        "time": "12:30 PM - 6:30 PM",
+        "contact": "Dr. Gettman",
+        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/CrossCountry.jpeg",
+        "description": "Good luck to the UHS Cross Country team as they take on the Rough Rider Invitational at Woodward Park."
     },
     {
-        "title": "MOTA Tickets Sales",
-        "caption": "October 3rd",
-        "image": "",
-        "location": "UHS Room 107",
-        "time": "3:00 PM - 5:00 PM",
-        "contact": "Front Office",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/MOTA.png",
-        "description": "MOTA tickets will go on sale beginning October 3rd in Room 107. They will be on sale from 3:00 PM - 5:00 PM."
-    },
-    {
-        "title": "Boys vs. Duncan",
-        "caption": "October 5th",
+        "title": "Boys Bball vs. Patino",
+        "caption": "October 17th",
         "image": "",
         "location": "Duncan Polytechnical",
-        "time": "8:00 AM - 3:00 PM",
-        "contact": "Dr. Gettman",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/ScoutIsland.png",
-        "description": "The freshmen will be going to Scout Island on September 30th for a full-day field trip."
+        "time": "5:30 PM - 6:30 PM",
+        "contact": "Mr. Murillo",
+        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.png",
+        "description": "Come support our UHS boys basketball versus Patino on October 17th: Duncan Polytechnical High School beginning at 5:30 PM. Go UHS!"
     },
+    {
+        "title": "Information Day",
+        "caption": "October 18th",
+        "image": "",
+        "location": "Virtual",
+        "time": "4:00 PM - 5:00 PM",
+        "contact": "Front Office",
+        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
+        "description": "Zoom ID:883 4082 3290 | Password: 576371 \\n Come find out about University High School and our nationally recognized college-prepratory curriculum."
+    },
+    {
+        "title": "Girls Bball vs. Big Picture",
+        "caption": "October 19th",
+        "image": "",
+        "location": "CTEC High School",
+        "time": "5:30 PM - 6:30 PM",
+        "contact": "Mr. Murillo",
+        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsBasketball.png",
+        "description": "Come support our UHS girls basketball versus Big Picture on October 19th: CTEC High School beginning at 5:30 PM. Go UHS!"
+    }
 ]
