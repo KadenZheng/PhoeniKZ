@@ -175,6 +175,7 @@ struct ActivitiesView: View {
             }
             .navigationBarHidden(true)
         }
+        .navigationViewStyle(.stack)
     }
 }
 

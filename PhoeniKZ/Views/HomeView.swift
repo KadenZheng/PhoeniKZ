@@ -46,7 +46,7 @@ struct HomeView: View {
                                 NavigationLink {
                                     PhoenixPostView(content: post.content, image: post.image, title: post.title, author: post.author, publishingDate: post.publishingDate)
                                 } label: {
-                                    LeadingWideCard(Title: "Phoenix Post", icon: "newspaper")
+                                    CenteredWideCard(title: "Read Latest: Phoenix Post", icon2: "newspaper")
                                 }.scaledToFill()
                                     .accentColor(.white)
                             }
@@ -207,6 +207,7 @@ struct HomeView: View {
             .navigationBarHidden(true)
             }
         }
+        .navigationViewStyle(.stack)
         
     }
 }

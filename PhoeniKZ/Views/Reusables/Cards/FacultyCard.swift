@@ -18,69 +18,154 @@ struct FacultyCard: View {
     
     var body: some View {
         
-        ZStack (alignment: .leading) {
-            
-            // Background Rectangle Outline
-            
-            Rectangle()
-                .frame(width: UIScreen.main.bounds.width - 50, height: 90)
-                .foregroundColor(Color(red: 105/255, green: 105/255, blue: 105/255))
-                .cornerRadius(10)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color.black, lineWidth: 1)
-                )
-            
-            HStack {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            ZStack (alignment: .leading) {
                 
-                // Faculty Image
+                // Background Rectangle Outline
                 
-                Image(image)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: 100, height: 115)
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .clipped()
-                    .padding(.leading, -5)
+                Rectangle()
+                    .frame(width: UIScreen.main.bounds.width - 50, height: 90)
+                    .foregroundColor(Color(red: 105/255, green: 105/255, blue: 105/255))
+                    .cornerRadius(10)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(Color.black, lineWidth: 1)
+                    )
                 
-                // Faculty Info
-                
-                VStack (alignment: .leading, spacing: 10) {
-                    Text(name)
-                        .bold()
-                        .foregroundColor(.white)
-                        .font(.headline)
-                        .lineLimit(2)
+                HStack {
                     
-                    Text(position)
-                        .font(.subheadline)
-                        .foregroundColor(.white)
-                }
-                .frame(width: 159, alignment: .leading)
-                .padding(.trailing, 1)
-                
+                    // Faculty Image
                     
-                    Link(destination: URL(string: "mailto:\(email)")!) {
+                    Image(image)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 100, height: 115)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .clipped()
+                        .padding(.leading, -5)
+                    
+                    // Faculty Info
+                    
+                    VStack (alignment: .leading, spacing: 10) {
                         
-                        // Mail Icon
-                        
-                        ZStack {
-                        
-                        Circle()
-                            .foregroundColor(.black)
-                            .frame(width: 45, height: 45)
-                        
-                        Image(systemName: "envelope.fill")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 25, height: 25).foregroundColor(Color.white)
+                            Text(name)
+                                .bold()
+                                .foregroundColor(.white)
+                                .font(.headline)
+                                .lineLimit(2)
                             
+                            Text(position)
+                                .font(.subheadline)
+                                .foregroundColor(.white)
+                        
+                    }
+                    
+                    Spacer()
+                    
+                    
+                        Link(destination: URL(string: "mailto:\(email)")!) {
+                            
+                            // Mail Icon
+                            
+                            ZStack {
+                            
+                            Circle()
+                                .foregroundColor(.black)
+                                .frame(width: 45, height: 45)
+                            
+                            Image(systemName: "envelope.fill")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 25, height: 25).foregroundColor(Color.white)
+                                
+                            }
+                        
+                    }
+                        .padding(.trailing, 80)
+                }
+                
+            }
+            .padding(.leading)
+        } else if UIDevice.current.userInterfaceIdiom == .phone {
+            ZStack (alignment: .leading) {
+                
+                // Background Rectangle Outline
+                
+                Rectangle()
+                    .frame(width: UIScreen.main.bounds.width - 50, height: 90)
+                    .foregroundColor(Color(red: 105/255, green: 105/255, blue: 105/255))
+                    .cornerRadius(10)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(Color.black, lineWidth: 1)
+                    )
+                
+                HStack {
+                    
+                    // Faculty Image
+                    
+                    Image(image)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 100, height: 115)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .clipped()
+                        .padding(.leading, -5)
+                    
+                    // Faculty Info
+                    
+                    VStack (alignment: .leading, spacing: 10) {
+                        
+                        if name.count > 15 {
+                            Text(name)
+                                .bold()
+                                .foregroundColor(.white)
+                                .font(.headline)
+                                .lineLimit(2)
+                                .padding(.bottom, -5)
+                            
+                            Text(position)
+                                .font(.subheadline)
+                                .foregroundColor(.white)
+                        } else {
+                            Text(name)
+                                .bold()
+                                .foregroundColor(.white)
+                                .font(.headline)
+                                .lineLimit(2)
+                            
+                            Text(position)
+                                .font(.subheadline)
+                                .foregroundColor(.white)
                         }
+                        
+                    }
+                    .frame(width: 159, alignment: .leading)
+                    .padding(.trailing, 1)
+                    
+                    
+                        Link(destination: URL(string: "mailto:\(email)")!) {
+                            
+                            // Mail Icon
+                            
+                            ZStack {
+                            
+                            Circle()
+                                .foregroundColor(.black)
+                                .frame(width: 45, height: 45)
+                            
+                            Image(systemName: "envelope.fill")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 25, height: 25).foregroundColor(Color.white)
+                                
+                            }
+                        
+                    }
                     
                 }
                 
             }
-            
         }
         
     }

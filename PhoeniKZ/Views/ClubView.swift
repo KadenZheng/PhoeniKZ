@@ -36,6 +36,7 @@ struct ClubView: View {
                         
                     }
                 }
+                .padding(.bottom, 120)
                 .padding(.top, 130)
             }
             

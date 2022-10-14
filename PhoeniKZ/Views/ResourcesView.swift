@@ -176,6 +176,7 @@ struct ResourcesView: View {
             .navigationBarHidden(true)
             
         }
+        .navigationViewStyle(.stack)
         
     }
 }

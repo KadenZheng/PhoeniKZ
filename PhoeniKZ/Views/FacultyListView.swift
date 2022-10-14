@@ -361,7 +361,7 @@ struct FacultyListView: View {
                     
                 }
                 .padding(.top, 130)
-                
+                .padding(.bottom, 120)
                 
             }
             
