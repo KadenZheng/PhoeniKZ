@@ -1,35 +1,42 @@
 [{
-		"title": "Free Drama Performance at Fresno State",
-		"category": "New",
-		"description": "All UHS students and parents are invited to a FREE Drama preview of the Fresno State play called 4000 Miles this Thursday evening, Sept. 29 at 7:30pm at the Dennis and Cheryl Woods Theatre at Fresno State. The central character of 4,000 MILES is a troubled, but free-spirited 21 year-old man who has biked across America and suddenly arrives at his 91 year-old grandmothers apartment in New York. These two unlikely roommates struggle for much needed connection, an important theme after these years of Covid isolation. Serious theme with lots of laughs! 14 years and older is recommended"
-	},
-	{
-		"title": "Massachusetts Institute of Technology College Visit",
-		"category": "New",
-		"meetingDate": "9/30/2022",
-		"description": "Date: Friday, September 30, 2022 //n Time: 12:30 PM //n Rm. 209"
-	},
-	{
-		"title": "University of the Pacific College Visit",
-		"category": "New",
-		"meetingDate": "10/3/2022",
-		"description": "Date: Monday October 3, 2022 //n Time: 12:00 PM //n Rm. 209"
-	},
-	{
-		"title": "University of San Fransisco College Visit",
-		"category": "New",
-		"meetingDate": "10/17/2022",
-		"description": "Date: Monday, October 17 & 26, 2022 //n Time: 12:00 PM //n Rm. 209"
-	},
-	{
-		"title": "Scout Island Trip",
-		"category": "Parents",
-		"description": "The freshmen will be going to Scout Island on September 30th for a full-day field trip. 8:00 AM - 3:00 PM. Contact Dr. Gettman for more info."
-	},
-	{
-		"title": "Active Minds 1st Meeting",
+		"title": "X-Country @ Rough Rider Invitational",
 		"category": "Club/Sports",
-		"meetingDate": "10/3/2022",
-		"description": "Attention all students interested in Mental Health: Active Minds will be having its first meeting for those that signed up during Club Rush or are still looking to join the club on Monday, October 3rd at lunch in room 108. We will be introducing club leaders and discussing future events. Come join us!"
+		"description": "Friday, October 14, from 12:30 pm - 6:00 pm the UHS XCountry will be taking on the Rough Rider Invitational at Woodward Park. Good luck!"
+	},
+	{
+		"title": "Girls Basketball vs. Duncan",
+		"category": "Club/Sports",
+		"description": "Monday, October 24, from 6:00 pm – 7:00 pm @ Duncan Polytechnical High School"
+	},
+	{
+		"title": "Boys Basketball vs. Patino",
+		"category": "Club/Sports",
+		"description": "Monday, October 17, from 5:30 pm – 6:30 pm @ Duncan Polytechnical High School"
+	},
+	{
+		"title": "X-Country Woodward Park Classic",
+		"category": "Club/Sports",
+		"description": "Thursday, October 27, from 10:30 am - 3:00 pm @ Woodward Park the UHS XCountry will be taking on Woodward Park Classic. Good luck!"
+	},
+	{
+		"title": "Magic of the Arts",
+		"category": "New",
+		"meetingDate":"10/26/2022",
+		"description": "University of San Fransisco is visitng UHS on Wednesday October 26th at 12:00. Room 209."
+	},
+	{
+		"title": "University of San Francisco",
+		"category": "New",
+		"description": "Magic of the Arts is on Friday, October 21, from 7:00 pm - 9:00 pm Saroyan Theatre. This is an ALL-DAY event."
+	},
+	{
+		"title": "Magic of the Arts Tickets",
+		"category": "Parents",
+		"description": "All tickets are $12 and are assigned seats. Flowers, Magnets, and Stickers are also available for purchase until October 14th. Tickets and Merchandise are on sale on our school website under Event Tickets. Other information can be found on our school calendar, Remind, or PeachJar."
+	},
+	{
+		"title": "Teacher Appreciation Donations",
+		"category": "Parents",
+		"description": "Hello UHS Parents. Fall is officially upon us, and this is a long academic stretch for our students and teachers. Annually, the UHS administrative team hosts a Fall Teacher Appreciation Luncheon. We would love to include a few appreciation items from our parents. If you would like to participate, we are asking for a donation of gift cards or gift certificates. We appreciate your willingness to make a donation and will gladly follow up with a donation letter, which includes our Tax ID Number and donation value. If you have any questions or would like more information, please contact Yvette Sanchez or Ellie Palomo, or you may deliver donations to the UHS Office by Monday, October 24, 2022. THANK YOU FOR YOUR SUPPORT! Yvette Sanchez, 559-278-1589, yvettesanchez@mail.fresnostate.edu Ellie Palomo, 559-278-1114, epalomo@mail.fresnostate.edu"
 	}
 ]
