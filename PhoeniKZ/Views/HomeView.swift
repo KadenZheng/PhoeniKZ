@@ -11,6 +11,7 @@ struct HomeView: View {
     
     @EnvironmentObject var model: Manager
     @Binding var selectedTab: Int
+    let width = UIScreen.main.bounds.width
     
     var body: some View {
         

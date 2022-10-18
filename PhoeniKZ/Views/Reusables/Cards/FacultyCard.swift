@@ -61,8 +61,8 @@ struct FacultyCard: View {
                     }
                     
                     Spacer()
-                    
-                    
+                
+
                         Link(destination: URL(string: "mailto:\(email)")!) {
                             
                             // Mail Icon
@@ -92,7 +92,7 @@ struct FacultyCard: View {
                 // Background Rectangle Outline
                 
                 Rectangle()
-                    .frame(width: UIScreen.main.bounds.width - 50, height: 90)
+                    .frame(width: UIScreen.main.bounds.width - 40, height: 90)
                     .foregroundColor(Color(red: 105/255, green: 105/255, blue: 105/255))
                     .cornerRadius(10)
                     .overlay(
@@ -143,6 +143,7 @@ struct FacultyCard: View {
                     .frame(width: 159, alignment: .leading)
                     .padding(.trailing, 1)
                     
+                    Spacer()
                     
                         Link(destination: URL(string: "mailto:\(email)")!) {
                             
@@ -159,13 +160,14 @@ struct FacultyCard: View {
                                 .scaledToFit()
                                 .frame(width: 25, height: 25).foregroundColor(Color.white)
                                 
-                            }
+                            }.padding(.trailing, UIScreen.main.bounds.width/8.6)
                         
                     }
+                        
                     
                 }
                 
-            }
+            }.padding(.leading)
         }
         
     }

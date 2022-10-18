@@ -105,7 +105,6 @@ struct FacultyListView: View {
                         
                         Group {
                             
-                            
                             VStack (alignment: .leading) {
                                 Text("English")
                                     .font(.title.weight(.semibold))
@@ -336,6 +335,7 @@ struct FacultyListView: View {
                                 .font(.title.weight(.semibold))
                                 .padding(.horizontal)
                                 .padding(.top, 40)
+                                .foregroundColor(.white)
                             
                             Divider()
                                 .frame(width: UIScreen.main.bounds.width - 40)

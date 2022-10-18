@@ -41,6 +41,7 @@ struct ClubView: View {
             }
             
         }.navigationTitle("Clubs")
+            .accentColor(.white)
             
     }
 }
