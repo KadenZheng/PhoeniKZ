@@ -44,7 +44,7 @@
 		88993C6C28A8C07300D1BF47 /* phoenixpost.json in Resources */ = {isa = PBXBuildFile; fileRef = 88993C6B28A8C07300D1BF47 /* phoenixpost.json */; };
 		88A2986F28A4404800E2A2B5 /* HomeViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2986E28A4404800E2A2B5 /* HomeViewCard.swift */; };
 		88A7E22D28A4C33C0052F5C5 /* FacultyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A7E22C28A4C33C0052F5C5 /* FacultyCard.swift */; };
-		88AFAAF029006B7000C97B7E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88AFAAEF29006B7000C97B7E /* GoogleService-Info.plist */; };
+		88AFAAF229006F2500C97B7E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88AFAAF129006F2500C97B7E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,7 +88,7 @@
 		88993C6B28A8C07300D1BF47 /* phoenixpost.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phoenixpost.json; sourceTree = "<group>"; };
 		88A2986E28A4404800E2A2B5 /* HomeViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCard.swift; sourceTree = "<group>"; };
 		88A7E22C28A4C33C0052F5C5 /* FacultyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyCard.swift; sourceTree = "<group>"; };
-		88AFAAEF29006B7000C97B7E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88AFAAF129006F2500C97B7E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 		884B5F1228A43DFC0022745E /* PhoeniKZ */ = {
 			isa = PBXGroup;
 			children = (
-				88AFAAEF29006B7000C97B7E /* GoogleService-Info.plist */,
+				88AFAAF129006F2500C97B7E /* GoogleService-Info.plist */,
 				884B5F1328A43DFC0022745E /* PhoeniKZApp.swift */,
 				8841336128A74A0B00F888DD /* HomeTabView.swift */,
 				884B5F2128A43E900022745E /* Views */,
@@ -332,7 +332,7 @@
 			files = (
 				88993C6628A89A5400D1BF47 /* events.json in Resources */,
 				8895193728A9CF1800264026 /* categories.json in Resources */,
-				88AFAAF029006B7000C97B7E /* GoogleService-Info.plist in Resources */,
+				88AFAAF229006F2500C97B7E /* GoogleService-Info.plist in Resources */,
 				884B5F1B28A43E000022745E /* Preview Assets.xcassets in Resources */,
 				88439A5F28AFED9500C0C3FE /* clubs.json in Resources */,
 				8886719B28BE81E600A16706 /* bulletin.json in Resources */,
