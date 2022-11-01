@@ -1,42 +1,33 @@
 [{
-		"title": "X-Country @ Rough Rider Invitational",
-		"category": "Club/Sports",
-		"description": "Friday, October 14, from 12:30 pm - 6:00 pm the UHS XCountry will be taking on the Rough Rider Invitational at Woodward Park. Good luck!"
-	},
-	{
-		"title": "Girls Basketball vs. Duncan",
-		"category": "Club/Sports",
-		"description": "Monday, October 24, from 6:00 pm – 7:00 pm @ Duncan Polytechnical High School"
-	},
-	{
-		"title": "Boys Basketball vs. Patino",
-		"category": "Club/Sports",
-		"description": "Monday, October 17, from 5:30 pm – 6:30 pm @ Duncan Polytechnical High School"
-	},
-	{
-		"title": "X-Country Woodward Park Classic",
-		"category": "Club/Sports",
-		"description": "Thursday, October 27, from 10:30 am - 3:00 pm @ Woodward Park the UHS XCountry will be taking on Woodward Park Classic. Good luck!"
-	},
-	{
-		"title": "Magic of the Arts",
+		"title": "Info Day November",
 		"category": "New",
-		"meetingDate":"10/26/2022",
-		"description": "Magic of the Arts is on Friday, October 21, from 7:00 pm - 9:00 pm Saroyan Theatre. This is an ALL-DAY event."
+		"description": "Information Day //nTime: 4pm - 5pm Location: Satellite Student Union P//narking Code: 902479"
 	},
 	{
-		"title": "University of San Francisco",
+		"title": "Field Trip to Pantages Theater: Lion King",
 		"category": "New",
-		"description": "University of San Fransisco is visiting UHS on Wednesday October 26th at 12:00. Room 209."
+		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be under $115 - we will have a set price once we know the cost of the bus. If you have questions, see Mr. Benslay"
 	},
 	{
-		"title": "Magic of the Arts Tickets",
-		"category": "Parents",
-		"description": "All tickets are $12 and are assigned seats. Flowers, Magnets, and Stickers are also available for purchase until October 14th. Tickets and Merchandise are on sale on our school website under Event Tickets. Other information can be found on our school calendar, Remind, or PeachJar."
+		"title": "Yearbook Senior Quotes",
+		"category": "New",
+		"description": "Seniors, this Wednesday is the last day to get your quote in the yearbook. Fill out the Remind form by then to get your words of wisdom in the yearbook. Don't have a blank space next to your name."
 	},
 	{
-		"title": "Teacher Appreciation Donations",
+		"title": "Creative Writing Club",
+		"category": "Club/Sports",
+		"meetingDate": "11/1/2022",
+		"description": "It's November 1st, and National Novel Writing Month has begun. Our first writing session begins at 3pm today in Jarocki's room, 202. Come for tasty treats and a supporting environment as we all start on our month-long writing journey. Everyone is welcome."
+	},
+	{
+		"title": "Speech and Debate",
+		"category": "Club/Sports",
+		"meetingDate": "11/1/2022",
+		"description": "We have a short meeting on Tuesday, November 1st at lunch in the choir room following the peer mentor meeting. We'll be discussing the upcoming speech and debate tournaments. Also, all debaters need to sign up via Google form for Saturday's tournament at Bullard. Fill out the form by 3pm today."
+	},
+	{
+		"title": "Freshmen Vision and Hearing Screening",
 		"category": "Parents",
-		"description": "Hello UHS Parents. Fall is officially upon us, and this is a long academic stretch for our students and teachers. Annually, the UHS administrative team hosts a Fall Teacher Appreciation Luncheon. We would love to include a few appreciation items from our parents. If you would like to participate, we are asking for a donation of gift cards or gift certificates. We appreciate your willingness to make a donation and will gladly follow up with a donation letter, which includes our Tax ID Number and donation value. If you have any questions or would like more information, please contact Yvette Sanchez or Ellie Palomo, or you may deliver donations to the UHS Office by Monday, October 24, 2022. THANK YOU FOR YOUR SUPPORT! Yvette Sanchez, 559-278-1589, yvettesanchez@mail.fresnostate.edu Ellie Palomo, 559-278-1114, epalomo@mail.fresnostate.edu"
+		"description": "The freshmen will be having their vision and hearing screenings on November 4th, 2022 from 8:00 AM - 10:00 AM. //nNothing needs to be done to prepare for this. Contact the Front Office if you have any questions."
 	}
 ]
