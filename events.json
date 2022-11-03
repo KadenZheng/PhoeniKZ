@@ -1,22 +1,41 @@
-[
-    {
-        "title": "Vision/Hearing Test",
-        "caption": "November 4th",
-        "image": "",
-        "location": "Band/Choir Room",
-        "time": "8:00 AM - 10:00 AM",
-        "contact": "Front Office",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
-        "description": "The freshmen will be having their vision and hearing screenings on November 4th, 2022 from 8:00 AM - 10:00 AM. Nothing needs to be done to prepare for this. Contact the Front Office if you have any questions."
-    },
-    {
-        "title": "Symphony Orchestra",
-        "caption": "November 8th",
-        "image": "",
-        "location": "Paul Shaghoian Memorial Concert Hall",
-        "time": "7:00 PM - 8:30 PM",
-        "contact": "Dr. Cornelison",
-        "imageURL": "https://kadenzheng.github.io/PhoeniKZ/Orchestra.jpeg",
-        "description": "The Symphony Orchestra will be having its concert next Tuesday, November 8th at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Please come support our Symphony Orchestra at its first concert of the year! Any questions? Ask Dr. C!"
-    }
+[{
+		"title": "Vision/Hearing Test",
+		"caption": "November 4th",
+		"image": "",
+		"location": "Band/Choir Room",
+		"time": "8:00 AM - 10:00 AM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
+		"description": "The freshmen will be having their vision and hearing screenings on November 4th, 2022 from 8:00 AM - 10:00 AM. Nothing needs to be done to prepare for this. Contact the Front Office if you have any questions."
+	},
+	{
+		"title": "Symphony Orchestra",
+		"caption": "November 8th",
+		"image": "",
+		"location": "Paul Shaghoian Memorial Concert Hall",
+		"time": "7:00 PM - 8:30 PM",
+		"contact": "Dr. Cornelison",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Orchestra.jpeg",
+		"description": "The Symphony Orchestra will be having its concert next Tuesday, November 8th at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Please come support our Symphony Orchestra at its first concert of the year! Any questions? Ask Dr. C!"
+	},
+	{
+		"title": "Boys Playoffs",
+		"caption": "November 4th",
+		"image": "",
+		"location": "Duncan Polytechnical High School",
+		"time": "4:30 PM - 7:00 PM",
+		"contact": "Mr. Murillo",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.jpg",
+		"description": "The UHS Boys Basketball team will be having their playoff game on November 4th, 2022 at Duncan Polytechnical High School. The schedule is as follows:\n#1 and #2 have byes\n#3 vs. #6 @ 4:30pm\n#4 vs. #5 @ 5:30pm.\nGood luck!"
+	},
+	{
+		"title": "All Strings Concert",
+		"caption": "November 15th",
+		"image": "",
+		"location": "Paul Shaghoian Memorial Concert Hall",
+		"time": "7:00 PM - 8:30 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/OrchestraStrings.jpeg",
+		"description": "All of the University High School string ensembles will be having their first combined concert on November 15th, 2022 at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Tickets will be on sale in the Front Office until the day of the concert for $5 per person. Please come support our wonderful string ensembles! Contact the Front Office if you have any questions."
+	}
 ]
