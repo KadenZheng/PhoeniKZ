@@ -1,23 +1,35 @@
 
 [
     {
-        "title":"Info Day September",
+        "title":"Info Day November",
         "category":"New",
-        "description":"Information day Time: 4pm - 5pm Location: Satellite Student Union Parking code: 902450"
+        "description":"Information Day //nTime: 4pm - 5pm Location: Satellite Student Union P//narking Code: 902479"
     },
     {
-        "title":"Massachusetts Institute of Technology College Visit",
+        "title":"Field Trip to Pantages Theater: Lion King",
         "category":"New",
-        "description":"Date: Friday, September 30, 2022 /n Time: 12:30 PM /n Rm. 209"
+        "description":"The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be under $115 - we will have a set price once we know the cost of the bus. If you have questions, see Mr. Benslay"
     },
     {
-        "title":"University of the Pacific College Visit",
+        "title":"Yearbook Senior Quotes",
         "category":"New",
-        "description":"Date: Monday October 3, 2022 /n Time: 12:00 PM /n Rm. 209"
+        "description":"Seniors, this Wednesday is the last day to get your quote in the yearbook. Fill out the Remind form by then to get your words of wisdom in the yearbook. Don't have a blank space next to your name."
     },
     {
-        "title":"University of San Fransisco College Visit",
-        "category":"New",
-        "description":"Date: Monday, October 17 & 26, 2022 /n Time: 12:00 PM /n Rm. 209"
+        "title":"Creative Writing Club",
+        "category":"Club/Sports",
+        "meetingDate":"11/1/2022",
+        "description":"It's November 1st, and National Novel Writing Month has begun. Our first writing session begins at 3pm today in Jarocki's room, 202. Come for tasty treats and a supporting environment as we all start on our month-long writing journey. Everyone is welcome."
+    },
+    {
+        "title":"Speech and Debate",
+        "category":"Club/Sports",
+        "meetingDate":"11/1/2022",
+        "description":"We have a short meeting on Tuesday, November 1st at lunch in the choir room following the peer mentor meeting. We'll be discussing the upcoming speech and debate tournaments. Also, all debaters need to sign up via Google form for Saturday's tournament at Bullard. Fill out the form by 3pm today."
+    },
+    {
+        "title":"Freshmen Vision and Hearing Screening",
+        "category":"Parents",
+        "description":"The freshmen will be having their vision and hearing screenings on November 4th, 2022 from 8:00 AM - 10:00 AM. //nNothing needs to be done to prepare for this. Contact the Front Office if you have any questions."
     }
 ]
