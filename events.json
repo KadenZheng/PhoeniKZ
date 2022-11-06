@@ -1,23 +1,4 @@
-[{
-		"title": "Vision/Hearing Test",
-		"caption": "November 4th",
-		"image": "",
-		"location": "Band/Choir Room",
-		"time": "8:00 AM - 10:00 AM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
-		"description": "The freshmen will be having their vision and hearing screenings on November 4th, 2022 from 8:00 AM - 10:00 AM. Nothing needs to be done to prepare for this. Contact the Front Office if you have any questions."
-	},
- {
-		"title": "Debate Tourney #2",
-		"caption": "November 5th",
-		"image": "",
-		"location": "Bullard High School",
-		"time": "All Day",
-		"contact": "Dr. Jarocki",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
-		"description": "Good luck to the UHS Debate team as they take on Wazhoo #2 at Bullard High this Saturday, November 5th."
-	},
+[
 	{
 		"title": "Symphony Orchestra",
 		"caption": "November 8th",
