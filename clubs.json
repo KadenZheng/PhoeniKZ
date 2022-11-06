@@ -150,28 +150,28 @@
 		"name": "Speech/Debate",
 		"image": "D&D",
 		"advisor": "Dr. Jarocki",
-		"meetingDate": "Weekly Wednesdays",
+		"meetingDate": "Weekly Tuesdays",
 		"description": ""
 	},
 	{
 		"name": "Ski/Snowboarding",
 		"image": "Ski",
 		"advisor": "Mr. Roberts",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mr. Roberts for questions."
 	},
 	{
 		"name": "Travel Club",
 		"image": "Travel",
 		"advisor": "Mr. Benslay",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mr. Benslay for questions."
 	},
 	{
 		"name": "Yearbook",
 		"image": "placeholder",
 		"advisor": "Dr. Jarocki",
 		"meetingDate": "Weekly Mondays",
-		"description": ""
+		"description": "See Dr. Jarocki for questions."
 	}
 ]
