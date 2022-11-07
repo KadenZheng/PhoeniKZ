@@ -4,6 +4,21 @@
 		"description": "Information Day: November 16, 2022 | CSUF Satellite Student Union | Time: 4pm - 5pm | Parking Code: 902479"
 	},
 	{
+		"title": "Symphony Orchestra Concert",
+		"category": "New",
+		"description": "The Symphony Orchestra will be having its concert next Tuesday, November 8th at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Please come support our Symphony Orchestra at its first concert of the year! Any questions? Ask Dr. C!"
+	},
+	{
+		"title": "Speech Tournament (IE #2)",
+		"category": "New",
+		"description": "The UHS Speech Team will be competing at IE #2 this Saturday, November 12th. It will be held at Sanger High School and is typically an all day event. Contact Dr. Jarocki if you have any questions."
+	},
+	{
+		"title": "All Strings Concert",
+		"category": "New",
+		"description": "All of the University High School string ensembles (except Symphony Orchestra) will be having their first combined concert on November 15th, 2022 at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Tickets will be on sale in the Front Office until the day of the concert for $5 per person. Please come support our wonderful string ensembles! Contact the Front Office if you have any questions"
+	},
+	{
 		"title": "Field Trip to Pantages Theater: Lion King",
 		"category": "New",
 		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be under $115 - we will have a set price once we know the cost of the bus. If you have questions, see Mr. Benslay"
@@ -13,5 +28,22 @@
 		"category": "Club/Sports",
 		"meetingDate": "11/7/2022",
 		"description": "There is a yearbook meeting on Monday, November 7th in Dr. Jarocki's room at the beginning of lunch."
+	},
+	{
+		"title": "Speech",
+		"category": "Club/Sports",
+		"meetingDate": "11/9/2022",
+		"description": "Dr. Jarocki will be working with speech competitors for this Saturday's tournament from 3-5 on Wednesday and Thursday."
+	},
+	{
+		"title": "Pre-Med",
+		"category": "Club/Sports",
+		"meetingDate": "11/10/2022",
+		"description": "There will be a Pre-Med meeting on Thursday in Mr. Murillo's room. Keep an eye out for Reminds."
+	},
+	{
+		"title": "Boys Playoffs",
+		"category": "Club/Sports",
+		"description": "The UHS Boys Basketball team will be having their playoff game on November 4th, 2022 at Duncan Polytechnical High School. The schedule is as follows:\n#1 and #2 have byes\n#3 vs. #6 @ 4:30pm\n#4 vs. #5 @ 5:30pm.\nGood luck!"
 	}
 ]
