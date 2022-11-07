@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"title": "Symphony Orchestra",
 		"caption": "November 8th",
 		"image": "",
@@ -18,6 +17,16 @@
 		"contact": "Mr. Murillo",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.jpg",
 		"description": "The UHS Boys Basketball team will be having their playoff game on November 4th, 2022 at Duncan Polytechnical High School. The schedule is as follows:\n#1 and #2 have byes\n#3 vs. #6 @ 4:30pm\n#4 vs. #5 @ 5:30pm.\nGood luck!"
+	},
+	{
+		"title": "Speech Tourney",
+		"caption": "November 12th",
+		"image": "",
+		"location": "Sanger High School",
+		"time": "7:00 AM - 5:00 PM",
+		"contact": "Dr. Jarocki",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
+		"description": "The UHS Speech Team will be competing at IE #2 this Saturday, November 12th. It will be held at Sanger High School and is typically an all day event. Contact Dr. Jarocki if you have any questions."
 	},
 	{
 		"title": "All Strings Concert",
