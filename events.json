@@ -1,14 +1,4 @@
 [{
-		"title": "Symphony Orchestra",
-		"caption": "November 8th",
-		"image": "",
-		"location": "Paul Shaghoian Hall",
-		"time": "7:00 PM - 8:30 PM",
-		"contact": "Dr. Cornelison",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Orchestra.jpeg",
-		"description": "The Symphony Orchestra will be having its concert next Tuesday, November 8th at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Please come support our Symphony Orchestra at its first concert of the year! Any questions? Ask Dr. C!"
-	},
-	{
 		"title": "Boys Playoffs",
 		"caption": "November 9th",
 		"image": "",
@@ -37,5 +27,15 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/OrchestraStrings.jpeg",
 		"description": "All of the University High School string ensembles (except Symphony Orchestra) will be having their first combined concert on November 15th, 2022 at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Tickets will be on sale in the Front Office until the day of the concert for $5 per person. Please come support our wonderful string ensembles! Contact the Front Office if you have any questions."
+	},
+	{
+		"title": "Information Day",
+		"caption": "November 16th",
+		"image": "",
+		"location": "Satellite Student Union",
+		"time": "4:00 PM - 5:30 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
+		"description": "For anyone interested in University High School, come to our Information Day on November 16th, 2022 from 4:00 PM - 5:30 PM at the Satellite Student Union. Everyone is welcome. If you have any questions, contact the UHS front office."
 	}
 ]
