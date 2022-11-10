@@ -1,14 +1,4 @@
 [{
-		"title": "Boys Playoffs",
-		"caption": "November 9th",
-		"image": "",
-		"location": "Duncan Polytech. HS",
-		"time": "4:30 PM - 7:00 PM",
-		"contact": "Mr. Murillo",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.jpg",
-		"description": "The UHS Boys Basketball team will be having their playoff game on November 4th, 2022 at Duncan Polytechnical High School. The schedule is as follows:\n#1 and #2 have byes\n#3 vs. #6 @ 4:30pm\n#4 vs. #5 @ 5:30pm.\nGood luck!"
-	},
-	{
 		"title": "Speech Tourney",
 		"caption": "November 12th",
 		"image": "",
@@ -36,6 +26,16 @@
 		"time": "4:00 PM - 5:30 PM",
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
-		"description": "For anyone interested in University High School, come to our Information Day on November 16th, 2022 from 4:00 PM - 5:30 PM at the Satellite Student Union. Everyone is welcome. If you have any questions, contact the UHS front office."
+		"description": "For anyone interested in University High School, come to our Information Day on November 16th, 2022 from 4:00 PM - 5:30 PM at the Satellite Student Union. Everyone is welcome. If you have any questions, contact the UHS front office. The parking code is 902479."
+	},
+	{
+		"title": "Bball Semi's/Champ Games",
+		"caption": "November 16th",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "4:00 PM - 5:30 PM",
+		"contact": "Mr. Murillo",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.jpg",
+		"description": "Good luck to our Boys Basketball team as they play for the championship on November 16th at Duncan Polytechnical High School from 4 - 5:30 PM. The schedule is: #1 plays winner of #4 vs. #5 @ 4:30pm, #2 plays winner of #3 vs. #6 @ 5:30pm, Championship game @ 6pm."
 	}
 ]
