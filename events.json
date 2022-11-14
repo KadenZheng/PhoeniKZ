@@ -37,5 +37,15 @@
 		"contact": "Mr. Canfield",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ACADEC.JPG",
 		"description": "Good luck to our UHS ACADEC team this Saturday at the County Scrimmage held at Buchanan High School. For more details, please contact Mr. Canfield."
+	},
+ 	{
+		"title": "Fresno Community Choir",
+		"caption": "November 20th",
+		"image": "",
+		"location": "Shaghoian Concert Hall",
+		"time": "2:30 PM",
+		"contact": "fresnocommunitychorus@gmail.com",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/mission1.png",
+		"description": "The Fresno Community Chorus will be performing the Brahms' German Requiem next Sunday accompanied by full orchestra. This is an excellent opportunity for students in Musicianship IV, III, or freshmen and sophomores to glimpse the masterful work of Brahms (also, performed by one of UHS's very own previous founders: Dr. Brad Huff). Tickets are available at https://fresnocommunitychorus.org/tickets/ and there should be a discounted price for students. Once again, it is on Sunday, November 20th, at Paul Shaghoian Concert Hall (adjacent to Clovis North) at 2:30 PM. It will be a wonderful concert, so please go enjoy the concert!"
 	}
 ]
