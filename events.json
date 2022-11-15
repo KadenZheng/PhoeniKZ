@@ -29,6 +29,16 @@
 		"description": "Good luck to our Boys Basketball team as they play for the championship on November 16th at Duncan Polytechnical High School from 4 - 5:30 PM. The schedule is: #1 plays winner of #4 vs. #5 @ 4:30pm, #2 plays winner of #3 vs. #6 @ 5:30pm, Championship game @ 6pm."
 	},
 	{
+		"title": "Turtle Pond Volunteering",
+		"caption": "November 19th",
+		"image": "",
+		"location": "Kremen Building",
+		"time": "10 AM - 2 PM",
+		"contact": "clmacias@csufresno.edu",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/turtle.png",
+		"description": "There is a wonderful volunteer experience for UHS students this Saturday, November 19th to help 'patch up' a turtle pond located at Kremen Education building (on Fresno State's campus)! It will be from 10 AM - 2 PM, and please bring gloves, water, a hat, and sunblock! So come enjoy donuts and coffee with the turtles! Please visit https://kadenzheng.github.io/PhoeniKZ/turtle.png for the full flyer or contact clmacias@csufresno.edu."
+	},
+	{
 		"title": "ACADEC Scrimmage",
 		"caption": "November 19th",
 		"image": "",
@@ -38,14 +48,14 @@
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ACADEC.JPG",
 		"description": "Good luck to our UHS ACADEC team this Saturday at the County Scrimmage held at Buchanan High School. For more details, please contact Mr. Canfield."
 	},
- 	{
+	{
 		"title": "Fresno Community Choir",
 		"caption": "November 20th",
 		"image": "",
-		"location": "Shaghoian Concert Hall",
+		"location": "Shaghoian  Hall",
 		"time": "2:30 PM",
 		"contact": "fresnocommunitychorus@gmail.com",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/mission1.png",
-		"description": "The Fresno Community Chorus will be performing the Brahms' German Requiem next Sunday accompanied by full orchestra. This is an excellent opportunity for students in Musicianship IV, III, or freshmen and sophomores to glimpse the masterful work of Brahms (also, performed by one of UHS's very own previous founders: Dr. Brad Huff). Tickets are available at https://fresnocommunitychorus.org/tickets/ and there should be a discounted price for students. Once again, it is on Sunday, November 20th, at Paul Shaghoian Concert Hall (adjacent to Clovis North) at 2:30 PM. It will be a wonderful concert, so please go enjoy the concert!"
+		"description": "The Fresno Community Chorus will be performing the Brahms' German Requiem next Sunday accompanied by full orchestra. This is an excellent opportunity for students in Musicianship IV, III, or freshmen and sophomores to glimpse the masterful work of Brahms (also, performed by one of UHS's very own previous founders: Dr. Brad Huff). Tickets are available at https://fresnocommunitychorus.org/tickets/ and there should be a discounted price for students. Contact fresnocommunitychorus@gmail.com for questions."
 	}
 ]
