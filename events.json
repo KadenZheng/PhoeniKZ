@@ -1,14 +1,4 @@
 [{
-		"title": "All Strings Concert",
-		"caption": "November 15th",
-		"image": "",
-		"location": "Paul Shaghoian Hall",
-		"time": "7:00 PM - 8:30 PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/OrchestraStrings.jpeg",
-		"description": "All of the University High School string ensembles (except Symphony Orchestra) will be having their first combined concert on November 15th, 2022 at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Tickets will be on sale in the Front Office until the day of the concert for $5 per person. Please come support our wonderful string ensembles! Contact the Front Office if you have any questions."
-	},
-	{
 		"title": "Information Day",
 		"caption": "November 16th",
 		"image": "",
@@ -16,7 +6,7 @@
 		"time": "4:00 PM - 5:30 PM",
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
-		"description": "For anyone interested in University High School, come to our Information Day on November 16th, 2022 from 4:00 PM - 5:30 PM at the Satellite Student Union. Everyone is welcome. If you have any questions, contact the UHS front office. The parking code is 902479."
+		"description": "For anyone interested in University High School, come to our Information Day TODAY, November 16th, 2022 from 4:00 PM - 5:30 PM at the Satellite Student Union. Everyone is welcome. If you have any questions, contact the UHS front office. The parking code is 902479."
 	},
 	{
 		"title": "Boys Semi/Champ Game",
