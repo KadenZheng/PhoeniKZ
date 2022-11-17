@@ -1,8 +1,4 @@
-[{
-		"title": "Info Day November",
-		"category": "New",
-		"description": "Information Day: November 16, 2022 | CSUF Satellite Student Union | Time: 4pm - 5pm | Parking Code: 902479"
-	},
+[
 	{
 		"title": "Turtle Pond Volunteering",
 		"category": "New",
@@ -14,24 +10,14 @@
 		"description": "Monday 11/21 all outside of lockers will be cleaned off. Please take off anything that is on the outside of your locker that you want to keep. Remember there is a 2 week limit on items posted on outside of lockers."
 	},
 	{
-		"title": "Speech Tournament (IE #2)",
-		"category": "New",
-		"description": "The UHS Speech Team will be competing at IE #2 this Saturday, November 12th. It will be held at Sanger High School and is typically an all day event. Contact Dr. Jarocki if you have any questions."
-	},
-	{
-		"title": "All Strings Concert",
-		"category": "New",
-		"description": "All of the University High School string ensembles (except Symphony Orchestra) will be having their first combined concert on November 15th, 2022 at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Tickets will be on sale in the Front Office until the day of the concert for $5 per person. Please come support our wonderful string ensembles! Contact the Front Office if you have any questions"
-	},
-	{
 		"title": "Field Trip to Pantages Theater: Lion King",
-		"category": "New",
+		"category": "Parents",
 		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be under $115 - we will have a set price once we know the cost of the bus. If you have questions, see Mr. Benslay"
 	},
 	{
 		"title": "Speech/Debate",
 		"category": "Club/Sports",
-		"meetingDate": "11/16/2022",
+		"meetingDate": "11/17/2022",
 		"description": "Dr. Jarocki will be working with Speech and Debate from 3-5 on Wednesday and Thursday."
 	},
 	{
@@ -41,18 +27,8 @@
 		"description": "There is an ASB Meeting this Thursday, November 17th. Come to earn Spirit Points for your class!"
 	},
 	{
-		"title": "Boys Bball Semis/Champs",
-		"category": "Club/Sports",
-		"description": "The UHS Boys Basketball team will be having their playoff game on November 16th, 2022 at Duncan Polytechnical High School. The schedule is as follows:#1 plays winner of #4 vs. #5 @ 4:30pm, #2 plays winner of #3 vs. #6 @ 5:30pm, Championship game @ 6pm. Good luck!"
-	},
-	{
 		"title": "Drop-Off",
 		"category": "Parents",
 		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
-	},
-	{
-		"title": "UHS Kindness Day",
-		"category": "New",
-		"description": "Sunday Nov. 13th was World Kindness day. To celebrate, ASB is offering FREE kindness messages to all students and staff here at UHS. Tuesday and Wednesday at lunch come and write a note to anyone here at school. We will deliver the messages of kindness on Friday. Don't forget to include Admin and front Office staff."
 	}
 ]
