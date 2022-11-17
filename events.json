@@ -1,34 +1,4 @@
 [{
-		"title": "Information Day",
-		"caption": "November 16th",
-		"image": "",
-		"location": "Satellite Student Union",
-		"time": "4:00 PM - 5:30 PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
-		"description": "For anyone interested in University High School, come to our Information Day TODAY, November 16th, 2022 from 4:00 PM - 5:30 PM at the Satellite Student Union. Everyone is welcome. If you have any questions, contact the UHS front office. The parking code is 902479."
-	},
-	{
-		"title": "Boys Semi/Champ Game",
-		"caption": "November 16th",
-		"image": "",
-		"location": "Duncan Polytechnical HS",
-		"time": "4:00 PM - 5:30 PM",
-		"contact": "Mr. Murillo",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.jpg",
-		"description": "Good luck to our Boys Basketball team as they play for the championship on November 16th at Duncan Polytechnical High School from 4 - 5:30 PM. The schedule is: #1 plays winner of #4 vs. #5 @ 4:30pm, #2 plays winner of #3 vs. #6 @ 5:30pm, Championship game @ 6pm."
-	},
-	{
-		"title": "Turtle Pond Volunteering",
-		"caption": "November 19th",
-		"image": "",
-		"location": "Kremen Building",
-		"time": "10 AM - 2 PM",
-		"contact": "clmacias@csufresno.edu",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/turtle.png",
-		"description": "There is a wonderful volunteer experience for UHS students this Saturday, November 19th to help 'patch up' a turtle pond located at Kremen Education building (on Fresno State's campus)! It will be from 10 AM - 2 PM, and please bring gloves, water, a hat, and sunblock! So come enjoy donuts and coffee with the turtles! Please visit https://kadenzheng.github.io/PhoeniKZ/turtle.png for the full flyer or contact clmacias@csufresno.edu."
-	},
-	{
 		"title": "ACADEC Scrimmage",
 		"caption": "November 19th",
 		"image": "",
@@ -47,5 +17,15 @@
 		"contact": "See below",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/mission1.png",
 		"description": "The Fresno Community Chorus will be performing the Brahms' German Requiem next Sunday accompanied by full orchestra. This is an excellent opportunity for students in Musicianship IV, III, or freshmen and sophomores to glimpse the masterful work of Brahms (also, performed by one of UHS's very own previous founders: Dr. Brad Huff). Tickets are available at https://fresnocommunitychorus.org/tickets/ and there should be a discounted price for students. Contact fresnocommunitychorus@gmail.com."
+	},
+	{
+		"title": "Thanksgiving Break",
+		"caption": "November 23rd-25th",
+		"image": "",
+		"location": "Home! :)",
+		"time": "",
+		"contact": "",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/thanksgiving.jpeg",
+		"description": "I hope everyone has a wonderful Thanksgiving Break. The semester is wrapping up so stay strong. Take this time to relax and finish off these last three weeks! Take care. - Kaden :)"
 	}
 ]
