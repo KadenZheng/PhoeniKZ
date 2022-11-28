@@ -4,9 +4,31 @@
 		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be under $115 - we will have a set price once we know the cost of the bus. If you have questions, see Mr. Benslay"
 	},
 	{
-		"title": "Thanksgiving Break",
+		"title": "All Bands Concert",
 		"category": "New",
-		"description": "Have a wonderful Thanksgiving break everyone. Take care of yourselves, see your friends, and spend time with your families. Stay safe. - Kaden :)"
+		"description": "The All Bands concert is on Tuesday, November 29th at Paul Shaghoian Memorial Concert Hall. Please come join the Symphonic Band, Concert Band, and Wind Ensemble for their performance. Tickets are on sale for $5 in the Front Office, and contact them (or Dr. Cornelison for specifics) for questions. (Seniors, this is a great Extra Credit opportunity as well :)"
+	},
+	{
+		"title": "Speech Tournament (IE #3)",
+		"category": "New",
+		"description": "Good luck to our UHS Speech team as they compete at IE #3 at Clovis East on Saturday, December 3rd. The tournament call time is 8:00 AM (Dr. Jarocki would like everyone competing to be there at 7:45 AM). Please remember to the fill out the Remind form Aubrey sends out to avoid complications in your registration. Direct any questions to Dr. Jarocki– he will be hosting practice in his room after school on Wednesday and Thursday! Good luck everybody! :)"
+	},
+	{
+		"title": "Choir Concert",
+		"category": "New",
+		"description": "The upcoming Choir Concert is December 1st at the Paul Shaghoian Memorial Concert Hall at 7 PM. Dr. Moore has put together a wonderful selection of choral pieces (holiday, too!) for your enjoyment. Tickets are on sale for $5 in the Front Office, and contact them (or Dr. Moore for specifics) for questions. (Seniors, this is a great Extra Credit opportunity as well :)"
+	},
+	{
+		"title": "Speech/Debate",
+		"category": "Club/Sports",
+		"meetingDate": "11/29/2022",
+		"description": "There will be a general Speech and Debate meeting on Tuesday, Novemeber 29th. Dr. Jarocki will be working with Speech from 3-5 on Wednesday and Thursday in preparation for IE #3 on Saturday."
+	},
+	{
+		"title": "Yearbook",
+		"category": "Club/Sports",
+		"meetingDate": "11/28/2022",
+		"description": "If you're a member of a Yearbook team, please come to the meeting in Dr. Jarocki's room on Monday, November 28th at lunch. We will be distributing a quick five minutes of work so that we can meet our December 5th deadline. Again, please try to come if you can. Thank you!"
 	},
 	{
 		"title": "Drop-Off",
