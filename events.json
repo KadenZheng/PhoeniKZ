@@ -1,10 +1,31 @@
 [{
-	"title": "Thanksgiving Break",
-	"caption": "November 23rd-25th",
-	"image": "",
-	"location": "Home! :)",
-	"time": "",
-	"contact": "",
-	"imageURL": "https://kadenzheng.github.io/PhoeniKZ/thanksgiving.jpeg",
-	"description": "I hope everyone has a wonderful Thanksgiving Break. The semester is wrapping up so stay strong. Take this time to relax and finish off these last three weeks! Take care. - Kaden :)"
-}]
+		"title": "All Bands Concert",
+		"caption": "November 29th",
+		"image": "",
+		"location": "Shaghoian Hall",
+		"time": "",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Bands.png",
+		"description": "The All Bands concert is on Tuesday, November 29th at Paul Shaghoian Memorial Concert Hall. Please come join the Symphonic Band, Concert Band, and Wind Ensemble for their performance. Tickets are on sale for $5 in the Front Office, and contact them (or Dr. Cornelison for specifics) for questions. (Seniors, this is a great Extra Credit opportunity as well :)"
+	},
+	{
+		"title": "Choir Concert",
+		"caption": "December 1st",
+		"image": "",
+		"location": "Shaghoian Hall",
+		"time": "7:00 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Choir.png",
+		"description": "The upcoming Choir Concert is December 1st at the Paul Shaghoian Memorial Concert Hall at 7 PM. Dr. Moore has put together a wonderful selection of choral pieces (holiday, too!) for your enjoyment. Tickets are on sale for $5 in the Front Office, and contact them (or Dr. Moore for specifics) for questions. (Seniors, this is a great Extra Credit opportunity as well :)"
+	},
+	{
+		"title": "IE #3 (Speech)",
+		"caption": "December 3rd",
+		"image": "",
+		"location": "Clovis East",
+		"time": "8:00 AM",
+		"contact": "Dr. Jarocki",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
+		"description": "Good luck to our UHS Speech team as they compete at IE #3 at Clovis East on Saturday, December 3rd. The tournament call time is 8:00 AM (Dr. Jarocki would like everyone competing to be there at 7:45 AM). Please remember to the fill out the Remind form Aubrey sends out to avoid complications in your registration. Direct any questions to Dr. Jarocki– he will be hosting practice in his room after school on Wednesday and Thursday! Good luck everybody! :)"
+	}
+]
