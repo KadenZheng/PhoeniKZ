@@ -17,5 +17,25 @@
 		"contact": "Dr. Jarocki",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
 		"description": "Good luck to our UHS Speech team as they compete at IE #3 at Clovis East on Saturday, December 3rd. The tournament call time is 8:00 AM (Dr. Jarocki would like everyone competing to be there at 7:45 AM). Please remember to the fill out the Remind form Aubrey sends out to avoid complications in your registration. Direct any questions to Dr. Jarocki– he will be hosting practice in his room after school on Wednesday and Thursday! Good luck everybody! :)"
+	},
+	{
+		"title": "Jazz Band/Show Choir Concert",
+		"caption": "December 6th",
+		"image": "",
+		"location": "Fresno State Concert Hall",
+		"time": "7:00 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/JazzBand:ShowChoir.JPG",
+		"description": "The upcoming Show Choir and Jazz Band Concert is December 6th at the Fresno State Concert Hall at 7 PM. Dr. Moore and Dr. Cornelison have put together a very merry set to celebrate the holidays. Tickets are on sale for $5 in the Front Office, and contact them (or Dr. Moore/Dr. C for specifics) for questions. (Seniors, this is a great Extra Credit opportunity as well :)"
+	},
+	{
+		"title": "FPU + Wind Ensemble Concert",
+		"caption": "December 8th",
+		"image": "",
+		"location": "FPU Arts Center",
+		"time": "7:00 PM",
+		"contact": "Dr. Cornelison",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Bands.png",
+		"description": "The upcoming JOINT FPU + UHSWind Ensemble is December 8th at the FPU Cultural Arts Center at 7 PM. Tickets may be purchased directly through FPU, and contact Dr. C for specific questions."
 	}
 ]
