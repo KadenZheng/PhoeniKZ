@@ -1,14 +1,4 @@
 [{
-		"title": "IE #3 (Speech)",
-		"caption": "December 3rd",
-		"image": "",
-		"location": "Clovis East",
-		"time": "8:00 AM",
-		"contact": "Dr. Jarocki",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
-		"description": "Good luck to our UHS Speech team as they compete at IE #3 at Clovis East on Saturday, December 3rd. The tournament call time is 8:00 AM (Dr. Jarocki would like everyone competing to be there at 7:45 AM). Please remember to the fill out the Remind form Aubrey sends out to avoid complications in your registration. Direct any questions to Dr. Jarocki– he will be hosting practice in his room after school on Wednesday and Thursday! Good luck everybody! :)"
-	},
-	{
 		"title": "Jazz Band/Show Choir",
 		"caption": "December 6th",
 		"image": "",
@@ -19,13 +9,33 @@
 		"description": "The upcoming Show Choir and Jazz Band Concert is December 6th at the Fresno State Concert Hall at 7 PM. Dr. Moore and Dr. Cornelison have put together a very merry set to celebrate the holidays. Tickets are on sale for $5 in the Front Office, and contact them (or Dr. Moore/Dr. C for specifics) for questions. (Seniors, this is a great Extra Credit opportunity as well :)"
 	},
 	{
-		"title": "FPU + Wind Ensemble",
+		"title": "Wind Ensemble + FPU",
 		"caption": "December 8th",
 		"image": "",
-		"location": "FPU Arts Center",
+		"location": "FPU Cultural Arts Center",
 		"time": "7:00 PM",
 		"contact": "Dr. Cornelison",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Bands.png",
-		"description": "The upcoming JOINT FPU + UHSWind Ensemble is December 8th at the FPU Cultural Arts Center at 7 PM. Tickets may be purchased directly through FPU, and contact Dr. C for specific questions."
+		"description": "The upcoming Wind Ensemble + FPU Concert is December 8th at the FPU Cultural Arts Center at 7 PM. The UHS Wind Ensemble will be performing a wonderful set with the FPU Band. Tickets are on sale directly through FPU— if you have questions or would like to purchase, please contact Dr. C. (Seniors, this is a great Extra Credit opportunity as well :)"
+	},
+	{
+		"title": "Debate Tourney #3",
+		"caption": "December 10th",
+		"image": "",
+		"location": "Clovis North",
+		"time": "All Day",
+		"contact": "Dr. Jarocki",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
+		"description": "Good luck to our Debate competitors as they take on Wazhoo #3 at Clovis North this Saturday. The tournament will last all day, so good luck to everyone competing! Dr. Jarocki will be in his room Wednesday and Thursday after school to work with debaters."
+	},
+	{
+		"title": "Finals Week",
+		"caption": "December 13th",
+		"image": "",
+		"location": "University High",
+		"time": "All Day",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Finals.jpeg",
+		"description": "Hey everyone! Good luck on Finals :) All your hard work this semester will pay off, so just push a little harder. This week has a special schedule so refer to the announcements or Reminds pushed out for those. Thanks for everything this semester, so take care, study hard, and rest well over break. I'll see you all when we come back! :) — Kaden"
 	}
 ]
