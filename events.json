@@ -10,12 +10,22 @@
 	},
 	{
 		"title": "Winter Break",
-		"caption": "December 16th...",
+		"caption": "Dec. 6 — Jan. 3",
 		"image": "",
 		"location": "Home!",
 		"time": "Rest Time :)",
 		"contact": "",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/winterbreak.png",
 		"description": "Have a wonderful winter break all. Break begins on December 16th and goes until January 3rd (beginning of Winter Intercession). Take care, stay warm, and happy holidays!"
+	},
+ {
+		"title": "Winter Intercession",
+		"caption": "January 3rd",
+		"image": "",
+		"location": "UHS",
+		"time": "All Day",
+		"contact": "",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/WinterIntercession.jpeg",
+		"description": "Winter Intercession begins on January 3rd, 2023. Most classes meet at UHS with the exception of Directed Studies and Ski/Snowboarding. Please check your Reminds and emails for detailed information regarding your classes. These classes are mandatory, and the time of your selected electives typically runs the length of a normal UHS day. Enjoy your electives!"
 	}
 ]
