@@ -1,14 +1,4 @@
 [{
-		"title": "Finals Week",
-		"caption": "December 13th",
-		"image": "",
-		"location": "University High",
-		"time": "All Day",
-		"contact": "",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Finals.jpeg",
-		"description": "Hey everyone! Good luck on Finals :) All your hard work this semester will pay off, so just push a little harder. This week has a special schedule so refer to the announcements or Reminds pushed out for those. Thanks for everything this semester, so take care, study hard, and rest well over break. I'll see you all when we come back! :) — Kaden"
-	},
-	{
 		"title": "Winter Break",
 		"caption": "Dec. 6 — Jan. 3",
 		"image": "",
@@ -18,7 +8,7 @@
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/winterbreak.png",
 		"description": "Have a wonderful winter break all. Break begins on December 16th and goes until January 3rd (beginning of Winter Intercession). Take care, stay warm, and happy holidays!"
 	},
- {
+	{
 		"title": "Winter Intercession",
 		"caption": "January 3rd",
 		"image": "",
@@ -27,5 +17,35 @@
 		"contact": "Mrs. Palomo",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/WinterIntercession.jpeg",
 		"description": "Winter Intercession begins on January 3rd, 2023. Most classes meet at UHS with the exception of Directed Studies and Ski/Snowboarding. Please check your Reminds and emails for detailed information regarding your classes. These classes are mandatory, and the time of your selected electives typically runs the length of a normal UHS day. Enjoy your electives!"
+	},
+	{
+		"title": "Redwood Debate",
+		"caption": "January 20th",
+		"image": "",
+		"location": "Bullard High School",
+		"time": "All Day",
+		"contact": "Dr. Jarocki",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
+		"description": "The Redwood Debate tournament will be hosted on January 20th and January 21st, 2023 at Bullard High School. The tournament typically lasts until the evening. For any questions, contact Dr. Jarocki or Aubrey Der Torosian."
+	},
+	{
+		"title": "Formal 2023",
+		"caption": "January 21st",
+		"image": "",
+		"location": "Satellite Student Union",
+		"time": "7 PM",
+		"contact": "Mr. Benslay/ASB",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Formal.JPG",
+		"description": "The University High School 2023 Formal will be held on January 21st, 2023 from 7 PM - 10 PM. All grade levels may attend but students must not be on the AI List. Tickets will be $35 Pre-Sale, but the price will be raised at the door of the dance. The theme this year is 'Winter Harbor' including harbor-themed decorations, a fog dance floor, and colors of blue, white, and gold (for those that wish to coordinate dress). The dress for this dance is Formal. For any questions, please contact Mr. Benslay or any ASB member."
+	},
+	{
+		"title": "ACADEC Competition",
+		"caption": "January 23rd",
+		"image": "",
+		"location": "Computer Lab",
+		"time": "All Day",
+		"contact": "Mr. Canfield",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ACADEC.JPG",
+		"description": "The first part of the ACADEC County Competition will be held on January 23rd in the Computer Lab. Students, please be quiet and respectful of the students testing — ACADEC has prepared all year for this competition, so best of luck!"
 	}
 ]
