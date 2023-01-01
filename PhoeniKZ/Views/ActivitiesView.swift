@@ -28,11 +28,11 @@ struct ActivitiesView: View {
                         
                         VStack (alignment: .leading, spacing: 20) {
                             
-                            ImageBar(image: "MOTASeasons", titleText: "", subtitleText: formatDate(), clipped: true, async: false)
-                                .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
+                            ImageBar(image: "MOTASeasons", titleText: "Activities", subtitleText: formatDate(), clipped: true, async: false)
                                 .edgesIgnoringSafeArea(.top)
-                                .padding(.bottom, 40)
-                                .padding(.top, -50)
+                                .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
+                                .padding(.bottom)
+                                .padding(.top, -70)
                             
                             //                        Rectangle()
                             //                            .foregroundColor(.clear)
@@ -168,9 +168,6 @@ struct ActivitiesView: View {
                         }
                         .edgesIgnoringSafeArea(.top)
                     }
-                    .overlay(
-                        NavigationBar(text: "Activities")
-                    )
                 }
             }
             .navigationBarHidden(true)

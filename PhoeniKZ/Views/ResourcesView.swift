@@ -32,6 +32,7 @@ struct ResourcesView: View {
                             ImageBar(image: "red_flowers", titleText: "Resources", clipped: true, async: false)
                                 .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
                                 .edgesIgnoringSafeArea(.top)
+                                .padding(.top, -25)
                             
                             // MARK: - ASC Sign In
                             

@@ -24,31 +24,44 @@ struct SignInView: View {
     
     var body: some View {
         
-        
         ZStack {
             
             Rectangle()
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
+                .background(Color.black)
             
             VStack (alignment: .center) {
                 
                 Spacer()
                 
+                // MARK: - Sign In Navigation Title
+                Text("\(formatDate()) Sign In")
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .padding(.vertical)
+                
                 Group {
+                    
+                    // MARK: - Image
                     
                     Image(image)
                         .resizable()
                         .scaledToFill()
                         .frame(width: 200, height: 200)
                         .clipShape(RoundedRectangle(cornerRadius: 10))
-                        .padding(.bottom)
+                        .padding(.vertical)
+                    
+                    // MARK: - Title Text
                     
                     if signInName != "ASC" {
                         HStack (alignment: .center) {
                             
+                            // MARK: - Club Picker
+                            
                             Text("Select Your Club:")
                                 .font(.headline.weight(.medium))
+                                .foregroundColor(.white)
                             
                             Picker("Select Your Club", selection: $clubSelection) {
                                 
@@ -66,7 +79,8 @@ struct SignInView: View {
                                     Text("BSU").tag("BSU")
                                     
                                 }
-                                .accentColor(.black)
+                                .accentColor(.white)
+                                
                                 
                                 Group {
                                     
@@ -82,7 +96,7 @@ struct SignInView: View {
                                     Text("Red Cross").tag("Red Cross")
                                     
                                 }
-                                .accentColor(.black)
+                                .accentColor(.white)
                                 
                                 Group {
                                     
@@ -93,14 +107,17 @@ struct SignInView: View {
                                     Text("Yearbook").tag("Yearbook")
                                     
                                 }
-                                .accentColor(.black)
-                            }.accentColor(.black)
+                                .accentColor(.white)
+                            }.foregroundColor(.white)
+                                .background(Color.clear)
+                                .accentColor(.white)
                         }
                     } else {
                         HStack (alignment: .center) {
                             
                             Text("Academic Support Center")
                                 .font(.headline.weight(.medium))
+                                .foregroundColor(.black)
                             
                         }
                         .accentColor(.black)
@@ -109,13 +126,16 @@ struct SignInView: View {
                 
                 Spacer()
                 
+                // MARK: - Text Fields
                 Group {
                     
                     TextField("Name", text: $name)
-                        .padding(.leading, 50)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .padding(.horizontal, 50)
                         .padding(.bottom, 5)
                     
                     Divider()
+                        .overlay(.gray)
                         .frame(width: UIScreen.main.bounds.width - 70)
                         .padding(.top, -5)
                         
@@ -123,40 +143,47 @@ struct SignInView: View {
                         
                         VStack {
                             SecureField("Code", text: $code)
-                                .padding(.leading, 50)
-
+                                .textFieldStyle(RoundedBorderTextFieldStyle())
+                                .padding(.horizontal, 50)
+                                .padding(.bottom, 5)
+                            
                             Divider()
+                                .overlay(.gray)
                                 .frame(width: UIScreen.main.bounds.width - 70)
                                 .padding(.top, -5)
                         }
                     }
                     
                     TextField("Grade Level", text: $gradeLevel)
-                        .padding(.leading, 50)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .padding(.horizontal, 50)
                         .padding(.bottom, 5)
-                    
+                        
                     Divider()
+                        .overlay(.gray)
                         .frame(width: UIScreen.main.bounds.width - 70)
                         .padding(.top, -5)
+                        
                     
                     Spacer()
                     
                 }
                 
-                ZStack {
-                    
-                    Text(formatDate())
-                        .font(.headline.weight(.medium))
-                    
-                    Rectangle()
-                        .frame(width: 150, height: 40)
-                        .foregroundColor(.clear)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 5)
-                                .stroke(Color.black, lineWidth: 1.5))
-                    
-                }
-                .padding(.bottom)
+//                ZStack {
+//
+//                    Text(formatDate())
+//                        .font(.headline.weight(.medium))
+//                        .foregroundColor(.white)
+//
+//                    Rectangle()
+//                        .frame(width: 150, height: 40)
+//                        .foregroundColor(.clear)
+//                        .overlay(
+//                            RoundedRectangle(cornerRadius: 5)
+//                                .stroke(Color.white, lineWidth: 1.5))
+//
+//                }
+//                .padding(.bottom)
                 
                 Button {
                     
@@ -178,21 +205,24 @@ struct SignInView: View {
                             .cornerRadius(10)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 10)
-                                    .stroke(Color.gray, lineWidth: 1.5))
+                                    .stroke(Color.white, lineWidth: 1.5))
                         
                         Text("Submit")
                             .font(.headline.weight(.medium))
                             .foregroundColor(.white)
                     }
+                    .padding(.bottom, 80)
                     
                 }
                 
                 Spacer()
                 
             }
-            .navigationTitle("\(signInName) Sign In")
+            .edgesIgnoringSafeArea(.top)
+            
         }
         
+
     }
 }
 
