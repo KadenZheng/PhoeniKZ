@@ -36,10 +36,18 @@ struct SignInView: View {
                 Spacer()
                 
                 // MARK: - Sign In Navigation Title
-                Text("\(formatDate()) Sign In")
-                    .foregroundColor(.white)
-                    .font(.headline)
-                    .padding(.vertical)
+                
+                if clubSelection == "ASC" {
+                    Text("\(formatDate()) ASC Sign In")
+                        .foregroundColor(.white)
+                        .font(.headline)
+                        .padding(.vertical)
+                } else {
+                    Text("\(formatDate()) Sign In")
+                        .foregroundColor(.white)
+                        .font(.headline)
+                        .padding(.vertical)
+                }
                 
                 Group {
                     
