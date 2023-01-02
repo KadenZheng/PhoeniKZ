@@ -9,51 +9,93 @@ import SwiftUI
 
 struct ImageBar: View {
     
+    @EnvironmentObject var model: Manager
     @State var image: String
     @State var titleText: String
     @State var subtitleText: String?
     @State var clipped: Bool
     @State var async: Bool
     @State var imageURL: String?
+    @State var gallery: Bool
+    @State private var currentIndex = 0
+    private let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
     
     var body: some View {
         
         ZStack {
             
-            if async {
-                AsyncImage(url: URL(string: imageURL!)) { asyncImage in
+            // MARK: - Gallery
+            
+            if gallery {
+                
+                TabView () {
                     
-                    asyncImage
-                        .resizable()
-                        .scaledToFill()
-                        .frame(height: 250)
-                        .clipped()
-                        .blur(radius: 1.5)
-                        .scaleEffect(1.01)
+                    ForEach(model.activitiesGalleryData) { data in
+                        AsyncImage(url: URL(string: data.url)) { asyncImage in
+                            
+                            asyncImage
+                                .resizable()
+                                .scaledToFill()
+                                .frame(height: 250)
+                                .clipped()
+                                .overlay(Color.gray.opacity(0.4))
+                            
+                        } placeholder: {
+                            ZStack {
+                                ProgressView()
+                                Color.gray.opacity(0.2)
+                            }
+                            
+                        }
+                    }
                     
-                } placeholder: {
-                    Color.purple.opacity(0.1)
                 }
+                .tabViewStyle(PageTabViewStyle())
+                
             } else {
-                if clipped == true {
-                    Image(image)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(height: 250)
-                        .clipped()
-                        .blur(radius: 1.5)
-                        .scaleEffect(1.01)
+                
+                // MARK: - Async Image
+                
+                if async {
+                    AsyncImage(url: URL(string: imageURL!)) { asyncImage in
+                        
+                        asyncImage
+                            .resizable()
+                            .scaledToFill()
+                            .frame(height: 250)
+                            .clipped()
+                            .blur(radius: 1.5)
+                            .scaleEffect(1.01)
+                        
+                    } placeholder: {
+                        Color.purple.opacity(0.1)
+                    }
                 } else {
-                    Image(image)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(height: 250)
-                        .blur(radius: 1.5)
-                        .scaleEffect(1.01)
+                    
+                    // MARK: - Normal Image
+                    
+                    if clipped == true {
+                        Image(image)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(height: 250)
+                            .clipped()
+                            .blur(radius: 1.5)
+                            .scaleEffect(1.01)
+                    } else {
+                        Image(image)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(height: 250)
+                            .blur(radius: 1.5)
+                            .scaleEffect(1.01)
+                    }
                 }
             }
             
             VStack (alignment: .leading, spacing: 10) {
+                
+                // MARK: - Texts
                 
                 Text(titleText)
                     .foregroundColor(.white)
@@ -75,6 +117,6 @@ struct ImageBar: View {
 
 struct ImageBar_Previews: PreviewProvider {
     static var previews: some View {
-        ImageBar(image: "night_school", titleText: "University High", subtitleText: "8/12/2022", clipped: true, async: true)
+        ImageBar(image: "night_school", titleText: "University High", subtitleText: "8/12/2022", clipped: true, async: true, gallery: false)
     }
 }

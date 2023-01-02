@@ -28,7 +28,7 @@ struct ActivitiesView: View {
                         
                         VStack (alignment: .leading, spacing: 20) {
                             
-                            ImageBar(image: "MOTASeasons", titleText: "Activities", subtitleText: formatDate(), clipped: true, async: false)
+                            ImageBar(image: "MOTASeasons", titleText: "Activities", subtitleText: formatDate(), clipped: true, async: false, gallery: true)
                                 .edgesIgnoringSafeArea(.top)
                                 .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
                                 .padding(.bottom)

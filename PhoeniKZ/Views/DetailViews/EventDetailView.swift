@@ -31,7 +31,7 @@ struct EventDetailView: View {
                 
                 // MARK: - Image Bar
                 
-                ImageBar(image: image, titleText: title, subtitleText: caption, clipped: false, async: asyncBool, imageURL: imageURLE)
+                ImageBar(image: image, titleText: title, subtitleText: caption, clipped: false, async: asyncBool, imageURL: imageURLE, gallery: false)
                     .frame(width: UIScreen.main.bounds.width, height: 250, alignment: .bottom)
                     .edgesIgnoringSafeArea(.top)
                     .padding(.bottom, 30)
