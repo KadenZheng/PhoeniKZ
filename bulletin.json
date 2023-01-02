@@ -1,27 +1,47 @@
 [{
-		"title": "Info Day November",
-		"category": "New",
-		"description": "Information Day: November 16, 2022 | CSUF Satellite Student Union | Time: 4pm - 5pm | Parking Code: 902479"
+		"title": "Information Day Webinar",
+		"category": "Parents",
+		"description": "There is an Information Day Webinar on Thursday, January 12, 2023 from 4 PM - 5 PM. The Webinar ID is 837 6265 8056 and the Passcode is 268454 (Zoom). For any students/parents interested in attending University High School, please attend! For any questions, please email the Front Office."
 	},
 	{
 		"title": "Field Trip to Pantages Theater: Lion King",
-		"category": "New",
-		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be under $115 - we will have a set price once we know the cost of the bus. If you have questions, see Mr. Benslay"
-	},
-	{
-		"title": "Speech and Debate",
-		"category": "Club/Sports",
-		"description": "Dr. Jarocki is available after school on Wednesday, November 2nd, and Thursday, November 3rd for Debate prep before this Saturday's tournament!"
-	},
-	{
-		"title": "Yearbook",
-		"category": "Club/Sports",
-		"meetingDate": "11/7/2022",
-		"description": "There is a yearbook meeting on Monday, November 7th in Dr. Jarocki's room at the beginning of lunch."
-	},
-	{
-		"title": "Freshmen Vision and Hearing Screening",
 		"category": "Parents",
-		"description": "The freshmen will be having their vision and hearing screenings on November 4th, 2022 from 8:00 AM - 10:00 AM. Nothing needs to be done to prepare for this. Contact the Front Office if you have any questions."
+		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be $140, please make checks payable to University High School. If you have questions, see Mr. Benslay."
+	},
+	{
+		"title": "Winter Intercession",
+		"category": "New",
+		"meetingDate": "1/03/2023",
+		"description": "Winter Intercession begins on January 3rd, 2023. Most classes meet at UHS with the exception of Directed Studies and Ski/Snowboarding. Please check your Reminds and emails for detailed information regarding your classes. These classes are mandatory, and the time of your selected electives typically runs the length of a normal UHS day. Enjoy your electives!"
+	},
+ {
+		"title": "Formal 2023",
+		"category": "New",
+		"meetingDate": "1/21/2023",
+		"description": "The UHS 2023 Formal will be held on January 21st, 2023 at the Satellite Student Union. Tickets will be sold for $35 dollars if you purchase before the day of the dance, and the price will be increased if you purchase at the door of the dance. The theme is Winter Harbor (foggy harbor-esque decorations) and the colors are blue, gold, and white. It is not necessary to dress up to follow the theme! Enjoy the dance! :)"
+	},
+	{
+		"title": "Redwood Debate",
+		"category": "New",
+		"meetingDate": "1/20/2023",
+		"description": "The Redwood Debate tournament will be hosted on January 20th and January 21st, 2023 at Bullard High School. The tournament typically lasts until the evening. For any questions, contact Dr. Jarocki or Aubrey Der Torosian."
+	},
+	{
+		"title": "ACADEC County Competition",
+		"category": "Club/Sports",
+		"meetingDate": "1/23/2023",
+		"description": "The first part of the ACADEC County Competition will be held on January 23rd in the Computer Lab. Students, please be quiet and respectful of the students testing — ACADEC has prepared all year for this competition, so best of luck!"
+	},
+	
+ {
+		"title": "Board Meeting",
+		"category": "New",
+		"meetingDate": "2/2/2023",
+		"description": "There is a UHS Board Meeting on February 2nd, 2023 at 3 PM, held in Mr. Murillo's room. For any questions or public comment requests, please email the Front Office."
+	},
+	{
+		"title": "Drop-Off",
+		"category": "Parents",
+		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
 	}
 ]

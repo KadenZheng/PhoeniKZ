@@ -3,175 +3,168 @@
 		"name": "ASB",
 		"image": "ASB",
 		"advisor": "Mr. Benslay",
-		"meetingDate": "October 20th, 2022",
+		"meetingDate": "November 17th, 2022",
 		"description": ""
 	},
 	{
 		"name": "Active Minds",
 		"image": "placeholder",
 		"advisor": "Mrs. Bird",
-		"meetingDate": "October 3rd, 2022",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mrs. Bird for questions."
 	},
 	{
 		"name": "BSU",
 		"image": "placeholder",
 		"advisor": "Ms. Hickman",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Ms. Hickman for questions."
 	},
 	{
 		"name": "CSF",
 		"image": "CSF",
 		"advisor": "Mrs. Roche",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mrs. Roche for questions."
 	},
 	{
 		"name": "Chess Club",
 		"image": "Chess",
 		"advisor": "Mr. Murillo",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mr. Murillo for questions."
 	},
 	{
 		"name": "Creative Writing",
 		"image": "CreativeWriting",
 		"advisor": "Dr. Jarocki",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "Weekly Mondays",
+		"description": "See Dr. Jarocki for questions."
 	},
 	{
 		"name": "Drama",
 		"image": "Drama",
 		"advisor": "",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Front Office for questions."
 	},
 	{
 		"name": "D & D",
 		"image": "D&D",
 		"advisor": "Dr. Gettman",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Dr. Gettman for questions."
 	},
 	{
 		"name": "Earth Club",
 		"image": "Earth",
 		"advisor": "Ms. Dowis",
-		"meetingDate": "",
-		"description": ""
-	},
-	{
-		"name": "BSU",
-		"image": "placeholder",
-		"advisor": "Ms. Hickman",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Ms. Dowis for questions."
 	},
 	{
 		"name": "Finance Club",
 		"image": "placeholder",
 		"advisor": "Mr. Canfield",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mr. Canfield for questions."
 	},
 	{
 		"name": "Food Club",
 		"image": "Food",
 		"advisor": "Ms. Dowis/Royce",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Ms. Dowis/Royce for questions."
 	},
 	{
 		"name": "GSA",
 		"image": "GSA",
 		"advisor": "Mrs. Fernandez",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mrs. Fernandez for questions."
 	},
 	{
 		"name": "Interact Club",
 		"image": "placeholder",
 		"advisor": "Mr. Johnson",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mr. Johnson for questions."
 	},
 	{
 		"name": "Journalism Club",
 		"image": "placeholder",
 		"advisor": "Mrs. Downer",
-		"meetingDate": "Journalism",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mrs. Downer for questions."
 	},
 	{
 		"name": "Life Club",
 		"image": "Life",
 		"advisor": "Mrs. Hill",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "Weekly Wednesdays",
+		"description": "See Mrs. Hill for questions."
 	},
 	{
 		"name": "Multimedia Club",
 		"image": "Multimedia",
 		"advisor": "Dr. Cornelison",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Dr. C for questions."
 	},
 	{
 		"name": "Neurodiversity",
 		"image": "Neurodiversity",
 		"advisor": "Mr. Johnson",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mr. Johnson for questions."
 	},
 	{
 		"name": "Peer Mentors",
 		"image": "PeerMentors",
 		"advisor": "Mrs. Bird",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "First Tuesdays of the month",
+		"description": "See Mrs. Bird for questions."
 	},
 	{
 		"name": "Red Cross",
 		"image": "PreMed",
 		"advisor": "Mr. Murillo",
-		"meetingDate": "9/29/2022",
-		"description": ""
+		"meetingDate": "November 10th, 2022",
+		"description": "See Kaden/Mr. Murillo for questions."
 	},
 	{
 		"name": "Sailing Club",
 		"image": "Sailing",
 		"advisor": "Mr. Benslay",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mr. Benslay for questions."
 	},
 	{
 		"name": "Speech/Debate",
 		"image": "D&D",
 		"advisor": "Dr. Jarocki",
-		"meetingDate": "Weekly Wednesdays",
-		"description": ""
+		"meetingDate": "Weekly Tuesdays",
+		"description": "See Dr. Jarocki for questions."
 	},
 	{
 		"name": "Ski/Snowboarding",
 		"image": "Ski",
 		"advisor": "Mr. Roberts",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mr. Roberts for questions."
 	},
 	{
 		"name": "Travel Club",
 		"image": "Travel",
 		"advisor": "Mr. Benslay",
-		"meetingDate": "",
-		"description": ""
+		"meetingDate": "TBD",
+		"description": "See Mr. Benslay for questions."
 	},
 	{
 		"name": "Yearbook",
 		"image": "placeholder",
 		"advisor": "Dr. Jarocki",
 		"meetingDate": "Weekly Mondays",
-		"description": ""
+		"description": "See Dr. Jarocki for questions."
 	}
 ]

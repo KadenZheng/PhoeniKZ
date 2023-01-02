@@ -1,51 +1,51 @@
 [{
-		"title": "Vision/Hearing Test",
-		"caption": "November 4th",
+		"title": "Winter Break",
+		"caption": "Dec. 6 — Jan. 3",
 		"image": "",
-		"location": "Band/Choir Room",
-		"time": "8:00 AM - 10:00 AM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
-		"description": "The freshmen will be having their vision and hearing screenings on November 4th, 2022 from 8:00 AM - 10:00 AM. Nothing needs to be done to prepare for this. Contact the Front Office if you have any questions."
+		"location": "Home!",
+		"time": "Rest Time :)",
+		"contact": "",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/winterbreak.png",
+		"description": "Have a wonderful winter break all. Break begins on December 16th and goes until January 3rd (beginning of Winter Intercession). Take care, stay warm, and happy holidays!"
 	},
- {
-		"title": "Debate Tourney #2",
-		"caption": "November 5th",
+	{
+		"title": "Winter Intercession",
+		"caption": "January 3rd",
+		"image": "",
+		"location": "UHS",
+		"time": "All Day",
+		"contact": "Mrs. Palomo",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/WinterIntercession.jpeg",
+		"description": "Winter Intercession begins on January 3rd, 2023. Most classes meet at UHS with the exception of Directed Studies and Ski/Snowboarding. Please check your Reminds and emails for detailed information regarding your classes. These classes are mandatory, and the time of your selected electives typically runs the length of a normal UHS day. Enjoy your electives!"
+	},
+	{
+		"title": "Redwood Debate",
+		"caption": "January 20th",
 		"image": "",
 		"location": "Bullard High School",
 		"time": "All Day",
 		"contact": "Dr. Jarocki",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
-		"description": "Good luck to the UHS Debate team as they take on Wazhoo #2 at Bullard High this Saturday, November 5th."
+		"description": "The Redwood Debate tournament will be hosted on January 20th and January 21st, 2023 at Bullard High School. The tournament typically lasts until the evening. For any questions, contact Dr. Jarocki or Aubrey Der Torosian."
 	},
 	{
-		"title": "Symphony Orchestra",
-		"caption": "November 8th",
+		"title": "Formal 2023",
+		"caption": "January 21st",
 		"image": "",
-		"location": "Paul Shaghoian Memorial Concert Hall",
-		"time": "7:00 PM - 8:30 PM",
-		"contact": "Dr. Cornelison",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Orchestra.jpeg",
-		"description": "The Symphony Orchestra will be having its concert next Tuesday, November 8th at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Please come support our Symphony Orchestra at its first concert of the year! Any questions? Ask Dr. C!"
+		"location": "Satellite Student Union",
+		"time": "7 PM",
+		"contact": "Mr. Benslay/ASB",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Formal.JPG",
+		"description": "The University High School 2023 Formal will be held on January 21st, 2023 from 7 PM - 10 PM. All grade levels may attend but students must not be on the AI List. Tickets will be $35 Pre-Sale, but the price will be raised at the door of the dance. The theme this year is 'Winter Harbor' including harbor-themed decorations, a fog dance floor, and colors of blue, white, and gold (for those that wish to coordinate dress). The dress for this dance is Formal. For any questions, please contact Mr. Benslay or any ASB member."
 	},
 	{
-		"title": "Boys Playoffs",
-		"caption": "November 9th",
+		"title": "ACADEC Competition",
+		"caption": "January 23rd",
 		"image": "",
-		"location": "Duncan Polytechnical High School",
-		"time": "4:30 PM - 7:00 PM",
-		"contact": "Mr. Murillo",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoysBasketball.jpg",
-		"description": "The UHS Boys Basketball team will be having their playoff game on November 4th, 2022 at Duncan Polytechnical High School. The schedule is as follows:\n#1 and #2 have byes\n#3 vs. #6 @ 4:30pm\n#4 vs. #5 @ 5:30pm.\nGood luck!"
-	},
-	{
-		"title": "All Strings Concert",
-		"caption": "November 15th",
-		"image": "",
-		"location": "Paul Shaghoian Memorial Concert Hall",
-		"time": "7:00 PM - 8:30 PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/OrchestraStrings.jpeg",
-		"description": "All of the University High School string ensembles will be having their first combined concert on November 15th, 2022 at Paul Shaghoian Memorial Concert Hall (adjacent to Clovis North). Tickets will be on sale in the Front Office until the day of the concert for $5 per person. Please come support our wonderful string ensembles! Contact the Front Office if you have any questions."
+		"location": "Computer Lab",
+		"time": "All Day",
+		"contact": "Mr. Canfield",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ACADEC.JPG",
+		"description": "The first part of the ACADEC County Competition will be held on January 23rd in the Computer Lab. Students, please be quiet and respectful of the students testing — ACADEC has prepared all year for this competition, so best of luck!"
 	}
 ]
