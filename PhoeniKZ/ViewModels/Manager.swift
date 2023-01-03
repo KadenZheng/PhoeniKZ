@@ -15,7 +15,8 @@ class Manager : ObservableObject {
     @Published var categories = [Category]()
     @Published var clubs = [Club]()
     @Published var bulletinData = [Bulletin]()
-    @Published var activitiesGalleryData = [ActivitiesGallery]()
+    @Published var activitiesGalleryData = [Gallery]()
+    @Published var homeGalleryData = [Gallery]()
     @Published var randomImages: [String] = ["bench", "frisbees", "pinecones", "mosaic_phoenix-black", "night_school", "red_flowers"]
     
     init() {
@@ -33,6 +34,7 @@ class Manager : ObservableObject {
         
         getRemoteActivitiesGallery()
         
+        getRemoteHomeGallery()
     }
     
     // MARK: - Remote Events
@@ -302,7 +304,7 @@ class Manager : ObservableObject {
                 let decoder = JSONDecoder()
                 
                 // Decode
-                let activitiesGalleryDecoded = try decoder.decode([ActivitiesGallery].self, from: data!)
+                let activitiesGalleryDecoded = try decoder.decode([Gallery].self, from: data!)
                 
                 for r in activitiesGalleryDecoded {
                     r.id = UUID()
@@ -311,6 +313,63 @@ class Manager : ObservableObject {
                 DispatchQueue.main.async {
                     // Append parsed events into events property
                     self.activitiesGalleryData += activitiesGalleryDecoded
+                }
+            }
+            catch {
+                // Couldn't parse json
+                print(error)
+            }
+        }
+        
+        // Kick off data task
+        dataTask.resume()
+    }
+    
+    // MARK: - Home Gallery
+    
+    func getRemoteHomeGallery() {
+        
+        // String path
+        let urlString = "https://kadenzheng.github.io/PhoeniKZ/HomeGallery.json"
+        
+        // Create a url object
+        let url = URL(string: urlString)
+        
+        guard url != nil else {
+            // Couldn't create url
+            print("URL was nil")
+            return
+        }
+        
+        // Create a URLRequest object
+        let request = URLRequest(url: url!)
+        
+        // Get the session and kick off the task
+        let session = URLSession.shared
+        
+        let dataTask = session.dataTask(with: request) { (data, response, error) in
+            
+            // Check if there's an error
+            guard error == nil else {
+                // There was an error
+                print(error!.localizedDescription)
+                return
+            }
+            
+            do {
+                // Create json decoder
+                let decoder = JSONDecoder()
+                
+                // Decode
+                let homeGalleryDataDecoded = try decoder.decode([Gallery].self, from: data!)
+                
+                for r in homeGalleryDataDecoded {
+                    r.id = UUID()
+                }
+                
+                DispatchQueue.main.async {
+                    // Append parsed events into events property
+                    self.homeGalleryData += homeGalleryDataDecoded
                 }
             }
             catch {

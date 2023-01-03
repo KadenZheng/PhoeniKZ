@@ -12,6 +12,7 @@ struct HomeView: View {
     @EnvironmentObject var model: Manager
     @Binding var selectedTab: Int
     let width = UIScreen.main.bounds.width
+    @State private var showPopUp: Bool = false
     
     var body: some View {
         
@@ -36,11 +37,27 @@ struct HomeView: View {
                         
                         Group {
                             
-                            // MARK: - Image Bar
-                            ImageBar(image: "night_school", titleText: "University High", subtitleText: formatDate(), clipped: true, async: false, gallery: false)
-                                .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
-                                .edgesIgnoringSafeArea(.top)
-                                .padding(.bottom, 40)
+                            ZStack (alignment: .topTrailing) {
+                                
+                                // MARK: - Image Bar
+                                ImageBar(image: "night_school", titleText: "University High", subtitleText: formatDate(), clipped: true, async: false, activitiesGallery: false, homeGallery: true)
+                                    .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
+                                    .edgesIgnoringSafeArea(.top)
+                                    .padding(.bottom, 40)
+                                
+                                Button {
+                                    withAnimation(.linear(duration: 0.3)) {
+                                        showPopUp.toggle()
+                                    }
+                                } label: {
+                                    Image(systemName: "info.circle")
+                                        .foregroundColor(.white)
+                                        .shadow(color: .black, radius: 1, x: 0.5, y: 0.5)
+                                        .padding(.top, 65)
+                                }
+                                .padding(.trailing)
+                            }
+                            
                             
                             // MARK: - Read Latest
                             ForEach(model.phoenixPost) { post in
@@ -206,7 +223,11 @@ struct HomeView: View {
                 }
                 .edgesIgnoringSafeArea(.top)
             .navigationBarHidden(true)
+                
+                HomeViewPopup(show: $showPopUp)
+                
             }
+            
         }
         .navigationViewStyle(.stack)
         

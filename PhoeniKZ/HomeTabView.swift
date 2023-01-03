@@ -19,7 +19,7 @@ struct HomeTabView: View {
                 .tabItem {
                     VStack {
                         Image(systemName: "music.note.house")
-                        Text("Featured")
+                        Text("Home")
                     }
                 }
                 .tag(0)
@@ -27,8 +27,8 @@ struct HomeTabView: View {
             ActivitiesView(selectedTab: $selectedTab)
                 .tabItem {
                     VStack {
-                        Image(systemName: "calendar.circle")
-                        Text("Activities")
+                        Image(systemName: "sparkles.rectangle.stack")
+                        Text("Spotlights")
                     }
                 }
                 .tag(1)

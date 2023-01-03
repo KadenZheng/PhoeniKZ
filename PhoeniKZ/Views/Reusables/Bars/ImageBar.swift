@@ -16,9 +16,11 @@ struct ImageBar: View {
     @State var clipped: Bool
     @State var async: Bool
     @State var imageURL: String?
-    @State var gallery: Bool
-    @State private var currentIndex = 0
-    private let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
+    @State var activitiesGallery: Bool
+    @State var homeGallery: Bool
+    @State private var currentActivitiesIndex = 0
+    @State private var currentHomeIndex = 0
+    private let timer = Timer.publish(every: 6, on: .main, in: .common).autoconnect()
     
     var body: some View {
         
@@ -26,19 +28,21 @@ struct ImageBar: View {
             
             // MARK: - Gallery
             
-            if gallery {
+            if activitiesGallery {
                 
-                TabView () {
+                TabView (selection: $currentActivitiesIndex) {
                     
-                    ForEach(model.activitiesGalleryData) { data in
-                        AsyncImage(url: URL(string: data.url)) { asyncImage in
+                    ForEach(0..<model.activitiesGalleryData.count, id: \.self) { num in
+                        
+                        AsyncImage(url: URL(string: model.activitiesGalleryData[num].url)) { asyncImage in
                             
                             asyncImage
                                 .resizable()
                                 .scaledToFill()
                                 .frame(height: 250)
                                 .clipped()
-                                .overlay(Color.gray.opacity(0.4))
+                                .overlay(Color.gray.opacity(0.225))
+                                .tag(num)
                             
                         } placeholder: {
                             ZStack {
@@ -51,6 +55,52 @@ struct ImageBar: View {
                     
                 }
                 .tabViewStyle(PageTabViewStyle())
+                .onReceive(timer) { _ in
+                    withAnimation {
+                        if currentActivitiesIndex < model.activitiesGalleryData.count - 1 {
+                            currentActivitiesIndex = currentActivitiesIndex + 1
+                        } else {
+                            currentActivitiesIndex = 0
+                        }
+                    }
+                }
+                
+            } else if homeGallery {
+                
+                TabView (selection: $currentHomeIndex) {
+                    
+                    ForEach(0..<model.homeGalleryData.count, id: \.self) { num in
+                        
+                        AsyncImage(url: URL(string: model.homeGalleryData[num].url)) { asyncImage in
+                            
+                            asyncImage
+                                .resizable()
+                                .scaledToFill()
+                                .frame(height: 250)
+                                .clipped()
+                                .overlay(Color.gray.opacity(0.275))
+                                .tag(num)
+                            
+                        } placeholder: {
+                            ZStack {
+                                ProgressView()
+                                Color.gray.opacity(0.2)
+                            }
+                            
+                        }
+                    }
+                    
+                }
+                .tabViewStyle(PageTabViewStyle())
+                .onReceive(timer) { _ in
+                    withAnimation {
+                        if currentHomeIndex < model.homeGalleryData.count - 1 {
+                            currentHomeIndex = currentHomeIndex + 1
+                        } else {
+                            currentHomeIndex = 0
+                        }
+                    }
+                }
                 
             } else {
                 
@@ -112,11 +162,5 @@ struct ImageBar: View {
             .frame(width: UIScreen.main.bounds.size.width - 50, height: 200, alignment: .bottomLeading)
         }
         
-    }
-}
-
-struct ImageBar_Previews: PreviewProvider {
-    static var previews: some View {
-        ImageBar(image: "night_school", titleText: "University High", subtitleText: "8/12/2022", clipped: true, async: true, gallery: false)
     }
 }

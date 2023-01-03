@@ -45,7 +45,9 @@
 		88A2986F28A4404800E2A2B5 /* HomeViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2986E28A4404800E2A2B5 /* HomeViewCard.swift */; };
 		88A7E22D28A4C33C0052F5C5 /* FacultyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A7E22C28A4C33C0052F5C5 /* FacultyCard.swift */; };
 		88AFAAF229006F2500C97B7E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88AFAAF129006F2500C97B7E /* GoogleService-Info.plist */; };
-		88E9146B2962A7C000BC009C /* ActivitiesGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9146A2962A7C000BC009C /* ActivitiesGallery.swift */; };
+		88E9146B2962A7C000BC009C /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9146A2962A7C000BC009C /* Gallery.swift */; };
+		88E9146E2963BB2B00BC009C /* ActivitiesViewPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9146D2963BB2B00BC009C /* ActivitiesViewPopup.swift */; };
+		88E914702963D6C100BC009C /* HomeViewPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9146F2963D6C100BC009C /* HomeViewPopup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,7 +92,9 @@
 		88A2986E28A4404800E2A2B5 /* HomeViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCard.swift; sourceTree = "<group>"; };
 		88A7E22C28A4C33C0052F5C5 /* FacultyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyCard.swift; sourceTree = "<group>"; };
 		88AFAAF129006F2500C97B7E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		88E9146A2962A7C000BC009C /* ActivitiesGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesGallery.swift; sourceTree = "<group>"; };
+		88E9146A2962A7C000BC009C /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		88E9146D2963BB2B00BC009C /* ActivitiesViewPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewPopup.swift; sourceTree = "<group>"; };
+		88E9146F2963D6C100BC009C /* HomeViewPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPopup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,7 +204,7 @@
 				8895193828A9CF2700264026 /* Category.swift */,
 				88439A5C28AFED0300C0C3FE /* Club.swift */,
 				88885E5628B47C8A00A8857A /* Bulletin.swift */,
-				88E9146A2962A7C000BC009C /* ActivitiesGallery.swift */,
+				88E9146A2962A7C000BC009C /* Gallery.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -250,10 +254,20 @@
 		88A2986D28A4402700E2A2B5 /* Reusables */ = {
 			isa = PBXGroup;
 			children = (
+				88E9146C2963BB1A00BC009C /* Popups */,
 				8891924728A6F63400A1CB0A /* Cards */,
 				8891924628A6F62F00A1CB0A /* Bars */,
 			);
 			path = Reusables;
+			sourceTree = "<group>";
+		};
+		88E9146C2963BB1A00BC009C /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				88E9146D2963BB2B00BC009C /* ActivitiesViewPopup.swift */,
+				88E9146F2963D6C100BC009C /* HomeViewPopup.swift */,
+			);
+			path = Popups;
 			sourceTree = "<group>";
 		};
 		A77C46D2844F23BD63E58B07 /* Pods */ = {
@@ -394,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E9146E2963BB2B00BC009C /* ActivitiesViewPopup.swift in Sources */,
 				8891D52628B2A3B50060B2B4 /* ClubDetailView.swift in Sources */,
 				882EE98D28B7D8E800A31664 /* BulletinDetailDetailView.swift in Sources */,
 				88993C6428A8999500D1BF47 /* Faculty.swift in Sources */,
@@ -413,13 +428,14 @@
 				88A2986F28A4404800E2A2B5 /* HomeViewCard.swift in Sources */,
 				8895193928A9CF2700264026 /* Category.swift in Sources */,
 				884B5F1628A43DFC0022745E /* HomeView.swift in Sources */,
+				88E914702963D6C100BC009C /* HomeViewPopup.swift in Sources */,
 				8841336428A74A1800F888DD /* ActivitiesView.swift in Sources */,
 				88885E5528B47BA500A8857A /* BulletinDetailView.swift in Sources */,
 				8841336028A744C700F888DD /* RoundedContactCard.swift in Sources */,
 				88993C6A28A8BF5800D1BF47 /* PhoenixPost.swift in Sources */,
 				88439A5D28AFED0300C0C3FE /* Club.swift in Sources */,
 				884B5F1428A43DFC0022745E /* PhoeniKZApp.swift in Sources */,
-				88E9146B2962A7C000BC009C /* ActivitiesGallery.swift in Sources */,
+				88E9146B2962A7C000BC009C /* Gallery.swift in Sources */,
 				889390E228A4AB8D005E88C0 /* NavigationBar.swift in Sources */,
 				88A7E22D28A4C33C0052F5C5 /* FacultyCard.swift in Sources */,
 				88732F6128A5FDDE00C9C8BD /* ImageBar.swift in Sources */,
