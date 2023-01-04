@@ -20,7 +20,8 @@ struct ImageBar: View {
     @State var homeGallery: Bool
     @State private var currentActivitiesIndex = 0
     @State private var currentHomeIndex = 0
-    private let timer = Timer.publish(every: 6, on: .main, in: .common).autoconnect()
+    private let homeTimer = Timer.publish(every: 7, on: .main, in: .common).autoconnect()
+    private let activitiesTimer = Timer.publish(every: 7, on: .main, in: .common).autoconnect()
     
     var body: some View {
         
@@ -32,30 +33,33 @@ struct ImageBar: View {
                 
                 TabView (selection: $currentActivitiesIndex) {
                     
-                    ForEach(0..<model.activitiesGalleryData.count, id: \.self) { num in
+                    if model.activitiesGalleryData.count > 0 {
                         
-                        AsyncImage(url: URL(string: model.activitiesGalleryData[num].url)) { asyncImage in
+                        ForEach(0..<model.activitiesGalleryData.count, id: \.self) { num in
                             
-                            asyncImage
-                                .resizable()
-                                .scaledToFill()
-                                .frame(height: 250)
-                                .clipped()
-                                .overlay(Color.gray.opacity(0.225))
-                                .tag(num)
-                            
-                        } placeholder: {
-                            ZStack {
-                                ProgressView()
-                                Color.gray.opacity(0.2)
+                            AsyncImage(url: URL(string: model.activitiesGalleryData[num].url)) { asyncImage in
+                                
+                                asyncImage
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(height: 250)
+                                    .clipped()
+                                    .overlay(Color.gray.opacity(0.225))
+                                    .tag(num)
+                                
+                            } placeholder: {
+                                ZStack {
+                                    ProgressView()
+                                    Color.gray.opacity(0.2)
+                                }
+                                
                             }
-                            
                         }
                     }
                     
                 }
                 .tabViewStyle(PageTabViewStyle())
-                .onReceive(timer) { _ in
+                .onReceive(activitiesTimer) { _ in
                     withAnimation {
                         if currentActivitiesIndex < model.activitiesGalleryData.count - 1 {
                             currentActivitiesIndex = currentActivitiesIndex + 1
@@ -69,32 +73,22 @@ struct ImageBar: View {
                 
                 TabView (selection: $currentHomeIndex) {
                     
-                    ForEach(0..<model.homeGalleryData.count, id: \.self) { num in
-                        
-                        AsyncImage(url: URL(string: model.homeGalleryData[num].url)) { asyncImage in
+                        ForEach(1..<6) { num in
                             
-                            asyncImage
-                                .resizable()
-                                .scaledToFill()
-                                .frame(height: 250)
-                                .clipped()
-                                .overlay(Color.gray.opacity(0.275))
-                                .tag(num)
-                            
-                        } placeholder: {
-                            ZStack {
-                                ProgressView()
-                                Color.gray.opacity(0.2)
-                            }
-                            
+                            Image("home\(num)")
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(height: 250)
+                                    .clipped()
+                                    .overlay(Color.gray.opacity(0.275))
+                                    .tag(num)
+                                
                         }
-                    }
-                    
                 }
                 .tabViewStyle(PageTabViewStyle())
-                .onReceive(timer) { _ in
+                .onReceive(homeTimer) { _ in
                     withAnimation {
-                        if currentHomeIndex < model.homeGalleryData.count - 1 {
+                        if currentHomeIndex < 4 {
                             currentHomeIndex = currentHomeIndex + 1
                         } else {
                             currentHomeIndex = 0

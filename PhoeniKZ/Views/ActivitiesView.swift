@@ -59,7 +59,7 @@ struct ActivitiesView: View {
                                     
                                     Text("Events Spotlight")
                                         .foregroundColor(.white)
-                                        .font(.title.weight(.semibold))
+                                        .font(.title2.weight(.semibold))
                                         .padding(.horizontal)
                                     
                                     ScrollView (.horizontal, showsIndicators: false) {
@@ -82,7 +82,10 @@ struct ActivitiesView: View {
                                     }
                                 }
                                 
-                                // MARK: - School Life Scroll
+                                Divider()
+                                    .overlay(Color.white)
+                                
+                                // MARK: - Bulletin
                                 VStack (alignment: .leading) {
                                     
                                     HStack {
