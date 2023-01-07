@@ -11,9 +11,10 @@ class PhoenixPost: Identifiable, Decodable {
     
     var id: UUID?
     var content: String
-    var image: String
+    var imageURL: String
     var title: String
     var author: String
     var publishingDate: String
+    var fullLink: String
     
 }

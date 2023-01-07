@@ -62,7 +62,7 @@ struct HomeView: View {
                             // MARK: - Read Latest
                             ForEach(model.phoenixPost) { post in
                                 NavigationLink {
-                                    PhoenixPostView(content: post.content, image: post.image, title: post.title, author: post.author, publishingDate: post.publishingDate)
+                                    PhoenixPostView(content: post.content, imageURL: post.imageURL, title: post.title, author: post.author, publishingDate: post.publishingDate, fullLink: post.fullLink)
                                 } label: {
                                     CenteredWideCard(title: "Read Latest: Phoenix Post", icon2: "newspaper")
                                 }.scaledToFill()

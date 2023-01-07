@@ -29,7 +29,7 @@ struct ResourcesView: View {
                         VStack (spacing: 15) {
                             
                             // MARK: - Image Bar
-                            ImageBar(image: "red_flowers", titleText: "Resources", clipped: true, async: false, activitiesGallery: false, homeGallery: false)
+                            ImageBar(image: "night_school", titleText: "Resources", clipped: true, async: false, activitiesGallery: false, homeGallery: false)
                                 .frame(width: UIScreen.main.bounds.width, height: 240, alignment: .topLeading)
                                 .edgesIgnoringSafeArea(.top)
                                 .padding(.top, -25)
