@@ -14,11 +14,11 @@
 		"meetingDate": "1/03/2023",
 		"description": "Winter Intercession has begun as of January 3rd, 2023. Most classes meet at UHS with the exception of Directed Studies and Ski/Snowboarding. Please check your Reminds and emails for detailed information regarding your classes. These classes are mandatory, and the time of your selected electives typically runs the length of a normal UHS day. Enjoy your electives!"
 	},
- {
-		"title": "Formal 2023",
+	{
+		"title": "Staff Development Day",
 		"category": "New",
-		"meetingDate": "1/21/2023",
-		"description": "The UHS 2023 Formal will be held on January 21st, 2023 at the Satellite Student Union. Tickets will be sold for $35 dollars if you purchase before the day of the dance, and the price will be increased if you purchase at the door of the dance. The theme is Winter Harbor (foggy harbor-esque decorations) and the colors are blue, gold, and white. It is not necessary to dress up to follow the theme! Enjoy the dance! :)"
+		"meetingDate": "1/13/2023",
+		"description": "January 13th, 2023 is Staff Development Day which means NO SCHOOL! Rest well and prepare for the second semester."
 	},
 	{
 		"title": "Redwood Debate",
@@ -27,13 +27,19 @@
 		"description": "The Redwood Debate tournament will be hosted on January 20th and January 21st, 2023 at Bullard High School. The tournament typically lasts until the evening. For any questions, contact Dr. Jarocki or Aubrey Der Torosian."
 	},
 	{
+		"title": "Formal 2023",
+		"category": "New",
+		"meetingDate": "1/21/2023",
+		"description": "The UHS 2023 Formal will be held on January 21st, 2023 at the Satellite Student Union. Tickets will be sold for $35 dollars if you purchase before the day of the dance, and the price will be increased if you purchase at the door of the dance. The theme is Winter Harbor (foggy harbor-esque decorations) and the colors are blue, gold, and white. It is not necessary to dress up to follow the theme! Enjoy the dance! :)"
+	},
+	{
 		"title": "ACADEC County Competition",
 		"category": "Club/Sports",
 		"meetingDate": "1/23/2023",
 		"description": "The first part of the ACADEC County Competition will be held on January 23rd in the Computer Lab. Students, please be quiet and respectful of the students testing — ACADEC has prepared all year for this competition, so best of luck!"
 	},
-	
- {
+
+	{
 		"title": "Board Meeting",
 		"category": "New",
 		"meetingDate": "2/2/2023",
