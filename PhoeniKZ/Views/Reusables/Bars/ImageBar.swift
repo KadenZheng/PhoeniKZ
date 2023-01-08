@@ -88,7 +88,7 @@ struct ImageBar: View {
                 .tabViewStyle(PageTabViewStyle())
                 .onReceive(homeTimer) { _ in
                     withAnimation {
-                        if currentHomeIndex < 4 {
+                        if currentHomeIndex < 5 {
                             currentHomeIndex = currentHomeIndex + 1
                         } else {
                             currentHomeIndex = 0

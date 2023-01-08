@@ -157,7 +157,7 @@ struct HomeView: View {
                                     NavigationLink {
                                         FacultyListView()
                                     } label: {
-                                        HomeViewCard(image: "mosaic_phoenix-black", title: "Faculty", blur: true, async: false, widthOffset: -10, heightOffset: -80)
+                                        HomeViewCard(image: "faculty", title: "Faculty", blur: true, async: false, widthOffset: -10, heightOffset: -80)
                                             .padding(.leading)
                                             .padding([.bottom, .top, .trailing], 10)
                                     }
@@ -166,7 +166,7 @@ struct HomeView: View {
                                     NavigationLink {
                                         ClubView()
                                     } label: {
-                                        HomeViewCard(image: "red_flowers", title: "Clubs", blur: true, async: false, widthOffset: -10, heightOffset: -80)
+                                        HomeViewCard(image: "club", title: "Clubs", blur: true, async: false, widthOffset: -10, heightOffset: -80)
                                             .padding(.leading)
                                             .padding([.bottom, .top, .trailing], 10)
                                     }

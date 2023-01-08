@@ -22,6 +22,17 @@ struct ActivitiesViewPopup: View {
                 
                 ZStack {
                     
+                    Button(action: {
+                        // Dismiss the PopUp
+                        withAnimation(.linear(duration: 0.3)) {
+                            show = false
+                        }
+                    }, label: {
+                        Rectangle()
+                            .opacity(0.000000000000000000000000000000000000000000000000000000000001)
+                            .edgesIgnoringSafeArea(.all)
+                    }).buttonStyle(PlainButtonStyle())
+                    
                     VStack (alignment: .center) {
                         
                         Text("To feature your photo, please send it to")
@@ -43,17 +54,7 @@ struct ActivitiesViewPopup: View {
                     .frame(maxWidth: 300)
                     .background(.thinMaterial)
                     .cornerRadius(25)
-                    
-                    Button(action: {
-                        // Dismiss the PopUp
-                        withAnimation(.linear(duration: 0.3)) {
-                            show = false
-                        }
-                    }, label: {
-                        Rectangle()
-                            .opacity(0.000000000000000000000000000000000000000000000000000000000001)
-                            .edgesIgnoringSafeArea(.all)
-                    }).buttonStyle(PlainButtonStyle())
+
                 }
                 .padding(.bottom, 75)
                 

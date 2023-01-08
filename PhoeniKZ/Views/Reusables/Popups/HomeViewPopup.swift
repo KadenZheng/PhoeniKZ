@@ -23,6 +23,17 @@ struct HomeViewPopup: View {
                 
                 ZStack {
                     
+                    Button(action: {
+                        // Dismiss the PopUp
+                        withAnimation(.linear(duration: 0.3)) {
+                            show = false
+                        }
+                    }, label: {
+                        Rectangle()
+                            .opacity(0.000000000000000000000000000000000000000000000000000000000001)
+                            .edgesIgnoringSafeArea(.all)
+                    }).buttonStyle(PlainButtonStyle())
+                    
                     VStack (alignment: .center, spacing: 3) {
                         
                         HStack {
@@ -62,16 +73,6 @@ struct HomeViewPopup: View {
                     .background(.thinMaterial)
                     .cornerRadius(25)
                     
-                    Button(action: {
-                        // Dismiss the PopUp
-                        withAnimation(.linear(duration: 0.3)) {
-                            show = false
-                        }
-                    }, label: {
-                        Rectangle()
-                            .opacity(0.000000000000000000000000000000000000000000000000000000000001)
-                            .edgesIgnoringSafeArea(.all)
-                    }).buttonStyle(PlainButtonStyle())
                 }
                 .padding(.top, 50)
                 

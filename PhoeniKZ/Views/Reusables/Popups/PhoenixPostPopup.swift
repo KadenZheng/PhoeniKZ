@@ -24,23 +24,6 @@ struct PhoenixPostPopup: View {
                 
                 ZStack {
                     
-                    VStack (alignment: .center) {
-                        
-                        Text("For the full article, visit:")
-                            .multilineTextAlignment(.center)
-                            .font(.subheadline)
-                            .foregroundColor(Color.white)
-                        
-                        Text(link)
-                            .multilineTextAlignment(.center)
-                            .font(.subheadline)
-                            .foregroundColor(Color.white)
-                    }
-                    .padding()
-                    .frame(maxWidth: 300)
-                    .background(.thinMaterial)
-                    .cornerRadius(25)
-                    
                     Button(action: {
                         // Dismiss the PopUp
                         withAnimation(.linear(duration: 0.3)) {
@@ -51,6 +34,27 @@ struct PhoenixPostPopup: View {
                             .opacity(0.000000000000000000000000000000000000000000000000000000000001)
                             .edgesIgnoringSafeArea(.all)
                     }).buttonStyle(PlainButtonStyle())
+                    
+                    VStack (alignment: .center) {
+                        
+                        Text("For the full edition, visit:")
+                            .multilineTextAlignment(.center)
+                            .font(.subheadline)
+                            .foregroundColor(Color.white)
+                            .padding(.bottom, 5)
+                            
+                        Link(destination: URL(string: link)!) {
+                            Text("Phoenix Post")
+                                .multilineTextAlignment(.center)
+                                .font(.subheadline)
+                                .foregroundColor(.blue)
+                        }
+                    }
+                    .padding()
+                    .frame(maxWidth: 300)
+                    .background(.thinMaterial)
+                    .cornerRadius(25)
+                    
                 }
                 .padding(.bottom, 75)
                 

@@ -71,13 +71,13 @@ struct ResourcesView: View {
                                     HStack {
                                         
                                         Link(destination: URL(string: "https://aptests.wufoo.com/forms/pmss5vs0bov44k/")!) {
-                                            HomeViewCard(image: "AP", title: "AP Exam Orders", blur: true, async: false, widthOffset: -60, heightOffset: -60)
+                                            HomeViewCard(image: "ap", title: "AP Exam Orders", blur: true, async: false, widthOffset: -60, heightOffset: -60)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }.accentColor(.white)
                                         
                                         Link(destination: URL(string: "http://uhsfresno.com/documents/Counseling/APExamOrdering.pdf")!) {
-                                            HomeViewCard(image: "uhs.medallion.red", title: "AP Exam F.A.Q.'s", blur: true, async: false, widthOffset: -60, heightOffset: -60)
+                                            HomeViewCard(image: "apfaq", title: "AP Exam F.A.Q.'s", blur: true, async: false, widthOffset: -60, heightOffset: -60)
                                                 .padding(.leading)
                                                 .padding([.bottom, .top, .trailing], 10)
                                         }.accentColor(.white)
