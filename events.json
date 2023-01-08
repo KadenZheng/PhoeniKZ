@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"title": "Winter Intercession",
 		"caption": "Ongoing",
 		"image": "",
@@ -8,6 +7,16 @@
 		"contact": "Mrs. Palomo",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/WinterIntercession.jpeg",
 		"description": "Winter Intercession begins on January 3rd, 2023. Most classes meet at UHS with the exception of Directed Studies and Ski/Snowboarding. Please check your Reminds and emails for detailed information regarding your classes. These classes are mandatory, and the time of your selected electives typically runs the length of a normal UHS day. Enjoy your electives!"
+	},
+	{
+		"title": "Information Day",
+		"caption": "January 12th",
+		"image": "",
+		"location": "Zoom",
+		"time": "4 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
+		"description": "If you're interested in learning more about University High School for your upcoming 9th grader, this Information Day is perfect for you. We'll discuss the UHS curriculum, what distinguishes UHS, what students typically experience at UHS, and much more. This webinar is online/on Zoom at 4 PM on January 12th, 2023. If you have any questions, please contact the University High School front office (contacts are listed on the 'Home' tab of Phoenikz. \nWebinar ID: 837 6265 8056 \nPasscode: 268454"
 	},
 	{
 		"title": "Redwood Debate",
