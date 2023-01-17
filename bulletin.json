@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"title": "Field Trip to Pantages Theater: Lion King",
 		"category": "Parents",
 		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be $140, please make checks payable to University High School. If you have questions, see Mr. Benslay."
@@ -20,7 +19,7 @@
 		"title": "Formal 2023",
 		"category": "New",
 		"meetingDate": "1/21/2023",
-		"description": "The UHS 2023 Formal will be held on January 21st, 2023 at the Satellite Student Union. Tickets will be sold for $35 dollars if you purchase before the day of the dance, and the price will be increased if you purchase at the door of the dance. The theme is Winter Harbor (foggy harbor-esque decorations) and the colors are blue, gold, and white. It is not necessary to dress up to follow the theme! Enjoy the dance! :)"
+		"description": "The UHS 2023 Formal will be held on January 21st, 2023 at the Satellite Student Union. Tickets will be sold for $35 dollars if you purchase before the day of the dance, and the price will be increased if you purchase at the door of the dance. Tickets will be sold every day this week at lunch and after school from 3 - 4 PM. The theme is Winter Harbor (foggy harbor-esque decorations) and the colors are blue, gold, and white. It is not necessary to dress up to follow the theme! Enjoy the dance! :)"
 	},
 	{
 		"title": "ACADEC County Competition",
@@ -28,7 +27,11 @@
 		"meetingDate": "1/23/2023",
 		"description": "The first part of the ACADEC County Competition will be held on January 23rd in the Computer Lab. Students, please be quiet and respectful of the students testing — ACADEC has prepared all year for this competition, so best of luck!"
 	},
-
+	{
+		"title": "CSF Applications",
+		"category": "New",
+		"description": "CSF Applications will be available to be turned in until February 3rd. For times to turn in, please see Mrs. Roche. Please refer to the UHS Website for the CSF Application or contact Mrs. Roche."
+	},
 	{
 		"title": "Board Meeting",
 		"category": "New",
