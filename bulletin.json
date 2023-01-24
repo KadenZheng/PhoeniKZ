@@ -32,12 +32,7 @@
 		"meetingDate": "1/28/2023",
 		"description": "Good luck to our Academic Decathalon team as they compete in the next stage of the competition (speeches and interviews). Please be quiet and respectful of your volume in the halls on January 28th, as the team has been preparing all year for this tournament. For any questions or well wishes, please see Mr. Canfield. :)."
 	},
-	{
-		"title": "Speech: State Quals A",
-		"category": "Club/Sports",
-		"meetingDate": "2/4/2023",
-		"description": "For all Speech competitors interested in State Quals A, please contact Dr. Jarocki or Aubrey Der Torosian. The tournament will be held at Sanger High School on February 4th, 2023. In order to qualify for state, you must attend this tournament. For the list of speech events offered in the 'A' section, please see Dr. Jarocki's room. Good luck!"
-	},
+
 	{
 		"title": "Speech: State Quals A",
 		"category": "New",
@@ -53,6 +48,12 @@
 		"category": "New",
 		"meetingDate": "2/2/2023",
 		"description": "There is a UHS Board Meeting on February 2nd, 2023 at 3 PM, held in Mr. Murillo's room. For any questions or public comment requests, please email the Front Office."
+	},
+	{
+		"title": "Speech: State Quals A",
+		"category": "Club/Sports",
+		"meetingDate": "2/4/2023",
+		"description": "For all Speech competitors interested in State Quals A, please contact Dr. Jarocki or Aubrey Der Torosian. The tournament will be held at Sanger High School on February 4th, 2023. In order to qualify for state, you must attend this tournament. For the list of speech events offered in the 'A' section, please see Dr. Jarocki's room. Good luck!"
 	},
 	{
 		"title": "Drop-Off",
