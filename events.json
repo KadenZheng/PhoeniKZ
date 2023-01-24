@@ -20,6 +20,16 @@
 		"description": "The first and second Mock Trial tournaments are on January 24th and 26th respectively. Each are at the Fresno County Courthouse in downtown Fresno from 6:00 - 8:00 PM. If you have any questions, please contact Mrs. Downer. Good luck to our Mock Trial team — they have been working hard all year in preparation!"
 	},
 	{
+		"title": "Girls Volleyball",
+		"caption": "January 26th",
+		"image": "",
+		"location": "Duncan High School",
+		"time": "6:00 - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
+		"description": "Good luck to our Girls Volleyball team as they tak on Big Picture at Duncan Polytechnical High School (4330 E Garland Ave, Fresno, CA 93726). The game will be held on Thursday, January 26th from 6 - 7 PM. Please see Mr. Hagen if you have any questions."
+	},
+	{
 		"title": "State Quals A",
 		"caption": "February 4th",
 		"image": "",
