@@ -6,13 +6,19 @@
 	{
 		"title": "Boys Volleyball",
 		"category": "Club/Sports",
-		"meetingDate":"1/24/2023",
+		"meetingDate": "1/24/2023",
 		"description": "Good luck to our Boys Volleyball team as they tak on Big Picture at Duncan Polytechnical High School (4330 E Garland Ave, Fresno, CA 93726). The game will be held on Tuesday, January 24th from 6 - 7 PM. Please see Mr. Hagen if you have any questions."
+	},
+	{
+		"title": "Girls Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "1/26/2023",
+		"description": "Good luck to our Girls Volleyball team as they tak on Big Picture at Duncan Polytechnical High School (4330 E Garland Ave, Fresno, CA 93726). The game will be held on Thursday, January 26th from 6 - 7 PM. Please see Mr. Hagen if you have any questions."
 	},
 	{
 		"title": "Speech: State Quals A",
 		"category": "Club/Sports",
-		"meetingDate":"2/4/2023",
+		"meetingDate": "2/4/2023",
 		"description": "For all Speech competitors interested in State Quals A, please contact Dr. Jarocki or Aubrey Der Torosian. The tournament will be held at Sanger High School on February 4th, 2023. In order to qualify for state, you must attend this tournament. For the list of speech events offered in the 'A' section, please see Dr. Jarocki's room. Good luck!"
 	},
 	{
