@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"title": "ACADEC Interviews",
 		"caption": "January 28th",
 		"image": "",
@@ -18,6 +17,16 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
 		"description": "There is an in-person Information Day on January 30th, 2023 from 4:00 - 5:30 PM. We will be covering the UHS curriculum, schedule, student life, as well as a Q & A session with the ASB Officers. This is an excellent opportunity to learn more about University High School, so if anyone is interested, please attend. For questions, call the UHS front office. Thanks!"
+	},
+	{
+		"title": "Information Day",
+		"caption": "Jan. 31st/Feb. 2nd",
+		"image": "",
+		"location": "Fresno County Courthouse",
+		"time": "6:00 PM - 8:00 PM",
+		"contact": "Mrs. Downer",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/MockTrial.jpeg",
+		"description": "The third and fourth Mock trial competitions are on January 31st, 2023 and February 2nd, 2023, respectively. The competitions will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
 	},
 	{
 		"title": "State Quals A",
