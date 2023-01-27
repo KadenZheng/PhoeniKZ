@@ -27,18 +27,19 @@
 		"description": "There is an in-person Information Day on January 30th, 2023 from 4:00 - 5:30 PM. We will be covering the UHS curriculum, schedule, student life, as well as a Q & A session with the ASB Officers. This is an excellent opportunity to learn more about University High School, so if anyone is interested, please attend. For questions, call the UHS front office. Thanks!"
 	},
 	{
-		"title": "Board Meeting",
-		"category": "New",
-		"meetingDate": "2/2/2023",
-		"description": "There is a UHS Board Meeting on February 2nd, 2023 at 3 PM, held in Mr. Murillo's room. For any questions or public comment requests, please email the Front Office."
-	},
-	{
 		"title": "Mock Trial",
 		"category": "Club/Sports",
 		"meetingDate": "1/31 & 2/2",
 		"description": "The third and fourth Mock trial competitions are on January 31st, 2023 and February 2nd, 2023, respectively. The competitions will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
 	},
- {
+	{
+		"title": "Board Meeting",
+		"category": "New",
+		"meetingDate": "2/2/2023",
+		"description": "There is a UHS Board Meeting on February 2nd, 2023 at 3 PM, held in Mr. Murillo's room. For any questions or public comment requests, please email the Front Office."
+	},
+
+	{
 		"title": "Mock Trial",
 		"category": "New",
 		"description": "The third and fourth Mock trial competitions are on January 31st, 2023 and February 2nd, 2023, respectively. The competitions will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
