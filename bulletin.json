@@ -27,6 +27,12 @@
 		"description": "There is an in-person Information Day on January 30th, 2023 from 4:00 - 5:30 PM. We will be covering the UHS curriculum, schedule, student life, as well as a Q & A session with the ASB Officers. This is an excellent opportunity to learn more about University High School, so if anyone is interested, please attend. For questions, call the UHS front office. Thanks!"
 	},
 	{
+		"title": "Boys Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "1/31/2023",
+		"description": "Good luck to our Boys Volleyball team as they take on Duncan Boys Volleyball on January 31st, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
 		"title": "Mock Trial",
 		"category": "Club/Sports",
 		"meetingDate": "1/31 & 2/2",
@@ -38,7 +44,12 @@
 		"meetingDate": "2/2/2023",
 		"description": "There is a UHS Board Meeting on February 2nd, 2023 at 3 PM, held in Mr. Murillo's room. For any questions or public comment requests, please email the Front Office."
 	},
-
+	{
+		"title": "Girls Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "2/2/2023",
+		"description": "Good luck to our Girls Volleyball team as they take on Duncan Girls Volleyball on February 2nd, 2023. The game begins at 5:15 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
 	{
 		"title": "Mock Trial",
 		"category": "New",
