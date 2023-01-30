@@ -1,14 +1,4 @@
 [{
-		"title": "ACADEC Interviews",
-		"caption": "January 28th",
-		"image": "",
-		"location": "University High School",
-		"time": "All Day",
-		"contact": "Mr. Canfield",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ACADEC.JPG",
-		"description": "Good luck to our Academic Decathalon team as they compete in the next stage of the competition (speeches and interviews). Please be quiet and respectful of your volume in the halls on January 28th, as the team has been preparing all year for this tournament. For any questions or well wishes, please see Mr. Canfield. :)"
-	},
-	{
 		"title": "Information Day",
 		"caption": "January 30th",
 		"image": "",
@@ -19,6 +9,16 @@
 		"description": "There is an in-person Information Day on January 30th, 2023 from 4:00 - 5:30 PM. We will be covering the UHS curriculum, schedule, student life, as well as a Q & A session with the ASB Officers. This is an excellent opportunity to learn more about University High School, so if anyone is interested, please attend. For questions, call the UHS front office. Thanks!"
 	},
 	{
+		"title": "Boys Volleyball",
+		"caption": "January 31st",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "6:00 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
+		"description": "Good luck to our Boys Volleyball team as they take on Duncan Boys Volleyball on January 31st, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
 		"title": "Mock Trial",
 		"caption": "Jan. 31st/Feb. 2nd",
 		"image": "",
@@ -27,6 +27,16 @@
 		"contact": "Mrs. Downer",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/MockTrial.jpeg",
 		"description": "The third and fourth Mock trial competitions are on January 31st, 2023 and February 2nd, 2023, respectively. The competitions will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
+	},
+	{
+		"title": "Girls Volleyball",
+		"caption": "February 2nd",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "5:15 PM - 6:15 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
+		"description": "Good luck to our Girls Volleyball team as they take on Duncan Girls Volleyball on February 2nd, 2023. The game begins at 5:15 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	},
 	{
 		"title": "State Quals A",
