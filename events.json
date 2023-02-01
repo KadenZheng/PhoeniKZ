@@ -1,23 +1,12 @@
-[
-	{
-		"title": "Boys Volleyball",
-		"caption": "January 31st",
-		"image": "",
-		"location": "Duncan Polytechnical HS",
-		"time": "6:00 PM - 7:00 PM",
-		"contact": "Mr. Hagen",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
-		"description": "Good luck to our Boys Volleyball team as they take on Duncan Boys Volleyball on January 31st, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
+[{
 		"title": "Mock Trial",
-		"caption": "Jan. 31st/Feb. 2nd",
+		"caption": "Feb. 2nd",
 		"image": "",
 		"location": "Fresno County Courthouse",
 		"time": "6:00 PM - 8:00 PM",
 		"contact": "Mrs. Downer",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/MockTrial.jpeg",
-		"description": "The third and fourth Mock trial competitions are on January 31st, 2023 and February 2nd, 2023, respectively. The competitions will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
+		"description": "The fourth Mock trial competition is on February 2nd, 2023. The competition will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
 	},
 	{
 		"title": "Girls Volleyball",
@@ -28,6 +17,16 @@
 		"contact": "Mr. Hagen",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
 		"description": "Good luck to our Girls Volleyball team as they take on Duncan Girls Volleyball on February 2nd, 2023. The game begins at 5:15 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "ACADEC",
+		"caption": "February 4th",
+		"image": "",
+		"location": "Sunnyside High School",
+		"time": "10:30 AM - 5:30 PM",
+		"contact": "Mr. Canfield",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ACADEC.JPG",
+		"description": "Good luck to our UHS ACADEC Team as they compete in the final stage of the county ACADEC tournament — the Super Quiz! The Super Quiz will begin at 3:00 PM some events and awards will be at 5:00 PM. The tournament will be held at Sunnyside High School beginning at 10:30 PM. Please go support our famed UHS ACADEC team! For any questions or well wishes, please see Mr. Canfield. Good luck team!"
 	},
 	{
 		"title": "State Quals A",
