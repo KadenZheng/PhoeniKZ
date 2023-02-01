@@ -22,8 +22,8 @@
 	{
 		"title": "Mock Trial",
 		"category": "Club/Sports",
-		"meetingDate": "1/31 & 2/2",
-		"description": "The third and fourth Mock trial competitions are on January 31st, 2023 and February 2nd, 2023, respectively. The competitions will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
+		"meetingDate": "2/2",
+		"description": "The fourth Mock trial competition is on February 2nd, 2023. The competition will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
 	},
 	{
 		"title": "Board Meeting",
@@ -41,6 +41,12 @@
 		"title": "Mock Trial",
 		"category": "New",
 		"description": "The third and fourth Mock trial competitions are on January 31st, 2023 and February 2nd, 2023, respectively. The competitions will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
+	},
+	{
+		"title": "ACADEC",
+		"category": "Club/Sports",
+		"meetingDate": "2/4/2023",
+		"description": "Good luck to our UHS ACADEC Team as they compete in the final stage of the county ACADEC tournament — the Super Quiz! The Super Quiz will begin at 3:00 PM some events and awards will be at 5:00 PM. The tournament will be held at Sunnyside High School beginning at 10:30 PM. Please go support our famed UHS ACADEC team! For any questions or well wishes, please see Mr. Canfield. Good luck team!"
 	},
 	{
 		"title": "Speech: State Quals A",
