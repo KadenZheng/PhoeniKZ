@@ -1,24 +1,4 @@
 [{
-		"title": "Mock Trial",
-		"caption": "February 2nd",
-		"image": "",
-		"location": "Fresno County Courthouse",
-		"time": "6:00 PM - 8:00 PM",
-		"contact": "Mrs. Downer",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/MockTrial.jpeg",
-		"description": "The fourth Mock trial competition is on February 2nd, 2023. The competition will be held at the Fresno County Courthouse from 6:00 - 8:00 PM. If you have any questions, please see Mrs. Downer. Please go support our UHS Mock Trial team, as they've been working very hard all year in preparation for this case! Go UHS!"
-	},
-	{
-		"title": "Girls Volleyball",
-		"caption": "February 2nd",
-		"image": "",
-		"location": "Duncan Polytechnical HS",
-		"time": "5:15 PM - 6:15 PM",
-		"contact": "Mr. Hagen",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
-		"description": "Good luck to our Girls Volleyball team as they take on Duncan Girls Volleyball on February 2nd, 2023. The game begins at 5:15 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
 		"title": "ACADEC",
 		"caption": "February 4th",
 		"image": "",
@@ -37,5 +17,25 @@
 		"contact": "Dr. Jarocki",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
 		"description": "For all Speech competitors interested in State Quals A, please contact Dr. Jarocki or Aubrey Der Torosian. The tournament will be held at Sanger High School on February 4th, 2023. In order to qualify for state, you must attend this tournament. For the list of speech events offered in the 'A' section, please see Dr. Jarocki's room. Good luck!"
+	},
+	{
+		"title": "Boys Volleyball",
+		"caption": "February 7th",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "6:00 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
+		"description": "Good luck to our Boys Volleyball team as they take on Dewolf Boys Volleyball on February 7th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Girls Volleyball",
+		"caption": "February 9th",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "6:00 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
+		"description": "Good luck to our Girls Volleyball team as they take on Dewolf Girls Volleyball on February 9th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	}
 ]
