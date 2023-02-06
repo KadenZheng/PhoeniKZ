@@ -1,23 +1,4 @@
-[{
-		"title": "ACADEC",
-		"caption": "February 4th",
-		"image": "",
-		"location": "Sunnyside High School",
-		"time": "10:30 AM - 5:30 PM",
-		"contact": "Mr. Canfield",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ACADEC.JPG",
-		"description": "Good luck to our UHS ACADEC Team as they compete in the final stage of the county ACADEC tournament — the Super Quiz! The Super Quiz will begin at 3:00 PM some events and awards will be at 5:00 PM. The tournament will be held at Sunnyside High School beginning at 10:30 PM. Please go support our famed UHS ACADEC team! For any questions or well wishes, please see Mr. Canfield. Good luck team!"
-	},
-	{
-		"title": "State Quals A",
-		"caption": "February 4th",
-		"image": "",
-		"location": "Sanger High School",
-		"time": "All Day",
-		"contact": "Dr. Jarocki",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
-		"description": "For all Speech competitors interested in State Quals A, please contact Dr. Jarocki or Aubrey Der Torosian. The tournament will be held at Sanger High School on February 4th, 2023. In order to qualify for state, you must attend this tournament. For the list of speech events offered in the 'A' section, please see Dr. Jarocki's room. Good luck!"
-	},
+[
 	{
 		"title": "Boys Volleyball",
 		"caption": "February 7th",
@@ -37,5 +18,25 @@
 		"contact": "Mr. Hagen",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
 		"description": "Good luck to our Girls Volleyball team as they take on Dewolf Girls Volleyball on February 9th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Boys Volleyball",
+		"caption": "February 14th",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "6:00 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
+		"description": "Good luck to our Boys Volleyball team as they take on the CTEC Boys Volleyball on February 14th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Girls Volleyball",
+		"caption": "February 16th",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "6:00 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
+		"description": "Good luck to our Girls Volleyball team as they take on the CTEC Girls Volleyball on February 16th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	}
 ]
