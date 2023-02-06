@@ -1,29 +1,7 @@
 [{
 		"title": "Field Trip to Pantages Theater: Lion King",
 		"category": "Parents",
-		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be $140, please make checks payable to University High School. If you have questions, see Mr. Benslay."
-	},
-	{
-		"title": "Speech: State Quals A",
-		"category": "New",
-		"description": "For all Speech competitors interested in State Quals A, please contact Dr. Jarocki or Aubrey Der Torosian. The tournament will be held at Sanger High School on February 4th, 2023. In order to qualify for state, you must attend this tournament. For the list of speech events offered in the 'A' section, please see Dr. Jarocki's room. Good luck!"
-	},
-	{
-		"title": "CSF Applications",
-		"category": "New",
-		"description": "CSF Applications will be available to be turned in until February 3rd. For times to turn in, please see Mrs. Roche. Please refer to the UHS Website for the CSF Application or contact Mrs. Roche."
-	},
-	{
-		"title": "ACADEC",
-		"category": "Club/Sports",
-		"meetingDate": "2/4/2023",
-		"description": "Good luck to our UHS ACADEC Team as they compete in the final stage of the county ACADEC tournament — the Super Quiz! The Super Quiz will begin at 3:00 PM some events and awards will be at 5:00 PM. The tournament will be held at Sunnyside High School beginning at 10:30 PM. Please go support our famed UHS ACADEC team! For any questions or well wishes, please see Mr. Canfield. Good luck team!"
-	},
-	{
-		"title": "Speech: State Quals A",
-		"category": "Club/Sports",
-		"meetingDate": "2/4/2023",
-		"description": "For all Speech competitors interested in State Quals A, please contact Dr. Jarocki or Aubrey Der Torosian. The tournament will be held at Sanger High School on February 4th, 2023. In order to qualify for state, you must attend this tournament. For the list of speech events offered in the 'A' section, please see Dr. Jarocki's room. Good luck!"
+		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be $140, please make checks payable to University High School. You must turn in your check by February 10th, 2023 if you signed up on the Google Form. If you have questions, see Mr. Benslay."
 	},
 	{
 		"title": "Boys Volleyball",
@@ -36,6 +14,18 @@
 		"category": "Club/Sports",
 		"meetingDate": "2/9/2023",
 		"description": "Good luck to our Girls Volleyball team as they take on Dewolf Girls Volleyball on February 9th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Boys Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "2/14/2023",
+		"description": "Good luck to our Boys Volleyball team as they take on the CTEC Boys Volleyball on February 14th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Girls Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "2/16/2023",
+		"description": "Good luck to our Girls Volleyball team as they take on the CTEC Girls Volleyball on February 16th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	},
 	{
 		"title": "Drop-Off",
