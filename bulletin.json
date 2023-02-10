@@ -4,12 +4,6 @@
 		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be $140, please make checks payable to University High School. You must turn in your check by February 10th, 2023 if you signed up on the Google Form. If you have questions, see Mr. Benslay."
 	},
 	{
-		"title": "Girls Volleyball",
-		"category": "Club/Sports",
-		"meetingDate": "2/9/2023",
-		"description": "Good luck to our Girls Volleyball team as they take on Dewolf Girls Volleyball on February 9th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
 		"title": "Boys Volleyball",
 		"category": "Club/Sports",
 		"meetingDate": "2/14/2023",
@@ -36,5 +30,22 @@
 		"category": "New",
 		"meetingDate": "2/17/2023",
 		"description": "Friday, February 17th, 2023 is an Early Release Day. Classes on February 17th start at 8:20 AM and go until 12:20 PM. We will still have a ten minute break but lunch begins at 12:20 after 6th period. If you have any questions, please contact the front office."
+	},
+	{
+		"title": "No School",
+		"category": "New",
+		"meetingDate": "2/20/2023",
+		"description": "There is NO SCHOOL on Monday, February 20th, 2023. Enjoy the day off!"
+	},
+	{
+		"title": "No School",
+		"category": "Parents",
+		"description": "There is NO SCHOOL on Monday, February 20th, 2023. Enjoy the day off!"
+	},
+	{
+		"title": "Turtle Pond Volunteering",
+		"category": "New",
+		"meetingDate": "2/25/2023",
+		"description": "Please come join us on February 25th, 2023 (10:00 AM - 1:00 PM) for the Turtle Pond Restoration Project! The Huggins Center Turtle Pond of Kremen Education is in need of restoration so at this event, we'll be creating bird feeders, maintaining the site, and planting for the spring. There will also be donuts and coffee. If you have any questions, please contact clmacias@csufresno.edu."
 	}
 ]
