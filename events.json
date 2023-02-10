@@ -1,14 +1,4 @@
 [{
-		"title": "Girls Volleyball",
-		"caption": "February 9th",
-		"image": "",
-		"location": "Duncan Polytechnical HS",
-		"time": "6:00 PM - 7:00 PM",
-		"contact": "Mr. Hagen",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
-		"description": "Good luck to our Girls Volleyball team as they take on Dewolf Girls Volleyball on February 9th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
 		"title": "Boys Volleyball",
 		"caption": "February 14th",
 		"image": "",
@@ -37,5 +27,25 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
 		"description": "Friday, February 17th, 2023 is an Early Release Day. Classes on February 17th start at 8:20 AM and go until 12:20 PM. We will still have a ten minute break but lunch begins at 12:20 after 6th period. If you have any questions, please contact the front office."
+	},
+	{
+		"title": "No School",
+		"caption": "February 20th",
+		"image": "",
+		"location": "UHS",
+		"time": "",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
+		"description": "There is NO SCHOOL on Friday, February 20th, 2023. Enjoy the day off!"
+	},
+	{
+		"title": "Turtle Pond Volunteer",
+		"caption": "February 25th",
+		"image": "",
+		"location": "Kremen School of Education",
+		"time": "10:00 AM - 1:00 PM",
+		"contact": "clmacias@csufresno.edu",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/turtle.png",
+		"description": "Please come join us on February 25th, 2023 (10:00 AM - 1:00 PM) for the Turtle Pond Restoration Project! The Huggins Center Turtle Pond of Kremen Education is in need of restoration so at this event, we'll be creating bird feeders, maintaining the site, and planting for the spring. There will also be donuts and coffee. If you have any questions, please contact clmacias@csufresno.edu."
 	}
 ]
