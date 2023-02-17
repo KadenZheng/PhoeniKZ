@@ -1,14 +1,4 @@
 [{
-		"title": "Girls Volleyball",
-		"caption": "February 16th",
-		"image": "",
-		"location": "Duncan Polytechnical HS",
-		"time": "6:00 PM - 7:00 PM",
-		"contact": "Mr. Hagen",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
-		"description": "Good luck to our Girls Volleyball team as they take on the CTEC Girls Volleyball on February 16th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
 		"title": "Early Release",
 		"caption": "February 17th",
 		"image": "",
@@ -27,6 +17,26 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
 		"description": "There is NO SCHOOL on Monday, February 20th, 2023. Enjoy the day off!"
+	},
+	{
+		"title": "Boys Volleyball",
+		"caption": "February 21st",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "5:15 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
+		"description": "Good luck to our Boys Volleyball team as they take on both the DeWolf Boy Volleyball team at 5:15 PM and the Big Picture Boys Volleyball team at 6:00 PM on February 21st, 2023. The first game begins at 5:15 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Girls Volleyball",
+		"caption": "February 23rd",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "5:15 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
+		"description": "Good luck to our Girls Volleyball team as they take on both the DeWolf Girls Volleyball team at 5:15 PM and the Big Picture Girls Volleyball team at 6:00 PM on February 23rd, 2023. The first game begins at 5:15 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	},
 	{
 		"title": "Turtle Pond Volunteering",
