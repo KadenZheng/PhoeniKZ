@@ -4,12 +4,6 @@
 		"description": "The ASB is sponsoring a field trip to Pantages Theater in Hollywood. We are going to see The Lion King on March 18th, 2023. It is a Saturday trip, 8 am to 8 pm. We will have lunch (on your own) at Universal Citywalk and then see the matinee show and be home by 8. Reserve your ticket at the QR code outside the PE Room. We have 45 seats to sell. The price will be $140, please make checks payable to University High School. You must turn in your check by February 10th, 2023 if you signed up on the Google Form. If you have questions, see Mr. Benslay."
 	},
 	{
-		"title": "Girls Volleyball",
-		"category": "Club/Sports",
-		"meetingDate": "2/16/2023",
-		"description": "Good luck to our Girls Volleyball team as they take on the CTEC Girls Volleyball on February 16th, 2023. The game begins at 6:00 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
 		"title": "Drop-Off",
 		"category": "Parents",
 		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
@@ -35,6 +29,19 @@
 		"title": "No School",
 		"category": "Parents",
 		"description": "There is NO SCHOOL on Monday, February 20th, 2023. Enjoy the day off!"
+	},
+	{
+		"title": "Boys Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "2/21/2023",
+		"description": "Good luck to our Boys Volleyball team as they take on both the DeWolf Boy Volleyball team at 5:15 PM and the Big Picture Boys Volleyball team at 6:00 PM on February 21st, 2023. The first game begins at 5:15 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+
+	{
+		"title": "Girls Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "2/23/2023",
+		"description": "Good luck to our Girls Volleyball team as they take on both the DeWolf Girls Volleyball team at 5:15 PM and the Big Picture Girls Volleyball team at 6:00 PM on February 23rd, 2023. The first game begins at 5:15 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	},
 	{
 		"title": "Turtle Pond Volunteering",
