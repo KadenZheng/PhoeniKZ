@@ -1,14 +1,4 @@
 [{
-		"title": "No School",
-		"caption": "February 20th",
-		"image": "",
-		"location": "UHS",
-		"time": "",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
-		"description": "There is NO SCHOOL on Monday, February 20th, 2023. Enjoy the day off!"
-	},
-	{
 		"title": "Boys Volleyball",
 		"caption": "February 21st",
 		"image": "",
@@ -29,6 +19,16 @@
 		"description": "Good luck to our Girls Volleyball team as they take on both the DeWolf Girls Volleyball team at 5:15 PM and the Big Picture Girls Volleyball team at 6:00 PM on February 23rd, 2023. The first game begins at 5:15 PM, at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	},
 	{
+		"title": "Concerto Concert",
+		"caption": "February 23rd",
+		"image": "",
+		"location": "Paul Shaghoian",
+		"time": "7:30 PM - 9:00 PM",
+		"contact": "Front Office / Dr. C",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/OrchestraStrings.jpeg",
+		"description": "Please come hear six wonderful concertos performed by UHS students on February 23rd, 7:30 PM - 9:00 PM at the Paul Shaghoian Concert Hall. Tickets are $5 and may be purchased either at the door or at the Front Office. If you have any questions, please contact Dr. Cornelison or the Front Office. Thanks!"
+	},
+	{
 		"title": "Turtle Pond Volunteering",
 		"caption": "February 25th",
 		"image": "",
@@ -37,5 +37,15 @@
 		"contact": "clmacias@csufresno.edu",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/turtle.png",
 		"description": "Please come join us on February 25th, 2023 (10:00 AM - 1:00 PM) for the Turtle Pond Restoration Project! The Huggins Center Turtle Pond of Kremen Education is in need of restoration so at this event, we'll be creating bird feeders, maintaining the site, and planting for the spring. There will also be donuts and coffee. If you have any questions, please contact clmacias@csufresno.edu."
+	},
+	{
+		"title": "Boys Volleyball",
+		"caption": "February 28th",
+		"image": "",
+		"location": "Duncan Polytechnical HS",
+		"time": "6:00 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
+		"description": "Good luck to our Boys Volleyball team as they take on the CTEC Boys Volleyball team at 6:00 PM on February 28th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	}
 ]
