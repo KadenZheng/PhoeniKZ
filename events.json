@@ -1,22 +1,33 @@
 [{
-		"title": "State Quals B",
-		"caption": "February 25th",
+		"title": "Boys Volleyball",
+		"caption": "February 28th",
 		"image": "",
-		"location": "Bakersfield",
-		"time": "All Day",
-		"contact": "Dr. Jarocki",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
-		"description": "Good luck to our Speech team as they compete at State Quals B in Bakersfield. We'll be meeting at Bullard High at 5:20 AM. Meet at the North parking lot, which is on Browning, right in front of the solar-paneled parking lot. The competition will last nearly all day, so expect to be back sometime early evening. Good luck!"
+		"location": "Duncan Polytechnical",
+		"time": "6:00 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
+		"description": "Good luck to our Boys Volleyball team as they take on the CTEC Boys Volleyball team at 6:00 PM on February 28th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	},
 	{
-		"title": "Turtle Pond Volunteering",
-		"caption": "February 25th",
+		"title": "Girls Volleyball",
+		"caption": "March 2nd",
 		"image": "",
-		"location": "Kremen School of Education",
-		"time": "10:00 AM - 1:00 PM",
-		"contact": "clmacias@csufresno.edu",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/turtle.png",
-		"description": "Please come join us on February 25th, 2023 (10:00 AM - 1:00 PM) for the Turtle Pond Restoration Project! The Huggins Center Turtle Pond of Kremen Education is in need of restoration so at this event, we'll be creating bird feeders, maintaining the site, and planting for the spring. There will also be donuts and coffee. If you have any questions, please contact clmacias@csufresno.edu."
+		"location": "Duncan Polytechnical",
+		"time": "6:00 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
+		"description": "Good luck to our Girls Volleyball team as they take on the CTEC Girls Volleyball team at 6:00 PM on March 2nd, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Board Meeting",
+		"caption": "March 2nd",
+		"image": "",
+		"location": "Room 108 (Murillo)",
+		"time": "3:00 PM",
+		"contact": "Mrs. Trauner",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
+		"description": "The March Board Meeting will be held in Mr. Murillo's room at 3:00 PM on Thursday, March 2nd. If you have a public comment or would like to hear about the state of the school, please join us. For any questions, you may contact the Front Office or Mrs. Trauner. Thank you!"
+
 	},
 	{
 		"title": "Boys Volleyball",
@@ -37,5 +48,15 @@
 		"contact": "Mr. Hagen",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
 		"description": "Good luck to our Girls Volleyball team as they take on the CTEC Girls Volleyball team at 6:00 PM on March 2nd, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "B Quals",
+		"caption": "March 3rd - 4th",
+		"image": "",
+		"location": "Clovis North",
+		"time": "All Day",
+		"contact": "Dr. Jarocki",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
+		"description": "B Quals (Debate Quals) will be held at Clovis North High School on March 3rd and March 4th. If you break to the eliminations, the tournament will last until the evening of March 4th. Registration is now closed. If you'd like to practice with Dr. Jarocki or Aubrey, please attend the sessions from 3-5 on February 27th and 28th in Dr. Jarocki's room. Please be at Clovis North by 8:00 AM on Saturday. Good luck!"
 	}
 ]
