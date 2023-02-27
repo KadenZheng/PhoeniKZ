@@ -9,16 +9,6 @@
 		"description": "Good luck to our Boys Volleyball team as they take on the CTEC Boys Volleyball team at 6:00 PM on February 28th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	},
 	{
-		"title": "Girls Volleyball",
-		"caption": "March 2nd",
-		"image": "",
-		"location": "Duncan Polytechnical",
-		"time": "6:00 PM - 7:00 PM",
-		"contact": "Mr. Hagen",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
-		"description": "Good luck to our Girls Volleyball team as they take on the CTEC Girls Volleyball team at 6:00 PM on March 2nd, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
 		"title": "Board Meeting",
 		"caption": "March 2nd",
 		"image": "",
@@ -27,7 +17,6 @@
 		"contact": "Mrs. Trauner",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
 		"description": "The March Board Meeting will be held in Mr. Murillo's room at 3:00 PM on Thursday, March 2nd. If you have a public comment or would like to hear about the state of the school, please join us. For any questions, you may contact the Front Office or Mrs. Trauner. Thank you!"
-
 	},
 	{
 		"title": "Girls Volleyball",
@@ -39,6 +28,7 @@
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
 		"description": "Good luck to our Girls Volleyball team as they take on the CTEC Girls Volleyball team at 6:00 PM on March 2nd, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	},
+
 	{
 		"title": "B Quals",
 		"caption": "March 3rd - 4th",
