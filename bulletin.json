@@ -9,12 +9,6 @@
 		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
 	},
 	{
-		"title": "Boys Volleyball",
-		"category": "Club/Sports",
-		"meetingDate": "2/28/2023",
-		"description": "Good luck to our Boys Volleyball team as they take on the CTEC Boys Volleyball team at 6:00 PM on February 28th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
 		"title": "Board Meeting",
 		"category": "New",
 		"meetingDate": "3/2/2023",
@@ -31,5 +25,11 @@
 		"category": "Club/Sports",
 		"meetingDate": "3/3 & 3/4",
 		"description": "B Quals (Debate Quals) will be held at Bullard High School on March 4th (Zoom rounds on March 3rd). If you break to the eliminations, the tournament will last until the evening of March 4th. Registration is now closed. If you'd like to practice with Dr. Jarocki or Aubrey, please attend the sessions from 3-5 on February 27th and 28th in Dr. Jarocki's room. Please be at Bullard High by 8:00 AM on Saturday. Good luck!"
+	},
+	{
+		"title": "Boys Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "3/7/2023",
+		"description": "Good luck to our Boys Volleyball team as they take on the Duncan Boys Volleyball team at 5:15 PM on March 7th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	}
 ]
