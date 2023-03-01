@@ -1,13 +1,4 @@
-[{
-		"title": "Boys Volleyball",
-		"caption": "February 28th",
-		"image": "",
-		"location": "Duncan Polytechnical",
-		"time": "6:00 PM - 7:00 PM",
-		"contact": "Mr. Hagen",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
-		"description": "Good luck to our Boys Volleyball team as they take on the CTEC Boys Volleyball team at 6:00 PM on February 28th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
+[
 	{
 		"title": "Board Meeting",
 		"caption": "March 2nd",
@@ -38,5 +29,15 @@
 		"contact": "Dr. Jarocki",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
 		"description": "B Quals (Debate Quals) will be held at Bullard High School on March 4th (Zoom rounds on March 3rd). If you break to the eliminations, the tournament will last until the evening of March 4th. Registration is now closed. If you'd like to practice with Dr. Jarocki or Aubrey, please attend the sessions from 3-5 on February 27th and 28th in Dr. Jarocki's room. Please be at Bullard High by 8:00 AM on Saturday. Good luck!"
+	},
+	{
+		"title": "Boys Volleyball",
+		"caption": "March 7th",
+		"image": "",
+		"location": "Duncan Polytechnical",
+		"time": "5:15 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
+		"description": "Good luck to our Boys Volleyball team as they take on the Duncan Boys Volleyball team at 5:15 PM on March 7th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	}
 ]
