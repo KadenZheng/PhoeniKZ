@@ -9,27 +9,27 @@
 		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
 	},
 	{
-		"title": "Board Meeting",
-		"category": "New",
-		"meetingDate": "3/2/2023",
-		"description": "The March Board Meeting will be held in Mr. Murillo's room at 3:00 PM on Thursday, March 2nd. If you have a public comment or would like to hear about the state of the school, please join us. For any questions, you may contact the Front Office or Mrs. Trauner. Thank you!"
-	},
-	{
-		"title": "Girls Volleyball",
-		"category": "Club/Sports",
-		"meetingDate": "3/2/2023",
-		"description": "Good luck to our Girls Volleyball team as they take on the CTEC Girls Volleyball team at 6:00 PM on March 2nd, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
-		"title": "B (Debate) Quals",
-		"category": "Club/Sports",
-		"meetingDate": "3/3 & 3/4",
-		"description": "B Quals (Debate Quals) will be held at Bullard High School on March 4th (Zoom rounds on March 3rd). If you break to the eliminations, the tournament will last until the evening of March 4th. Registration is now closed. If you'd like to practice with Dr. Jarocki or Aubrey, please attend the sessions from 3-5 on February 27th and 28th in Dr. Jarocki's room. Please be at Bullard High by 8:00 AM on Saturday. Good luck!"
-	},
-	{
 		"title": "Boys Volleyball",
 		"category": "Club/Sports",
 		"meetingDate": "3/7/2023",
 		"description": "Good luck to our Boys Volleyball team as they take on the Duncan Boys Volleyball team at 5:15 PM on March 7th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Girls Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "3/9/2023",
+		"description": "Good luck to our Girls Volleyball team as they take on the Duncan Girls Volleyball team at 5:15 PM on March 9th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Congress State Debate Quals",
+		"category": "Club/Sports",
+		"meetingDate": "3/9/2023",
+		"description": "The Congress Debate State Qualifier will be held at Edison High School on March 9th. If you would like to register, please talk to Dr. Jarocki or Aubrey der Torosian as soon as possible. The tournament will be all day, so be prepared to miss a day of school. Best of luck!"
+	},
+	{
+		"title": "Percussion Concert",
+		"category": "New",
+		"meetingDate": "3/10/2023",
+		"description": "The Percussion Concert will be held on March 10th, at the Fresno State concert hall, and will feature all percussion ensembles at UHS. The concert begins at 7:00 PM. Again, it will be at the Fresno State concert hall. If you have any questions, please contact Dr. Cornelison."
 	}
 ]
