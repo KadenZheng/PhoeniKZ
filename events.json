@@ -1,14 +1,4 @@
 [{
-		"title": "Boys Volleyball",
-		"caption": "March 7th",
-		"image": "",
-		"location": "Duncan Polytechnical",
-		"time": "5:15 PM - 7:00 PM",
-		"contact": "Mr. Hagen",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
-		"description": "Good luck to our Boys Volleyball team as they take on the Duncan Boys Volleyball team at 5:15 PM on March 7th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
 		"title": "Girls Volleyball",
 		"caption": "March 9th",
 		"image": "",
@@ -37,5 +27,15 @@
 		"contact": "Dr. Cornelison",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/percussion.jpg",
 		"description": "The Percussion Concert will be held on March 10th, at the Fresno State concert hall, and will feature all percussion ensembles at UHS. The concert begins at 7:00 PM. Again, it will be at the Fresno State concert hall. If you have any questions, please contact Dr. Cornelison."
+	},
+	{
+		"title": "ACADEC State",
+		"caption": "March 11th",
+		"image": "",
+		"location": "Computer Lab",
+		"time": "7:00 AM - 5:00 PM",
+		"contact": "Mr. Canfield",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ACADEC.JPG",
+		"description": "The Academic Decathlon State Competition will be held on March 11th, 2023 in the UHS Computer Lab. Our ACADEC team will be testing all day, so please be quiet as you're walking through the halls. Best of luck!"
 	}
 ]
