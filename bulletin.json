@@ -9,12 +9,6 @@
 		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
 	},
 	{
-		"title": "Boys Volleyball",
-		"category": "Club/Sports",
-		"meetingDate": "3/7/2023",
-		"description": "Good luck to our Boys Volleyball team as they take on the Duncan Boys Volleyball team at 5:15 PM on March 7th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
 		"title": "Girls Volleyball",
 		"category": "Club/Sports",
 		"meetingDate": "3/9/2023",
@@ -31,5 +25,11 @@
 		"category": "New",
 		"meetingDate": "3/10/2023",
 		"description": "The Percussion Concert will be held on March 10th, at the Fresno State concert hall, and will feature all percussion ensembles at UHS. The concert begins at 7:00 PM. Again, it will be at the Fresno State concert hall. If you have any questions, please contact Dr. Cornelison."
+	},
+	{
+		"title": "ACADEC State Competition",
+		"category": "New",
+		"meetingDate": "3/11/2023",
+		"description": "The Academic Decathlon State Competition will be held on March 11th, 2023 in the UHS Computer Lab. Our ACADEC team will be testing all day, so please be quiet as you're walking through the halls. Best of luck!"
 	}
 ]
