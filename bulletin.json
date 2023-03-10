@@ -9,18 +9,6 @@
 		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
 	},
 	{
-		"title": "Girls Volleyball",
-		"category": "Club/Sports",
-		"meetingDate": "3/9/2023",
-		"description": "Good luck to our Girls Volleyball team as they take on the Duncan Girls Volleyball team at 5:15 PM on March 9th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
-		"title": "Congress State Debate Quals",
-		"category": "Club/Sports",
-		"meetingDate": "3/9/2023",
-		"description": "The Congress Debate State Qualifier will be held at Edison High School on March 9th. If you would like to register, please talk to Dr. Jarocki or Aubrey der Torosian as soon as possible. The tournament will be all day, so be prepared to miss a day of school. Best of luck!"
-	},
-	{
 		"title": "Percussion Concert",
 		"category": "New",
 		"meetingDate": "3/10/2023",
@@ -31,5 +19,17 @@
 		"category": "New",
 		"meetingDate": "3/11/2023",
 		"description": "The Academic Decathlon State Competition will be held on March 11th, 2023 in the UHS Computer Lab. Our ACADEC team will be testing all day, so please be quiet as you're walking through the halls. Best of luck!"
+	},
+	{
+		"title": "Boys Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "3/14/2023",
+		"description": "Good luck to our Boys Volleyball team as they play for the championship on March 14th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Girls Volleyball",
+		"category": "Club/Sports",
+		"meetingDate": "3/16/2023",
+		"description": "Good luck to our Girls Volleyball team as they play for the championship on March 16th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	}
 ]
