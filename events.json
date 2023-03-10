@@ -1,24 +1,4 @@
 [{
-		"title": "Girls Volleyball",
-		"caption": "March 9th",
-		"image": "",
-		"location": "Duncan Polytechnical",
-		"time": "6:00 PM - 7:00 PM",
-		"contact": "Mr. Hagen",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
-		"description": "Good luck to our Girls Volleyball team as they take on the Duncan Girls Volleyball team at 5:15 PM on March 9th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
-	},
-	{
-		"title": "Congress State Quals",
-		"caption": "March 9th",
-		"image": "",
-		"location": "Edison High",
-		"time": "All Day",
-		"contact": "Dr. Jarocki",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
-		"description": "The Congress Debate State Qualifier will be held at Edison High School on March 9th. If you would like to register, please talk to Dr. Jarocki or Aubrey der Torosian as soon as possible. The tournament will be all day, so be prepared to miss a day of school. Best of luck!"
-	},
-	{
 		"title": "Percussion Concert",
 		"caption": "March 10th",
 		"image": "",
@@ -37,5 +17,25 @@
 		"contact": "Mr. Canfield",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ACADEC.JPG",
 		"description": "The Academic Decathlon State Competition will be held on March 11th, 2023 in the UHS Computer Lab. Our ACADEC team will be testing all day, so please be quiet as you're walking through the halls. Best of luck!"
+	},
+	{
+		"title": "Boys Volleyball",
+		"caption": "March 14th",
+		"image": "",
+		"location": "Duncan Polytechnical",
+		"time": "4:30 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Volleyball.jpeg",
+		"description": "Good luck to our Boys Volleyball team as they play for the championship on March 14th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+	},
+	{
+		"title": "Girls Volleyball",
+		"caption": "March 16th",
+		"image": "",
+		"location": "Duncan Polytechnical",
+		"time": "4:30 PM - 7:00 PM",
+		"contact": "Mr. Hagen",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/GirlsVolleyball.jpg",
+		"description": "Good luck to our Girls Volleyball team as they play for the championship on March 16th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
 	}
 ]
