@@ -4,21 +4,31 @@
 		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
 	},
 	{
-		"title": "Girls Volleyball",
+		"title": "ACADEC States",
 		"category": "Club/Sports",
-		"meetingDate": "3/16/2023",
-		"description": "Good luck to our Girls Volleyball team as they play for the championship on March 16th, 2023 at Duncan Polytechnical High School. For any questions or well wishes, please see Mr. Hagen!"
+		"meetingDate": "3/24/2023 - 3/26/2023",
+		"description": "Our Academic Decathalon team is traveling to the ACADEC State Tournament in Santa Clara, California, on March 24th - 26th. Please wish our team the best of luck because they have been prepping very hard all year, and are representing our region as the Regional Champions. Best of luck to all."
 	},
 	{
-		"title": "DA Smittcamp Presentation",
+		"title": "Cesar Chavez Day",
 		"category": "New",
-		"meetingDate": "3/17/2023",
-		"description": "On March 17th, we will be having a special presentation at the Resnick Student Union, presented by a DA from Smittcamp. Students are required to attend this assembly. Please check Remind for the full special assembly schedule."
+		"meetingDate": "3/31/2023",
+		"description": "There is no school on Friday, March 31st, 2023 in honor of Cesar Chavez Day. Take this day to relax and enjoy your three-day weekend!"
 	},
 	{
-		"title": "Pantages Trip",
+		"title": "Cesar Chavez Day",
+		"category": "Parents",
+		"description": "There is no school on Friday, March 31st, 2023 in honor of Cesar Chavez Day. Take this day to relax and enjoy your three-day weekend!"
+	},
+	{
+		"title": "Spring Break",
 		"category": "New",
-		"meetingDate": "3/18/2023",
-		"description": "On Saturday, March 18th, UHS will be taking a trip down to Universal Citywalk in LA to watch the Lion King at the Pantages Theater. Tickets have been sold and students are to pick up their permission slips from Mr. Benslay sometime this week. If you have any questions, please contact Mr. Benslay. Have fun!"
+		"meetingDate": "4/3/2023 - 4/7/2023",
+		"description": "Spring Break starts on April 3rd, 2023 and goes until April 7th, 2023. There will be no school starting on March 31st, however, until the week of the 9th. Hopefully everyone can spend some time relaxing with their families or pursuing what you all enjoy. Have a wonderful Spring Break everyone!"
+	},
+	{
+		"title": "Spring Break",
+		"category": "Parents",
+		"description": "Spring Break starts on April 3rd, 2023 and goes until April 7th, 2023. There will be no school starting on March 31st, however, until the week of the 9th. Hopefully everyone can spend some time relaxing with their families or pursuing what you all enjoy. Have a wonderful Spring Break everyone!"
 	}
 ]
