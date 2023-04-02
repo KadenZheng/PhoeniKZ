@@ -1,31 +1,10 @@
 [{
-		"title": "SBAC Math Testing",
-		"caption": "March 27th - 30th",
-		"image": "",
-		"location": "Computer Lab",
-		"time": "All Week",
-		"contact": "Mr. Morgan",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/statetesting.png",
-		"description": "The Juniors will be State Testing from March 27th - 30th in the Computer Lab. Please be quite and respectful as you're walking through the halls, as the juniors will be testing all week. If you have any questions, please contact Mr. Morgan."
-	},
-	{
-		"title": "Cesar Chavez Day",
-		"caption": "March 31st",
-		"image": "",
-		"location": "Home",
-		"time": "",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
-		"description": "There is no school on Friday, March 31st, 2023 in honor of Cesar Chavez Day. Take this day to relax and enjoy your three-day weekend!"
-	},
-	{
-		"title": "Spring Break",
-		"caption": "April 3rd - 7th",
-		"image": "",
-		"location": "Everywhere",
-		"time": "All Week",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/springbreak.jpeg",
-		"description": "Spring Break starts on April 3rd, 2023 and goes until April 7th, 2023. There will be no school starting on March 31st, however, until the week of the 9th. Hopefully everyone can spend some time relaxing with their families or pursuing what you all enjoy. Have a wonderful Spring Break everyone!"
-	}
-]
+	"title": "Spring Break",
+	"caption": "April 3rd - 7th",
+	"image": "",
+	"location": "Everywhere",
+	"time": "All Week",
+	"contact": "Front Office",
+	"imageURL": "https://kadenzheng.github.io/PhoeniKZ/springbreak.jpeg",
+	"description": "Spring Break starts on April 3rd, 2023 and goes until April 7th, 2023. There will be no school starting on March 31st, however, until the week of the 9th. Hopefully everyone can spend some time relaxing with their families or pursuing what you all enjoy. Have a wonderful Spring Break everyone!"
+}]
