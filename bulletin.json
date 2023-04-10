@@ -13,5 +13,23 @@
 		"title": "Spring Break",
 		"category": "Parents",
 		"description": "Spring Break starts on April 3rd, 2023 and goes until April 7th, 2023. There will be no school starting on March 31st, however, until the week of the 9th. Hopefully everyone can spend some time relaxing with their families or pursuing what you all enjoy. Have a wonderful Spring Break everyone!"
+	},
+	{
+		"title": "Junior State Testing",
+		"category": "New",
+		"meetingDate": "4/10/2023 - 4/11/2023",
+		"description": "Monday and Tuesday is State testing for Juniors in the computer lab. The lab will be closed during class periods but available before schools, at lunch and after school. Juniors will test during their bio class period. If you have any questions, please contact Mr. Morgan."
+	},
+	{
+		"title": "All Bands Concert",
+		"category": "New",
+		"meetingDate": "4/12/2023",
+		"description": "The All Bands Concert will be at the Paul Shaghoian Concert Hall on April 12th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All bands will be performing at this concert. If you have any questions, please talk to Dr. Cornelison."
+	},
+	{
+		"title": "Progress Reports",
+		"category": "New",
+		"meetingDate": "4/14/2023",
+		"description": "Progress Reports come out on April 14th. Students, remember that if you have an F in any of your classes, you are ineligible to run for any leadership position, partake in any extracurricular events, or attend any dances (AI List). We are nearing the end of the semester, so keep those grades up!"
 	}
 ]
