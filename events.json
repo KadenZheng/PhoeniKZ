@@ -9,16 +9,6 @@
 		"description": "Monday and Tuesday is State testing for Juniors in the computer lab. The lab will be closed during class periods but available before schools, at lunch and after school. Juniors will test during their bio class period. If you have any questions, please contact Mr. Morgan."
 	},
 	{
-		"title": "All Bands Concert",
-		"caption": "April 12th",
-		"image": "",
-		"location": "Shaghoian Concert Hall",
-		"time": "7:00 PM - 8:30 PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Bands.png",
-		"description": "The All Bands Concert will be at the Paul Shaghoian Concert Hall on April 12th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All bands will be performing at this concert. If you have any questions, please talk to Dr. Cornelison."
-	},
-	{
 		"title": "Progress Reports",
 		"caption": "April 14th",
 		"image": "",
@@ -27,5 +17,15 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/medallion.png",
 		"description": "Progress Reports come out on April 14th. Students, remember that if you have an F in any of your classes, you are ineligible to run for any leadership position, partake in any extracurricular events, or attend any dances (AI List). We are nearing the end of the semester, so keep those grades up!"
+	},
+	{
+		"title": "All Bands Concert",
+		"caption": "April 19th",
+		"image": "",
+		"location": "Shaghoian Concert Hall",
+		"time": "7:00 PM - 8:30 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Bands.png",
+		"description": "The All Bands Concert will be at the Paul Shaghoian Concert Hall on April 19th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All bands will be performing at this concert. If you have any questions, please talk to Dr. Cornelison."
 	}
 ]
