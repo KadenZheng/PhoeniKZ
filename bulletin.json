@@ -4,21 +4,15 @@
 		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
 	},
 	{
-		"title": "Junior State Testing",
-		"category": "New",
-		"meetingDate": "4/10/2023 - 4/11/2023",
-		"description": "Monday and Tuesday is State testing for Juniors in the computer lab. The lab will be closed during class periods but available before schools, at lunch and after school. Juniors will test during their bio class period. If you have any questions, please contact Mr. Morgan."
-	},
-	{
-		"title": "Progress Reports",
-		"category": "New",
-		"meetingDate": "4/14/2023",
-		"description": "Progress Reports come out on April 14th. Students, remember that if you have an F in any of your classes, you are ineligible to run for any leadership position, partake in any extracurricular events, or attend any dances (AI List). We are nearing the end of the semester, so keep those grades up!"
-	},
-	{
 		"title": "All Bands Concert",
 		"category": "New",
 		"meetingDate": "4/19/2023",
 		"description": "The All Bands Concert will be at the Paul Shaghoian Concert Hall on April 19th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All bands will be performing at this concert. If you have any questions, please talk to Dr. Cornelison."
+	},
+	{
+		"title": "Symphony Orchestra Concert",
+		"category": "New",
+		"meetingDate": "4/24/2023",
+		"description": "The Symphony Orchestra Concert will be at the Paul Shaghoian Concert Hall on April 24th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. Only the Symphony Orchestra will be performing at this concert, with a program featuring The Planets, by Gustav Holst. If you have any questions, please see  Dr. Cornelison."
 	}
 ]
