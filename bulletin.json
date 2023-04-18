@@ -14,5 +14,17 @@
 		"category": "New",
 		"meetingDate": "4/24/2023",
 		"description": "The Symphony Orchestra Concert will be at the Paul Shaghoian Concert Hall on April 24th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. Only the Symphony Orchestra will be performing at this concert, with a program featuring The Planets, by Gustav Holst. If you have any questions, please see  Dr. Cornelison."
+	},
+	{
+		"title": "All-Strings Concert",
+		"category": "New",
+		"meetingDate": "4/25/2023",
+		"description": "The All-Strings Concert will be at the Paul Shaghoian Concert Hall on April 25th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All of the String Ensemble groups with the exception of Symphony Orchestra will be performing at this concert. If you have any questions, please see  Dr. Cornelison."
+	},
+	{
+		"title": "All-Choirs Concert",
+		"category": "New",
+		"meetingDate": "4/26/2023",
+		"description": "The All-Choirs Concert will be at the Paul Shaghoian Concert Hall on April 26th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All of the Choirs will be performing at this concert. If you have any questions, please see  Dr. Moore."
 	}
 ]
