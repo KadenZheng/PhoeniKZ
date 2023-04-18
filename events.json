@@ -9,7 +9,7 @@
 		"description": "The All Bands Concert will be at the Paul Shaghoian Concert Hall on April 19th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All bands will be performing at this concert. If you have any questions, please talk to Dr. Cornelison."
 	},
 	{
-		"title": "Symphony Orchestra Concert",
+		"title": "Symphony Orchestra",
 		"caption": "April 24th",
 		"image": "",
 		"location": "Shaghoian Concert Hall",
@@ -17,5 +17,25 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Orchestra.jpeg",
 		"description": "The Symphony Orchestra Concert will be at the Paul Shaghoian Concert Hall on April 24th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. Only the Symphony Orchestra will be performing at this concert, with a program featuring The Planets, by Gustav Holst. If you have any questions, please see  Dr. Cornelison."
+	},
+	{
+		"title": "All-Strings Concert",
+		"caption": "April 25th",
+		"image": "",
+		"location": "Shaghoian Concert Hall",
+		"time": "7:00 PM - 8:30 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/OrchestraStrings.jpeg",
+		"description": "The All-Strings Concert will be at the Paul Shaghoian Concert Hall on April 25th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All of the String Ensemble groups with the exception of Symphony Orchestra will be performing at this concert. If you have any questions, please see  Dr. Cornelison."
+	},
+	{
+		"title": "All-Choirs Concert",
+		"caption": "April 26th",
+		"image": "",
+		"location": "Shaghoian Concert Hall",
+		"time": "7:00 PM - 8:30 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Choir.png",
+		"description": "The All-Choirs Concert will be at the Paul Shaghoian Concert Hall on April 26th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All of the Choirs will be performing at this concert. If you have any questions, please see  Dr. Moore."
 	}
 ]
