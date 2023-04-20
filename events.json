@@ -1,13 +1,4 @@
-[{
-		"title": "All Bands Concert",
-		"caption": "April 19th",
-		"image": "",
-		"location": "Shaghoian Concert Hall",
-		"time": "7:00 PM - 8:30 PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Bands.png",
-		"description": "The All Bands Concert will be at the Paul Shaghoian Concert Hall on April 19th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All bands will be performing at this concert. If you have any questions, please talk to Dr. Cornelison."
-	},
+[
 	{
 		"title": "Symphony Orchestra",
 		"caption": "April 24th",
