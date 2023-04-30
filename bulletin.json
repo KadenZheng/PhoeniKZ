@@ -4,15 +4,33 @@
 		"description": "Please try to avoid dropping off in the Visitor Parking Lot at the back of UHS. It's best to drop off at the side of the school facing Shaw."
 	},
 	{
-		"title": "All-Strings Concert",
+		"title": "AP Government Exam",
 		"category": "New",
-		"meetingDate": "4/25/2023",
-		"description": "The All-Strings Concert will be at the Paul Shaghoian Concert Hall on April 25th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All of the String Ensemble groups with the exception of Symphony Orchestra will be performing at this concert. If you have any questions, please see  Dr. Cornelison."
+		"meetingDate": "5/1/2023",
+		"description": "The AP Government Exam will be on May 1st, 2023 in the Computer Lab. All students are testing in the Computer Lab. The test is administered from 8:00 AM - 11:00 AM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
 	},
 	{
-		"title": "All-Choirs Concert",
+		"title": "AP Literature Exam",
 		"category": "New",
-		"meetingDate": "4/26/2023",
-		"description": "The All-Choirs Concert will be at the Paul Shaghoian Concert Hall on April 26th, from 7:00 - 8:30 PM. If you would like to purchase tickets, please go to the Front Office. All of the Choirs will be performing at this concert. If you have any questions, please see  Dr. Moore."
+		"meetingDate": "5/3/2023",
+		"description": "The AP Literature Exam will be on May 3rd, 2023 in Room 201 and the Computer Lab. Students whose last names fall between Adanzo - Lopez will test in Room 201, while students with last names between McCloskey - Zheng will test in the Computer Lab. The test is administered from 8:00 AM - 11:00 AM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
+	},
+	{
+		"title": "AP Macroeconomics",
+		"category": "New",
+		"meetingDate": "5/4/2023",
+		"description": "The AP Macroeconomics Exam will be on May 4th, 2023 in Room 103 and the Computer Lab. Students whose last names fall between Al Saber - Jaimes will test in Room 103, while students with last names between Johnson - Zheng will test in the Computer Lab. The test is administered from 8:00 AM - 11:00 AM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
+	},
+	{
+		"title": "AP Statistics",
+		"category": "New",
+		"meetingDate": "5/4/2023",
+		"description": "The AP Statistics Exam will be on May 4th, 2023 in Room 108 and the Computer Lab. Students whose last names fall between Al-Hindi - Keller will test in Room 108, while students with last names between Khakh - Zubacz will test in the Computer Lab. The test is administered from 12:00 PM - 3:00 PM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
+	},
+	{
+		"title": "AP Microeconomics",
+		"category": "New",
+		"meetingDate": "5/5/2023",
+		"description": "The AP Microeconomics Exam will be on May 5th, 2023 in Room 104 and the Computer Lab. Students whose last names fall between Al-Saber - Jaimes will test in Room 104, while students with last names between Johnson - Zheng will test in the Computer Lab. The test is administered from 12:00 PM - 3:00 PM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
 	}
 ]
