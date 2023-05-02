@@ -47,5 +47,25 @@
 		"contact": "Mrs. Fernandez",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ap.png",
 		"description": "The AP Microeconomics Exam will be on May 5th, 2023 in Room 104 and the Computer Lab. Students whose last names fall between Al-Saber - Jaimes will test in Room 104, while students with last names between Johnson - Zheng will test in the Computer Lab. The test is administered from 12:00 PM - 3:00 PM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
+	},
+	{
+		"title": "(Non-Senior) Speech Tourney",
+		"caption": "May 13th",
+		"image": "",
+		"location": "McLane High School",
+		"time": "All Day",
+		"contact": "Dr. Jarocki",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/SpeechAndDebate.jpg",
+		"description": "There will be a Novice Non-Senior Speech tournament for students (non-seniors) looking to enter the UHS Speech and Debate scene! For all underclassmen, this is a perfect opportunity to gain some experience or get your feet wet with forensics. If you have any questions or would like to enroll, please talk to Dr. Jarocki (Room 202)."
+	},
+	{
+		"title": "Finals Week",
+		"caption": "May 16th - 18th",
+		"image": "",
+		"location": "UHS",
+		"time": "All Day",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Finals.jpeg",
+		"description": "Good luck to all students during Finals Week. Please contact the Front Office if you have any questions. Periods 0, 1 will test on May 16th, Period 2, 3 will test on May 17th, and Periods 5, 6 will be testing on May 18th. Good luck to all! :)"
 	}
 ]
