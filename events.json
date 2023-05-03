@@ -49,7 +49,7 @@
 		"description": "The AP Microeconomics Exam will be on May 5th, 2023 in Room 104 and the Computer Lab. Students whose last names fall between Al-Saber - Jaimes will test in Room 104, while students with last names between Johnson - Zheng will test in the Computer Lab. The test is administered from 12:00 PM - 3:00 PM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
 	},
 	{
-		"title": "(Non-Senior) Speech Tourney",
+		"title": "(Non-Senior) Speech Trnmt",
 		"caption": "May 13th",
 		"image": "",
 		"location": "McLane High School",
@@ -67,5 +67,45 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Finals.jpeg",
 		"description": "Good luck to all students during Finals Week. Please contact the Front Office if you have any questions. Periods 0, 1 will test on May 16th, Period 2, 3 will test on May 17th, and Periods 5, 6 will be testing on May 18th. Good luck to all! :)"
+	},
+	{
+		"title": "Graduation Practice",
+		"caption": "May 18th",
+		"image": "",
+		"location": "Rec/Savemart Center",
+		"time": "1:30 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/graduation2.jpg",
+		"description": "Congratulations to all the graduates of the Class of 2023! The practice graduation will be held on May 18th at 1:30 PM at the Rec Center. You do not need to be in your graduation attire, but seniors must attend this practice. The practice should run for a couple of hours until our Senior Sunset."
+	},
+	{
+		"title": "Senior Sunset",
+		"caption": "May 18th",
+		"image": "",
+		"location": "UHS Quad",
+		"time": "5:00 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/seniorsunset.jpeg",
+		"description": "The Senior Sunset celebration will be at 5:00 PM on May 18th, after Graduation Practice. Seniors will set up blankets at the UHS Courtyard and there will be a dinner and raffle provided by the Phoenix Alliance for all seniors this evening. Congratulations to the Class of 2023. If you have any questions, please contact the Front Office or Mr. Benslay."
+	},
+	{
+		"title": "Baccalaureate",
+		"caption": "May 19th",
+		"image": "",
+		"location": "Fresno State Concert Hall",
+		"time": "",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/baccaulerate.jpeg",
+		"description": "Congratulations to all the graduates of the Class of 2023! Our Baccalaureate ceremony will be held on May 19th at the Fresno State Concert Hall. Tickets are required for seniors intending to bring guests (if you have any questions, ask your graduating senior!). The Fresno State Concert Hall is located at 2380 East Keats Avenue & N. Maple Ave, Fresno, CA 93740, USA, and the Parking Code for the event is 902460. Seniors should wear their graduation attire."
+	},
+	{
+		"title": "Graduation",
+		"caption": "May 20th",
+		"image": "",
+		"location": "Rec/Savemart Center",
+		"time": "1:00 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/graduation.jpeg",
+		"description": "Congratulations to all the graduates of the Class of 2023! The ceremony will be held at the Savemart/Rec Center on May 20th, at 1 PM. Graduates need to be there by 12 PM (1 hour earlier). The ceremony should run for about 2 hours. Seating is limited (and there is no reserved seating), so plan accordingly if you have a large party. If you have any questions, please contact the Front Office. Thank you!"
 	}
 ]
