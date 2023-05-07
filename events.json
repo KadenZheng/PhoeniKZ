@@ -1,54 +1,4 @@
 [{
-		"title": "AP Government",
-		"caption": "May 1st",
-		"image": "",
-		"location": "Computer Lab",
-		"time": "8:00 AM - 11:00 AM",
-		"contact": "Mrs. Fernandez",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ap.png",
-		"description": "The AP Government Exam will be on May 1st, 2023 in the Computer Lab. All students are testing in the Computer Lab. The test is administered from 8:00 AM - 11:00 AM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
-	},
-	{
-		"title": "AP Literature",
-		"caption": "May 3rd",
-		"image": "",
-		"location": "Room 201 / Computer Lab",
-		"time": "8:00 AM - 11:00 AM",
-		"contact": "Mrs. Fernandez",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ap.png",
-		"description": "The AP Literature Exam will be on May 3rd, 2023 in Room 201 and the Computer Lab. Students whose last names fall between Adanzo - Lopez will test in Room 201, while students with last names between McCloskey - Zheng will test in the Computer Lab. The test is administered from 8:00 AM - 11:00 AM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
-	},
-	{
-		"title": "AP Macroeconomics",
-		"caption": "May 4th",
-		"image": "",
-		"location": "Room 103 / Computer Lab",
-		"time": "8:00 AM - 11:00 AM",
-		"contact": "Mrs. Fernandez",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ap.png",
-		"description": "The AP Macroeconomics Exam will be on May 4th, 2023 in Room 103 and the Computer Lab. Students whose last names fall between Al Saber - Jaimes will test in Room 103, while students with last names between Johnson - Zheng will test in the Computer Lab. The test is administered from 8:00 AM - 11:00 AM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
-	},
-	{
-		"title": "AP Statistics",
-		"caption": "May 4th",
-		"image": "",
-		"location": "Room 108 / Computer Lab",
-		"time": "12:00 PM - 3:00 PM",
-		"contact": "Mrs. Fernandez",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ap.png",
-		"description": "The AP Statistics Exam will be on May 4th, 2023 in Room 108 and the Computer Lab. Students whose last names fall between Al-Hindi - Keller will test in Room 108, while students with last names between Khakh - Zubacz will test in the Computer Lab. The test is administered from 12:00 PM - 3:00 PM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
-	},
-	{
-		"title": "AP Microeconomics",
-		"caption": "May 5th",
-		"image": "",
-		"location": "Room 104 / Computer Lab",
-		"time": "12:00 PM - 3:00 PM",
-		"contact": "Mrs. Fernandez",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/ap.png",
-		"description": "The AP Microeconomics Exam will be on May 5th, 2023 in Room 104 and the Computer Lab. Students whose last names fall between Al-Saber - Jaimes will test in Room 104, while students with last names between Johnson - Zheng will test in the Computer Lab. The test is administered from 12:00 PM - 3:00 PM. If you have any questions, please contact Mrs. Fernandez. Good luck on your test!"
-	},
-	{
 		"title": "(Non-Senior) Speech Trnmt",
 		"caption": "May 13th",
 		"image": "",
@@ -67,6 +17,16 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/Finals.jpeg",
 		"description": "Good luck to all students during Finals Week. Please contact the Front Office if you have any questions. Periods 0, 1 will test on May 16th, Period 2, 3 will test on May 17th, and Periods 5, 6 will be testing on May 18th. Good luck to all! :)"
+	},
+	{
+		"title": "Community Service",
+		"caption": "May 17th",
+		"image": "",
+		"location": "Rec/Savemart Center",
+		"time": "12:30 PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/communityservice.jpg",
+		"description": "There is a community service opportunity on May 17th for students to help set up for graduation. Any students interested should contact Mr. Benslay or Mrs. Hayden. They will meet and help set up at the Savemart Center entrance facing the Savemart Center parking lots at 12:30 PM on May 17th. Students can earn 2 hours of community service credit."
 	},
 	{
 		"title": "Graduation Practice",
@@ -107,5 +67,15 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/graduation.jpeg",
 		"description": "Congratulations to all the graduates of the Class of 2023! The ceremony will be held at the Savemart/Rec Center on May 20th, at 1 PM. Graduates need to be there by 12 PM (1 hour earlier). The ceremony should run for about 2 hours. Seating is limited (and there is no reserved seating), so plan accordingly if you have a large party. If you have any questions, please contact the Front Office. Thank you!"
+	},
+	{
+		"title": "Spring Intersession",
+		"caption": "May 22nd - June 2nd",
+		"image": "",
+		"location": "UHS",
+		"time": "School Day",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/AllSchoolPhoto.jpg",
+		"description": "Spring Intersession begins on Monday, May 22nd and ends on Friday, June 2nd. Spring Intercession is REQUIRED for all students. Spring Intercession classes have been posted in Powerschool. For any students taking Direct Study, you must satisfy Mr. Morgan's requirements/assignments for your Direct Study Intersession. School days during Spring Intersession are still normal school day times, namely 8:00 AM — 3:00 PM. Enjoy your classes!"
 	}
 ]
