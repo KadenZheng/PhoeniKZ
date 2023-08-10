@@ -1,13 +1,30 @@
 [
 	{
-		"title": "Grad Bash",
+		"title": "Back to School Night",
 		"category": "New",
-		"meetingDate": "6/9 - 6/10",
-		"description": "The Class of 2023 will be taking their Grad Bash trip to Universal Studios, Hollywood on June 9th. They should arrive at the school early (exact time to come, but it should be around 6 AM). The trip will last all day and we will return the morning of June 10th (about 6 AM again). Students will be spending the whole afternoon, evening, and until 2 AM in Universal (after midnight, it is open only to students). Food is not provided, but students will have a voucher to spend on dining. Enjoy!"
+		"meetingDate": "8/14/2023",
+		"description": "Back to school night is on August 14th from 5PM to 8:30PM starting in the courtyard. You will have a chance to walk through your child's classes and learn what the school year is all about."
 	},
 	{
-		"title": "Grad Bash",
+		"title": "Back to School Night",
 		"category": "Parents",
-		"description": "The Class of 2023 will be taking their Grad Bash trip to Universal Studios, Hollywood on June 9th. They should arrive at the school early (exact time to come, but it should be around 6 AM). The trip will last all day and we will return the morning of June 10th (about 6 AM again). Students will be spending the whole afternoon, evening, and until 2 AM in Universal (after midnight, it is open only to students). Food is not provided, but students will have a voucher to spend on dining. Enjoy!"
+		"description": "Back to school night is on August 14th from 5PM to 8:30PM starting in the courtyard. You will have a chance to walk through your child's classes and learn what the school year is all about."
+	},
+	{
+		"title": "First Day of School",
+		"category": "New",
+		"meetingDate": "8/16/2023",
+		"description": "The first day of school starts at 7:55AM. Classes will cover discussions about the courses curriculum through the year. Most classes will end around 3:55PM. If you have any questions direct them to the front office."
+	},
+	{
+		"title": "First Day of School",
+		"category": "Parents",
+		"description": "The first day of school starts at 7:55AM. Classes will cover discussions about the courses curriculum through the year. Most classes will end around 3:55PM. If you have any questions direct them to the front office."
+	},
+	{
+		"title": "Ice Breakers",
+		"category": "New",
+		"meetingDate": "8/18/2023",
+		"description": "Ice breakers is on Friday August 18th from 7:15 PM to 10 PM. Tickets are $15 at the door, please bring exact change. Please be picked up no later than 10:15 PM."
 	}
 ]
