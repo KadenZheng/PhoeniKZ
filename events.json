@@ -1,42 +1,13 @@
 [
 	{
-		"title": "Back to School Night",
-		"caption": "August 14th",
+		"title": "Sophomore Field Trip",
+		"caption": "August 31st",
 		"image": "",
-		"location": "Courtyard",
-		"time": "5 PM - 8:30 PM",
+		"location": "Chaffee Zoo",
+		"time": "All-Day",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/backtoschool.jpeg",
-		"description": "Back to school night is on August 14th from 5PM to 8:30PM starting in the courtyard. You will have a chance to walk through your child's classes and learn what the school year is all about. "
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/chaffeezoo.jpeg",
+		"description": "The sophomore class will go on their fieldtrip to the Chaffee Zoo where they will volunteeer and have lots of fun!"
 	},
-	{
-		"title": "First Day of School",
-		"caption": "August 16th",
-		"image": "",
-		"location": "UHS",
-		"time": "All Day",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/firstdayofschool.jpg",
-		"description": "The first day of school starts at 7:55AM. Classes will cover discussions about the courses curriculum through the year. Most classes will end around 3:55PM. If you have any questions direct them to the front office."
-	},
-	{
-		"title": "Ice Breakers",
-		"caption": "August 18th",
-		"image": "",
-		"location": "Gateway Ice Center",
-		"time": "7:15 PM - 10 PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/icebreakers.jpg",
-		"description": "Ice breakers is on Friday August 18th from 7:15 PM to 10 PM. Tickets are $15 at the door, please bring exact change. Please be picked up no later than 10:15 PM."
-	},
-	{
-		"title": "Underclassmen Portrait",
-		"caption": "August 22nd",
-		"image": "",
-		"location": "PE Room",
-		"time": "All Day",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/pictureday.png",
-		"description": "Underclassmen Portrait is only for Freshman, Sophomores, and Juniors. Printed order forms will be available on picture day or download your order form from our website and hand it to the photographer on picture day. Picture order is due on or before Picture Day. If you have any questions direct them to the front office."
-	}
+
 ]
