@@ -1,41 +1,14 @@
-[
-	{
-		"title": "Back to School Night",
+[{
+		"title": "Labor Day",
 		"category": "New",
-		"meetingDate": "8/14/2023",
-		"description": "Back to school night is on August 14th from 5PM to 8:30PM starting in the courtyard. You will have a chance to walk through your child's classes and learn what the school year is all about."
+		"meetingDate": "8/4/2023",
+		"description": "Enjoy Labor Day on September 4th, 2023. There is no school."
 	},
+
 	{
-		"title": "Back to School Night",
+		"title": "Labor Day",
 		"category": "Parents",
-		"description": "Back to school night is on August 14th from 5PM to 8:30PM starting in the courtyard. You will have a chance to walk through your child's classes and learn what the school year is all about."
-	},
-	{
-		"title": "First Day of School",
-		"category": "New",
-		"meetingDate": "8/16/2023",
-		"description": "The first day of school starts at 7:55AM. Classes will cover discussions about the courses curriculum through the year. Most classes will end around 3:55PM. If you have any questions direct them to the front office."
-	},
-	{
-		"title": "First Day of School",
-		"category": "Parents",
-		"description": "The first day of school starts at 7:55AM. Classes will cover discussions about the courses curriculum through the year. Most classes will end around 3:55PM. If you have any questions direct them to the front office."
-	},
-	{
-		"title": "Ice Breakers",
-		"category": "New",
-		"meetingDate": "8/18/2023",
-		"description": "Ice breakers is on Friday August 18th from 7:15 PM to 10 PM. Tickets are $15 at the door, please bring exact change. Please be picked up no later than 10:15 PM."
-	},
-	{
-		"title": "Underclassmen Portrait",
-		"category": "New",
-		"meetingDate": "8/22/2023",
-		"description": "Underclassmen Portrait is only for Freshman, Sophomores, and Juniors. Printed order forms will be available on picture day or download your order form from our website and hand it to the photographer on picture day. Picture order is due on or before Picture Day. If you have any questions direct them to the front office."
-	},
-	{
-		"title": "Underclassmen Portrait",
-		"category": "Parents",
-		"description": "Underclassmen Portrait is only for Freshman and Sophomores. Printed order forms will be available on picture day or download your order form from our website and hand it to the photographer on picture day. Picture order is due on or before Picture Day. If you have any questions direct them to the front office."
+		"description": "Enjoy Labor Day on September 4th, 2023. There is no school."
 	}
+
 ]
