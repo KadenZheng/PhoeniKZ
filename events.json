@@ -1,12 +1,26 @@
 [
 	{
-		"title": "UHS vs. Design Science",
-		"caption": "September 6th",
+		"title": "UHS Board Meeting",
+		"caption": "September 7th",
 		"image": "",
-		"location": "Duncan Polytechnical High School",
-		"time": "6:30-7:30PM",
+		"location": "Room 108",
+		"time": "3:00PM",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/UHSvsDS.png",
-		"description": "Come support the UHS boy's basketball team at Duncan tonight!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoardMeeting.png",
+		"description": "Board meeting today @3pm in Room 108."
+	},
+	{
+		"title": "UHS vs. Patino",
+		"caption": "September 11th",
+		"image": "",
+		"location": "CTEC High School",
+		"time": "5:30-6:30PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/UHSvsPatino.png",
+		"description": "Come support the UHS boy's basketball team at CTEC tonight!"
 	}
+	
+	
+	
+	
 ]
