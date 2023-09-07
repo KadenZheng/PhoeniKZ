@@ -1,14 +1,36 @@
 [{
-		"title": "Labor Day",
+		"title": "UHS vs. Design Science",
 		"category": "New",
-		"meetingDate": "8/4/2023",
-		"description": "Enjoy Labor Day on September 4th, 2023. There is no school."
+		"meetingDate": "9/6/2023",
+		"description": "Come support the UHS boy's basketball team at Duncan tonight!"
 	},
 
 	{
-		"title": "Labor Day",
+		"title": "UHS vs. Design Science",
+		"category": "Clubs/Sports",
+		"description": "Come support the UHS boy's basketball team at Duncan tonight!"
+	},
+	{
+		"title": "UHS vs. Patino",
+		"category": "New",
+		"meetingDate": "9/11/2023",
+		"description": "UHS boy's basketball is tonight at CTEC!"
+	},
+	{
+		"title": "UHS vs. Patino",
+		"category": "Clubs/Sports",
+		"description": "UHS boy's basketball is tonight at CTEC!"
+	},
+	{
+		"title": "UHS Golf Tournament",
+		"category": "New",
+		"meetingDate": "9/30/2023",
+		"description": "Sign up for the UHS Golf Tournament fundraiser here! (https://events.idonate.com/uhsgolftournament2023)"
+	},
+	{
+		"title": "UHS Golf Tournament",
 		"category": "Parents",
-		"description": "Enjoy Labor Day on September 4th, 2023. There is no school."
+		"description": "Sign up for the UHS Golf Tournament fundraiser here! (https://events.idonate.com/uhsgolftournament2023)"
 	}
 
 ]
