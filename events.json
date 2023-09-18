@@ -1,23 +1,32 @@
 [
 	{
-		"title": "UHS Board Meeting",
-		"caption": "September 7th",
+		"title": "UHS vs Big Picture",
+		"caption": "September 18th",
 		"image": "",
-		"location": "Room 108",
-		"time": "3:00PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/BoardMeeting.png",
-		"description": "Board meeting today @3pm in Room 108."
-	},
-	{
-		"title": "UHS vs. Patino",
-		"caption": "September 11th",
-		"image": "",
-		"location": "CTEC High School",
+		"location": "Duncan Polytechnical High School",
 		"time": "5:30-6:30PM",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/UHSvsPatino.png",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/9.18.23UHSvBigPict.png",
+		"description": "Come support the UHS against Big Picture @Duncan from 5:30-6:30PM!"
+	},
+	{
+		"title": "UHS vs. Aspen Ridge",
+		"caption": "September 20th",
+		"image": "",
+		"location": "Duncan Polytechnical High School",
+		"time": "5:30-6:30PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/9.20.23UHSvAspen.png",
 		"description": "Come support the UHS boy's basketball team at CTEC tonight!"
+	},
+	{
+		"title": "UHS Golf Tournament",
+		"caption": "September 30th",
+		"image": "",
+		"location": "Sherwood Forest Golf Course",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/9.30.23Golf.png",
+		"description": "Sign up for the UHS Golf Tournament fundraiser here! (https://events.idonate.com/uhsgolftournament2023)"
 	}
 	
 	
