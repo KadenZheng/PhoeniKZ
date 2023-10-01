@@ -1,25 +1,5 @@
 [
 	{
-		"title": "Senior Portraits",
-		"caption": "September 23rd",
-		"image": "",
-		"location": "University High School",
-		"time": "11AM-1PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/9.18.23UHSvBigPict.png",
-		"description": "Class of 2024, it's time to see those pearly whites!"
-	},
-	{
-		"title": "UHS vs. Duncan",
-		"caption": "September 27th",
-		"image": "",
-		"location": "Duncan Polytechnical High School",
-		"time": "5:30-6:30PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/9.27.23UHSvDuncan.png",
-		"description": "Come support the UHS boy's basketball team at CTEC tonight!"
-	},
-	{
 		"title": "UHS Golf Tournament",
 		"caption": "September 30th",
 		"image": "",
@@ -28,6 +8,36 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/9.30.23Golf.png",
 		"description": "Sign up for the UHS Golf Tournament fundraiser here! (https://events.idonate.com/uhsgolftournament2023)"
+	},
+	{
+		"title": "UHS vs Clovis Christian",
+		"caption": "October 2nd",
+		"image": "",
+		"location": "Duncan Polytechnical High School",
+		"time": "5:30-6:30PM"
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/10.2.23UHSvCChristain.png",
+		"description": "Come support UHS against Clovis Christian @Duncan!"
+	},
+	{
+		"title": "Senior Circle Personality",
+		"caption": "October 4th",
+		"image": "",
+		"location": "University High School",
+		"time": "8AM-2PM"
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/10.4.23SeniorCircle.png",
+		"description": "Seniors, it's time for your circle photos! Let's see those pearly whites :)"
+	},
+	{
+		"title": "Make-up Underclassmen Portraits",
+		"caption": "October 4th",
+		"image": "",
+		"location": "University High School",
+		"time": "11AM-1PM"
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/10.4.23UnderMakeup.png",
+		"description": "If you missed your photos, make sure to come take them on Oct 4th during makeups!"
 	}
 	
 	
