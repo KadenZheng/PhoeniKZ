@@ -1,38 +1,39 @@
-[	{
-		"title": "Senior Portraits",
+[	
+	{
+		"title": "UHS vs Clovis Christian",
 		"category": "New",
-		"meetingDate": "9/23/2023",
-		"description": "Let's see those pearly whites, seniors!"
+		"meetingDate": "10/2/23",
+		"description": "Come support UHS against Clovis Christian at Duncan!"
 	
 	},
 	{
-		"title": "Senior Portraits",
-		"category": "Parents",
-		"description": "Class of 2024, it's time for your senior portraits!"
-	},
-	{
-		"title": "UHS vs Duncan",
-		"category": "New",
-		"meetingDate": "9/27/2023",
-		"description": "Come support UHS against Duncan Polytechnical on the 27th @Duncan from 5:30-6:30PM!"
-	
-	},
-	{
-		"title": "UHS vs Duncan",
+		"title": "UHS vs Clovis Christian",
 		"category": "Clubs/Sports",
-		"description": "Come support UHS against Duncan Polytechnical on the 27th @Duncan from 5:30-6:30PM!"
+		"description": "Come support UHS against Clovis Christian at Duncan!"
+	},
+	{
+		"title": "Senior Circle Personality Pics"
+		"category": "New",
+		"meetingDate": "10/4/23",
+		"description": "Seniors, it's time for your circle photos! Let's see those pearly whites :)!"
 	
 	},
 	{
-		"title": "UHS Golf Tournament",
-		"category": "New",
-		"meetingDate": "9/30/2023",
-		"description": "Sign up for the UHS Golf Tournament fundraiser here! (https://events.idonate.com/uhsgolftournament2023)"
+		"title": "Senior Circle Personality Pics",
+		"category": "Parents",
+		"description": "Seniors, it's time for your circle photos! Let's see those pearly whites :)!"
+	
 	},
 	{
-		"title": "UHS Golf Tournament",
+		"title": "Makeup Underclassmen Portraits",
+		"category": "New",
+		"meetingDate": "10/4/23",
+		"description": "If you missed your photos, make sure to come take them on Oct 4th during makeups!"
+	},
+	{
+		"title": "Makeup Underclassmen Portraits",
 		"category": "Parents",
-		"description": "Sign up for the UHS Golf Tournament fundraiser here! (https://events.idonate.com/uhsgolftournament2023)"
+		"description": "If you missed your photos, make sure to come take them on Oct 4th during makeups!"
 	}
 
 ]
