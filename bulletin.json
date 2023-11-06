@@ -1,39 +1,46 @@
 [	
 	{
-		"title": "UHS vs Clovis Christian",
+		"title": "Phoenix Alliance Meeting",
 		"category": "New",
-		"meetingDate": "10/2/23",
-		"description": "Come support UHS against Clovis Christian at Duncan!"
+		"meetingDate": "11/6/23",
+		"description": "There is a Phoenix Alliance meeting after school today!"
 	
 	},
 	{
-		"title": "UHS vs Clovis Christian",
-		"category": "Clubs/Sports",
-		"description": "Come support UHS against Clovis Christian at Duncan!"
-	},
-	{
-		"title": "Senior Circle Personality Pics"
-		"category": "New",
-		"meetingDate": "10/4/23",
-		"description": "Seniors, it's time for your circle photos! Let's see those pearly whites :)!"
-	
-	},
-	{
-		"title": "Senior Circle Personality Pics",
+		"title": "Phoenix Alliance Meeting",
 		"category": "Parents",
-		"description": "Seniors, it's time for your circle photos! Let's see those pearly whites :)!"
+		"description": "There is a Phoenix Alliance meeting after school today!"
+	},
+	{
+		"title": "All Bands Concert"
+		"category": "New",
+		"meetingDate": "11/7/23",
+		"description": "Come watch all the bands perform tonight at Shaghoian!"
 	
 	},
 	{
-		"title": "Makeup Underclassmen Portraits",
-		"category": "New",
-		"meetingDate": "10/4/23",
-		"description": "If you missed your photos, make sure to come take them on Oct 4th during makeups!"
+		"title": "All Bands Concert",
+		"category": "Parents",
+		"description": "Come watch all the bands perform tonight at Shaghoian!"
+	
 	},
 	{
-		"title": "Makeup Underclassmen Portraits",
+		"title": "Early Release Day",
+		"category": "New",
+		"meetingDate": "11/9/23",
+		"description": "Happy Early Release Day! Make sure to rest up and enjoy the long weekend :)"
+	},
+	{
+		"title": "Early Release Day",
 		"category": "Parents",
-		"description": "If you missed your photos, make sure to come take them on Oct 4th during makeups!"
+		"meetingDate": "11/9/23",
+		"description": "Happy Early Release Day! Make sure to rest up and enjoy the long weekend :)"
+	},
+	{
+		"title": "No School (Veterans Day)",
+		"category": "New",
+		"meetingDate": "11/10/23",
+		"description": "No school today! Thank you Veterans for all that you do!"
 	}
 
 ]
