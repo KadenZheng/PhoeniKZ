@@ -1,43 +1,43 @@
 [
 	{
-		"title": "UHS Golf Tournament",
-		"caption": "September 30th",
+		"title": "Phoenix Alliance Meeting",
+		"caption": "November 6th",
 		"image": "",
-		"location": "Sherwood Forest Golf Course",
-		"time": "8am"
+		"location": "UHS Room 209",
+		"time": "6pm-7pm"
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/9.30.23Golf.png",
-		"description": "Sign up for the UHS Golf Tournament fundraiser here! (https://events.idonate.com/uhsgolftournament2023)"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/11.6.23PAMeeting.png",
+		"description": "There is a Phoenix Alliance meeting after school today!"
 	},
 	{
-		"title": "UHS vs Clovis Christian",
-		"caption": "October 2nd",
+		"title": "All Bands Concert",
+		"caption": "November 7th",
 		"image": "",
-		"location": "Duncan Polytechnical High School",
-		"time": "5:30-6:30PM"
+		"location": "Paul Shaghoian Memorial Concert Hall",
+		"time": "7pm-8:30pm"
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/10.2.23UHSvCChristain.png",
-		"description": "Come support UHS against Clovis Christian @Duncan!"
+		"imageURL": 			"https://kadenzheng.github.io/PhoeniKZ/11.7.23AllBands.png",
+		"description": "Come watch all the bands perform tonight at Shaghoian!"
 	},
 	{
-		"title": "Senior Circle Personality",
-		"caption": "October 4th",
+		"title": "Early Release Day",
+		"caption": "November 9th",
 		"image": "",
 		"location": "University High School",
-		"time": "8AM-2PM"
+		"time": "8am-12:20pm"
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/10.4.23SeniorCircle.png",
-		"description": "Seniors, it's time for your circle photos! Let's see those pearly whites :)"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/11.9.23EarlyRelease.png",
+		"description": "Happy Early Release Day! Make sure to rest up and enjoy the long weekend :)"
 	},
 	{
-		"title": "Make-up Underclassmen Portraits",
-		"caption": "October 4th",
+		"title": "No School (Veterans Day)",
+		"caption": "November 10th",
 		"image": "",
 		"location": "University High School",
-		"time": "11AM-1PM"
+		"time": "All Day"
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/10.4.23UnderMakeup.png",
-		"description": "If you missed your photos, make sure to come take them on Oct 4th during makeups!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/11.10.23VeteransDay.png",
+		"description": "No school today! Thank you Veterans for all that you do!"
 	}
 	
 	
