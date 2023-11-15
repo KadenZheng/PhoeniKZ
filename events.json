@@ -4,42 +4,41 @@
 		"caption": "November 14th",
 		"image": "",
 		"location": "Paul Shaghoian Concert Hall",
-		"time": "7pm-8:30pm"
+		"time": "7pm-8:30pm",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/11.14.23Choirs.png",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/11.14.23Choirs.jpg",
 		"description": "Come out and watch the choirs perform tonight!"
 	},
 	{
-		"title": "All Bands Concert",
-		"caption": "November 7th",
-		"image": "",
-		"location": "Paul Shaghoian Memorial Concert Hall",
-		"time": "7pm-8:30pm"
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/11.7.23AllBands.png",
-		"description": "Come watch all the bands perform tonight at Shaghoian!"
-	},
-	{
-		"title": "Early Release Day",
-		"caption": "November 9th",
+		"title": "Thanksgiving Holiday",
+		"caption": "November 22-24th",
 		"image": "",
 		"location": "University High School",
-		"time": "8am-12:20pm"
+		"time": "All Day",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/11.9.23EarlyRelease.png",
-		"description": "Happy Early Release Day! Make sure to rest up and enjoy the long weekend :)"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/thanksgiving.jpeg",
+		"description": "Happy Thanksgiving! Enjoy these days off from school!"
 	},
 	{
-		"title": "No School (Veterans Day)",
-		"caption": "November 10th",
+		"title": "Information Day",
+		"caption": "November 28th",
 		"image": "",
-		"location": "University High School",
-		"time": "All Day"
+		"location": "Satellite Student Union",
+		"time": "4-5:30pm",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/11.10.23VeteransDay.png",
-		"description": "No school today! Thank you Veterans for all that you do!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/uhs.jpeg",
+		"description": "Come out and learn about what makes UHS special and the best school in the valley!"
+	},
+	{
+		"title": "Speech and Debate IE #3",
+		"caption": "December 2nd",
+		"image": "",
+		"location": "Clovis East High School",
+		"time": "8am-8pm",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/zhengnatsdebate.jpeg",
+		"description": "Good luck to our speech and debate team and coach JROCK!"
 	}
-	
 	
 	
 	
