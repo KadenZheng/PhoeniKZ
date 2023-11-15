@@ -1,46 +1,41 @@
 [	
 	{
-		"title": "Phoenix Alliance Meeting",
+		"title": "All Choirs Concert",
 		"category": "New",
-		"meetingDate": "11/6/23",
-		"description": "There is a Phoenix Alliance meeting after school today!"
+		"meetingDate": "11/14/23",
+		"description": "Come out and watch the choirs perform tonight!"
 	
 	},
 	{
-		"title": "Phoenix Alliance Meeting",
-		"category": "Parents",
-		"description": "There is a Phoenix Alliance meeting after school today!"
-	},
-	{
-		"title": "All Bands Concert"
+		"title": "Thanksgiving Holiday",
 		"category": "New",
-		"meetingDate": "11/7/23",
-		"description": "Come watch all the bands perform tonight at Shaghoian!"
+		"meetingDate": "11/22/23-11/24/23",
+		"description": "Happy Thanksgiving! Enjoy these days off from school and remember what you're thankful for!"
 	
 	},
 	{
-		"title": "All Bands Concert",
+		"title": "Thanksgiving Holiday",
 		"category": "Parents",
-		"description": "Come watch all the bands perform tonight at Shaghoian!"
-	
+		"description": "Happy Thanksgiving! Enjoy these days off from school and remember what you're thankful for!"
+		
 	},
 	{
-		"title": "Early Release Day",
+		"title": "Information Day",
 		"category": "New",
-		"meetingDate": "11/9/23",
-		"description": "Happy Early Release Day! Make sure to rest up and enjoy the long weekend :)"
+		"meetingDate": "11/28/23",
+		"description": "Come out and learn about what makes UHS special and the best school in the valley!"
 	},
 	{
-		"title": "Early Release Day",
+		"title": "Information Day",
 		"category": "Parents",
-		"meetingDate": "11/9/23",
-		"description": "Happy Early Release Day! Make sure to rest up and enjoy the long weekend :)"
+		"meetingDate": "11/28/23",
+		"description": "Come out and learn about what makes UHS special and the best school in the valley!"
 	},
 	{
-		"title": "No School (Veterans Day)",
+		"title": "Speech and Debate IE #3",
 		"category": "New",
-		"meetingDate": "11/10/23",
-		"description": "No school today! Thank you Veterans for all that you do!"
+		"meetingDate": "12/2/23",
+		"description": "Good luck to our speech and debate team and coach JROCK!"
 	}
 
 ]
