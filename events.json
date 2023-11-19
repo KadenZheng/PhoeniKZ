@@ -1,15 +1,5 @@
 [
 	{
-		"title": "All Choirs Concert",
-		"caption": "November 14th",
-		"image": "",
-		"location": "Paul Shaghoian Concert Hall",
-		"time": "7pm-8:30pm",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/11.14.23Choirs.jpg",
-		"description": "Come out and watch the choirs perform tonight!"
-	},
-	{
 		"title": "Thanksgiving Holiday",
 		"caption": "November 22-24th",
 		"image": "",
@@ -38,8 +28,16 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/zhengnatsdebate.jpeg",
 		"description": "Good luck to our speech and debate team and coach JROCK!"
+	},
+	{
+		"title": "UHS Board Meeting",
+		"caption": "December 7th",
+		"image": "",
+		"location": "UHS Room 108",
+		"time": "5pm",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/uhs.jpeg",
+		"description": "There is a board meeting in Room 108 at 5pm!"
 	}
-	
-	
 	
 ]
