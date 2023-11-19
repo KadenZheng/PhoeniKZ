@@ -1,12 +1,5 @@
 [	
 	{
-		"title": "All Choirs Concert",
-		"category": "New",
-		"meetingDate": "11/14/23",
-		"description": "Come out and watch the choirs perform tonight!"
-	
-	},
-	{
 		"title": "Thanksgiving Holiday",
 		"category": "New",
 		"meetingDate": "11/22/23-11/24/23",
@@ -23,19 +16,31 @@
 		"title": "Information Day",
 		"category": "New",
 		"meetingDate": "11/28/23",
-		"description": "Come out and learn about what makes UHS special and the best school in the valley!"
+		"description": "Come out and learn about what makes UHS special and the best school in the valley! Parking Code is 902519."
 	},
 	{
 		"title": "Information Day",
 		"category": "Parents",
 		"meetingDate": "11/28/23",
-		"description": "Come out and learn about what makes UHS special and the best school in the valley!"
+		"description": "Come out and learn about what makes UHS special and the best school in the valley! Parking Code is 902519."
 	},
 	{
 		"title": "Speech and Debate IE #3",
 		"category": "New",
 		"meetingDate": "12/2/23",
 		"description": "Good luck to our speech and debate team and coach JROCK!"
+	},
+	{
+		"title": "UHS Board Meeting",
+		"category": "New",
+		"meetingDate": "12/7/23",
+		"description": "There is a board meeting in Room 108 at 5pm!"
+	},
+	{
+		"title": "UHS Board Meeting",
+		"category": "Parents",
+		"meetingDate": "12/7/23",
+		"description": "There is a board meeting in Room 108 at 5pm!"
 	}
 
 ]
