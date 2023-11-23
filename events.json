@@ -38,6 +38,16 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/uhs.jpeg",
 		"description": "There is a board meeting in Room 108 at 5pm!"
+	},
+	{
+		"title": "Jazz and Show Choir",
+		"caption": "December 8th",
+		"image": "",
+		"location": "Satellite Student Union",
+		"time": "7-9pm",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/showchoir.png",
+		"description": "Come out and see the Show Choir and Jazz Band perform tonight at the Satellite Student Union!"
 	}
 	
 ]
