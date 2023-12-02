@@ -1,34 +1,5 @@
 [
-	{
-		"title": "Thanksgiving Holiday",
-		"caption": "November 22-24th",
-		"image": "",
-		"location": "University High School",
-		"time": "All Day",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/thanksgiving.jpeg",
-		"description": "Happy Thanksgiving! Enjoy these days off from school!"
-	},
-	{
-		"title": "Information Day",
-		"caption": "November 28th",
-		"image": "",
-		"location": "Satellite Student Union",
-		"time": "4-5:30pm",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/uhs.jpeg",
-		"description": "Come out and learn about what makes UHS special and the best school in the valley!"
-	},
-	{
-		"title": "Speech and Debate IE #3",
-		"caption": "December 2nd",
-		"image": "",
-		"location": "Clovis East High School",
-		"time": "8am-8pm",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/zhengnatsdebate.jpeg",
-		"description": "Good luck to our speech and debate team and coach JROCK!"
-	},
+	
 	{
 		"title": "UHS Board Meeting",
 		"caption": "December 7th",
@@ -48,6 +19,17 @@
 		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/showchoir.png",
 		"description": "Come out and see the Show Choir and Jazz Band perform tonight at the Satellite Student Union!"
+	},
+	{
+		"title": "Speech and Debate Wahzoo #3",
+		"caption": "December 9th",
+		"image": "",
+		"location": "Clovis North",
+		"time": "8am-8pm",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/speechdebate",
+		"description": "Come support Dr. Jarocki and the debaters this weekend!"
 	}
+	
 	
 ]
