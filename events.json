@@ -1,34 +1,34 @@
 [
 	
 	{
-		"title": "UHS Board Meeting",
-		"caption": "December 7th",
+		"title": "Winter Break",
+		"caption": "December 15th-January 2nd",
 		"image": "",
-		"location": "UHS Room 108",
-		"time": "5pm",
+		"location": "Home",
+		"time": "All Day",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/uhs.jpeg",
-		"description": "There is a board meeting in Room 108 at 5pm!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/winterbreak.png",
+		"description": "Happy winter break! Make sure that you get a ton of rest!"
 	},
 	{
-		"title": "Jazz and Show Choir",
-		"caption": "December 8th",
+		"title": "Winter Intersession",
+		"caption": "January 3rd-January 12th",
 		"image": "",
-		"location": "Satellite Student Union",
-		"time": "7-9pm",
+		"location": "UHS Fresno",
+		"time": "All Day",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/showchoir.png",
-		"description": "Come out and see the Show Choir and Jazz Band perform tonight at the Satellite Student Union!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/winterintersession.jpeg",
+		"description": "Enjoy these two weeks of fun before the spring semester starts!"
 	},
 	{
-		"title": "Wahzoo #3 (Debate)",
-		"caption": "December 9th",
+		"title": "Phoenix Alliance Meeting"
+		"caption": "January 9th",
 		"image": "",
-		"location": "Clovis North",
-		"time": "8am-8pm",
+		"location": "Room 209",
+		"time": "6-7pm",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/speechdebate",
-		"description": "Come support Dr. Jarocki and the debaters this weekend!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/uhslogo.png",
+		"description": "There is a Phoenix Alliance Meeting inn Rm. 209 from 6-7pm!"
 	}
 	
 	
