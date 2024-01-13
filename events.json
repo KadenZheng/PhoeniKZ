@@ -1,34 +1,44 @@
 [
 	
 	{
-		"title": "Winter Break",
-		"caption": "December 15th-January 2nd",
+		"title": "Romeo and Juliet Play",
+		"caption": "January 12th",
+		"image": "",
+		"location": "California Arts Academy",
+		"time": "7:30PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/RomeoJuliet.png",
+		"description": "Romeo, Romeo, where art thou Romeo? At the Cal Arts Academy! Come support the Phoenix Players!"
+	},
+	{
+		"title": "Romeo and Juliet Play",
+		"caption": "January 13th",
+		"image": "",
+		"location": "California Arts Academy",
+		"time": "2PM, 7:30PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/RomeoJuliet.png",
+		"description": "Romeo, Romeo, where art thou Romeo? At the Cal Arts Academy! Come support the Phoenix Players!"
+	},
+	{
+		"title": "Romeo and Juliet Play",
+		"caption": "January 14th",
+		"image": "",
+		"location": "California Arts Academy",
+		"time": "2:00PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/RomeoJuliet.png",
+		"description": "Romeo, Romeo, where art thou Romeo? At the Cal Arts Academy! Come support the Phoenix Players!"
+	},
+	{
+		"title": "MLK Day/No School",
+		"caption": "January 15th",
 		"image": "",
 		"location": "Home",
 		"time": "All Day",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/winterbreak.png",
-		"description": "Happy winter break! Make sure that you get a ton of rest!"
-	},
-	{
-		"title": "Winter Intersession",
-		"caption": "January 3rd-January 12th",
-		"image": "",
-		"location": "UHS Fresno",
-		"time": "All Day",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/winterintersession.jpeg",
-		"description": "Enjoy these two weeks of fun before the spring semester starts!"
-	},
-	{
-		"title": "Phoenix Alliance Meeting",
-		"caption": "January 9th",
-		"image": "",
-		"location": "Room 209",
-		"time": "6-7pm",
-		"contact": "Front Office",
 		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/uhslogo.png",
-		"description": "There is a Phoenix Alliance Meeting in Rm. 209 from 6-7pm!"
+		"description": "Dr. MLK Jr. strived for racial equity and equality, and we take this day off in observance of his legacy."
 	}
 	
 	
