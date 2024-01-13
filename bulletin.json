@@ -1,33 +1,28 @@
 [	
 	
 	{
-		"title": "Winter Break",
+		"title": "Romeo and Juliet",
 		"category": "New",
-		"meetingDate": "12/15/23-1/2/24",
-		"description": "Happy winter break! Make sure that you get a ton of rest!"
+		"meetingDate": "1/12/24",
+		"description": "Check out the Phoenix Players at the Cal Arts Academy @7:30PM!"
 	},
 	{
-		"title": "Winter Break",
-		"category": "Parents",
-		"meetingDate": "12/15/23-1/2/24",
-		"description": "Happy winter break! Make sure that you get a ton of rest!"
-	},
-	{
-		"title": "Winter Intersession",
+		"title": "Romeo and Juliet",
 		"category": "New",
-		"meetingDate": "1/3/24-1/12/24",
-		"description": "Enjoy these two weeks of fun before the spring semester starts!"
+		"meetingDate": "1/13/24",
+		"description": "Check out the Phoenix Players at the Cal Arts Academy @2PM and 7:30PM!"
 	},
 	{
-		"title": "Winter Intersession",
-		"category": "Parents",
-		"meetingDate": "1/3/24-1/12/24",
-		"description": "Enjoy these two weeks of fun before the spring semester starts!"
+		"title": "Romeo and Juliet",
+		"category": "New",
+		"meetingDate": "1/14/24",
+		"description": "Check out the Phoenix Players at the Cal Arts Academy @2PM!"
 	},
+
 	{
-		"title": "Phoenix Alliance Meeting",
-		"category": "Parents",
-		"meetingDate": "1/9/24",
-		"description": "There is a Phoenix Alliance Meeting in Rm. 209 from 6-7pm!"
+		"title": "MLK Jr. Day",
+		"category": "New",
+		"meetingDate": "1/15/24",
+		"description": "There is no school in observance of Dr. MLK's contributions to racial equality."
 	}
 ]
