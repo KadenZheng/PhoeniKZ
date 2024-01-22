@@ -1,45 +1,14 @@
 [
 	
 	{
-		"title": "Romeo and Juliet Play",
-		"caption": "January 12th",
+		"title": "Club Pictures",
+		"caption": "January 22nd-24th",
 		"image": "",
-		"location": "California Arts Academy",
-		"time": "7:30PM",
+		"location": "Choir Room",
+		"time": "Varies",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/RomeoJuliet.png",
-		"description": "Romeo, Romeo, where art thou Romeo? At the Cal Arts Academy! Come support the Phoenix Players!"
-	},
-	{
-		"title": "Romeo and Juliet Play",
-		"caption": "January 13th",
-		"image": "",
-		"location": "California Arts Academy",
-		"time": "2PM, 7:30PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/RomeoJuliet.png",
-		"description": "Romeo, Romeo, where art thou Romeo? At the Cal Arts Academy! Come support the Phoenix Players!"
-	},
-	{
-		"title": "Romeo and Juliet Play",
-		"caption": "January 14th",
-		"image": "",
-		"location": "California Arts Academy",
-		"time": "2:00PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/RomeoJuliet.png",
-		"description": "Romeo, Romeo, where art thou Romeo? At the Cal Arts Academy! Come support the Phoenix Players!"
-	},
-	{
-		"title": "MLK Day/No School",
-		"caption": "January 15th",
-		"image": "",
-		"location": "Home",
-		"time": "All Day",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/uhslogo.png",
-		"description": "Dr. MLK Jr. strived for racial equity and equality, and we take this day off in observance of his legacy."
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/clubportait.png",
+		"description": "Keep an eye out for any upcoming yearbook portraits that you're clubs are doing!"
 	}
-	
 	
 ]
