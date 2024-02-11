@@ -1,14 +1,44 @@
 [
 	
 	{
-		"title": "Club Pictures",
-		"caption": "January 22nd-24th",
+		"title": "Volleyball vs. DeWolf",
+		"caption": "February 13th",
 		"image": "",
-		"location": "Choir Room",
-		"time": "Varies",
+		"location": "Duncan Polytechnical",
+		"time": "5:30-7:30PM",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/clubportait.jpg",
-		"description": "Keep an eye out for any upcoming yearbook portraits that you're clubs are doing!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/vball1.jpg",
+		"description": "Serving up some success! Come cheer on the fabulous UHS boys and girls volleyball teams!"
+	},
+	{
+		"title": "Volleyball vs. Aspen Ridge",
+		"caption": "February 15th",
+		"image": "",
+		"location": "Duncan Polytechnical",
+		"time": "5:30-7:30PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/vball2.jpg",
+		"description": "Serving up some success! Come cheer on the fabulous UHS boys and girls volleyball teams!"
+	},
+	{
+		"title": "Early Release",
+		"caption": "February 16th",
+		"image": "",
+		"location": "UHS",
+		"time": "8:20am-12:20pm",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/earlyrelease.jpg",
+		"description": "Enjoy the day off! You all deserve a rest :)"
+	},
+	{
+		"title": "Junior Exploration Day",
+		"caption": "February 16th",
+		"image": "",
+		"location": "Fresno State",
+		"time": "Morning",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/fresnostate.jpg",
+		"description": "Fresno State has a lot to offer! Juniors, let's check it out B)"
 	}
-	
+
 ]
