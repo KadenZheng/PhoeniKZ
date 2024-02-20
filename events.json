@@ -1,44 +1,44 @@
 [
 	
 	{
-		"title": "Volleyball vs. DeWolf",
-		"caption": "February 13th",
+		"title": "Lottery Day",
+		"caption": "February 20th",
 		"image": "",
-		"location": "Duncan Polytechnical",
+		"location": "UHS Large Band Room",
+		"time": "10AM-11AM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/lottery.jpg",
+		"description": "Welcome Class of 2028! We can't wait to see who will join our UHS family next year!"
+	},
+	{
+		"title": "Concerto Concert",
+		"caption": "February 20th",
+		"image": "",
+		"location": "Paul Shagoian Concert Hall",
+		"time": "7PM-8:30PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/concert.jpg",
+		"description": "UHS's annual Concerto Concert is happening! Come hear some of the best play with our very own Symphony Orchestra!"
+	},
+	{
+		"title": "Volleyball vs. Big Picture",
+		"caption": "February 21st",
+		"image": "",
+		"location": "Duncan",
 		"time": "5:30-7:30PM",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/vball1.jpg",
-		"description": "Serving up some success! Come cheer on the fabulous UHS boys and girls volleyball teams!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/bigpic.jpg",
+		"description": "Serving up success! Come cheer on the UHS boy's and girl's volleyball teams against Big Picture!"
 	},
 	{
-		"title": "Volleyball vs. Aspen Ridge",
-		"caption": "February 15th",
+		"title": "Volleyball vs Duncan",
+		"caption": "February 26th",
 		"image": "",
-		"location": "Duncan Polytechnical",
+		"location": "Duncan",
 		"time": "5:30-7:30PM",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/vball2.jpg",
-		"description": "Serving up some success! Come cheer on the fabulous UHS boys and girls volleyball teams!"
-	},
-	{
-		"title": "Early Release",
-		"caption": "February 16th",
-		"image": "",
-		"location": "UHS",
-		"time": "8:20am-12:20pm",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/earlyrelease.jpg",
-		"description": "Enjoy the day off! You all deserve a rest :)"
-	},
-	{
-		"title": "Junior Exploration Day",
-		"caption": "February 16th",
-		"image": "",
-		"location": "Fresno State",
-		"time": "Morning",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/fresnostate.jpg",
-		"description": "Fresno State has a lot to offer! Juniors, let's check it out B)"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/duncan.jpg",
+		"description": "Setting up the win! The UHS boy's and girl's volleyball teams take on Duncan tonight!"
 	}
 
 ]
