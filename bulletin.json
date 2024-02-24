@@ -1,45 +1,39 @@
 [	
 	{
-		"title": "Lottery Day",
+		"title": "VBall vs. Duncan",
 		"category": "New",
-		"meetingDate": "2/20/24",
-		"description": "Welcome Class of 2028! We can't wait to see who will join our UHS family next year!"
+		"meetingDate": "2/26/24",
+		"description": "Serving a win! The UHS Vball teams take on Duncan! Come cheer them on!"
 	},
 	{
-		"title": "Lottery Day",
+		"title": "VBall vs. Duncan",
+		"category": "Clubs/Sports",
+		"meetingDate": "2/26/24",
+		"description": "Serving a win! The UHS Vball teams take on Duncan! Come cheer them on!"
+	},
+	{
+		"title": "VBall vs. CTEC",
+		"category": "New",
+		"meetingDate": "2/28/24",
+		"description": "Spiking for the win! The UHS Vball boys and girls take on CTEC! Let's go UHS!"
+	},
+	{
+		"title": "VBall vs. CTEC",
+		"category": "Clubs/Sports",
+		"meetingDate": "2/28/24",
+		"description": "Spiking for the win! The UHS Vball boys and girls take on CTEC! Let's go UHS!"
+	},
+	{
+		"title": "End of 6-week Grades",
+		"category": "New",
+		"meetingDate": "3/1/24",
+		"description": "This is the end of the first 6-week grading period. Remember, take advantage of UHS's academic resources; they will help!"
+	},
+	{
+		"title": "End of 6-week Grades",
 		"category": "Parents",
-		"meetingDate": "2/20/24",
-		"description": "Welcome Class of 2028! We can't wait to see who will join our UHS family next year!"
-	},
-	{
-		"title": "Concerto Concert",
-		"category": "New",
-		"meetingDate": "2/20/24",
-		"description": "UHS's annual Concerto Concert is happening! Come hear some of the best play with our very own Symphony Orchestra!"
-	},
-	{
-		"title": "Volleyball vs. Big Picture",
-		"category": "New",
-		"meetingDate": "2/21/24",
-		"description": "Serving up success! Come cheer on the UHS boy's and girl's volleyball teams against Big Picture!"
-	},
-	{
-		"title": "Volleyball vs. Big Picture",
-		"category": "Clubs/Sports",
-		"meetingDate": "2/21/24",
-		"description": "Serving up success! Come cheer on the UHS boy's and girl's volleyball teams against Big Picture!"
-	},
-	{
-		"title": "Volleyball vs. Duncan",
-		"category": "New",
-		"meetingDate": "2/26/24",
-		"description": "Setting up the win! The UHS boy's and girl's volleyball teams take on Duncan tonight!"
-	},
-	{
-		"title": "Volleyball vs. Duncan",
-		"category": "Clubs/Sports",
-		"meetingDate": "2/26/24",
-		"description": "Setting up the win! The UHS boy's and girl's volleyball teams take on Duncan tonight!"
+		"meetingDate": "3/1/24",
+		"description": "This is the end of the first 6-week grading period. Remember, take advantage of UHS's academic resources; they will help!"
 	}
 	
 ]
