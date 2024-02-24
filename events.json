@@ -1,44 +1,33 @@
 [
 	
 	{
-		"title": "Lottery Day",
-		"caption": "February 20th",
-		"image": "",
-		"location": "UHS Large Band Room",
-		"time": "10AM-11AM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/lottery.jpg",
-		"description": "Welcome Class of 2028! We can't wait to see who will join our UHS family next year!"
-	},
-	{
-		"title": "Concerto Concert",
-		"caption": "February 20th",
-		"image": "",
-		"location": "Paul Shagoian Concert Hall",
-		"time": "7PM-8:30PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/concert.jpg",
-		"description": "UHS's annual Concerto Concert is happening! Come hear some of the best play with our very own Symphony Orchestra!"
-	},
-	{
-		"title": "Volleyball vs. Big Picture",
-		"caption": "February 21st",
-		"image": "",
-		"location": "Duncan",
-		"time": "5:30-7:30PM",
-		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/bigpic.jpg",
-		"description": "Serving up success! Come cheer on the UHS boy's and girl's volleyball teams against Big Picture!"
-	},
-	{
-		"title": "Volleyball vs Duncan",
+		"title": "VBall vs. Duncan",
 		"caption": "February 26th",
 		"image": "",
 		"location": "Duncan",
 		"time": "5:30-7:30PM",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/duncan.jpg",
-		"description": "Setting up the win! The UHS boy's and girl's volleyball teams take on Duncan tonight!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/duncan26.jpg",
+		"description": "Serving a win! The UHS Vball teams take on Duncan! Come cheer them on!"
+	},
+	{
+		"title": "VBall vs. CTEC",
+		"caption": "February 28th",
+		"image": "",
+		"location": "Duncan",
+		"time": "5:30-7:30PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/CTEC26.jpg",
+		"description": "Spiking for the win! The UHS Vball boys and girls take on CTEC! Let's go UHS!"
+	},
+	{
+		"title": "End of 6-week Grades",
+		"caption": "March 1st",
+		"image": "",
+		"location": "UHS",
+		"time": "All Day",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/grades.jpeg",
+		"description": "This is the end of the first 6-week grading period. Remember, take advantage of UHS's academic resources; they will help!"
 	}
-
 ]
