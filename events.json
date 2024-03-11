@@ -1,33 +1,43 @@
 [
 	
 	{
-		"title": "VBall vs. Duncan",
-		"caption": "February 26th",
+		"title": "VBall Boy's Playoffs",
+		"caption": "March 11th",
 		"image": "",
 		"location": "Duncan",
-		"time": "5:30-7:30PM",
+		"time": "5:30-6:30PM",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/duncan26.jpg",
-		"description": "Serving a win! The UHS Vball teams take on Duncan! Come cheer them on!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/311.jpg",
+		"description": "Come support the boy's in the playoffs against CTEC! Let's take that championship home!"
 	},
 	{
-		"title": "VBall vs. CTEC",
-		"caption": "February 28th",
+		"title": "Phoenix Alliance",
+		"caption": "March 12th",
+		"image": "",
+		"location": "Room 209",
+		"time": "6-7PM",
+		"contact": "Front Office",
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/312.jpg",
+		"description": "There is a Phoenix Alliance meeting this Tuesday after school."
+	},
+	{
+		"title": "VBall Girl's Playoffs",
+		"caption": "March 13th",
 		"image": "",
 		"location": "Duncan",
-		"time": "5:30-7:30PM",
+		"time": "5:30-6:30PM",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/CTEC26.jpg",
-		"description": "Spiking for the win! The UHS Vball boys and girls take on CTEC! Let's go UHS!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/313.jpg",
+		"description": "Come cheer for the girl's volleyball team against Big Picture! Let's take that championship home!"
 	},
 	{
-		"title": "End of 6-week Grades",
-		"caption": "March 1st",
+		"title": "Science Fair Awards",
+		"caption": "March 14th",
 		"image": "",
-		"location": "UHS",
-		"time": "All Day",
+		"location": "Fresno Fair",
+		"time": "7-8:30PM",
 		"contact": "Front Office",
-		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/grades26.jpeg",
-		"description": "This is the end of the first 6-week grading period. Remember, take advantage of UHS's academic resources; they will help!"
+		"imageURL": "https://kadenzheng.github.io/PhoeniKZ/314.jpg",
+		"description": "Support UHS students and their projects at the Science Fair awards this Friday evening."
 	}
 ]
