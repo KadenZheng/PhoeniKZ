@@ -1,39 +1,51 @@
 [	
 	{
-		"title": "VBall vs. Duncan",
+		"title": "VBall Boy's Playoffs",
 		"category": "New",
-		"meetingDate": "2/26/24",
-		"description": "Serving a win! The UHS Vball teams take on Duncan! Come cheer them on!"
+		"meetingDate": "3/11/24",
+		"description": "Come support the boy's in the playoffs against CTEC! Let's take that championship home!"
 	},
 	{
-		"title": "VBall vs. Duncan",
+		"title": "VBall Boy's Playoffs",
 		"category": "Clubs/Sports",
-		"meetingDate": "2/26/24",
-		"description": "Serving a win! The UHS Vball teams take on Duncan! Come cheer them on!"
+		"meetingDate": "3/11/24",
+		"description": "Come support the boy's in the playoffs against CTEC! Let's take that championship home!"
 	},
 	{
-		"title": "VBall vs. CTEC",
+		"title": "Phoenix Alliance Meeting",
 		"category": "New",
-		"meetingDate": "2/28/24",
-		"description": "Spiking for the win! The UHS Vball boys and girls take on CTEC! Let's go UHS!"
+		"meetingDate": "3/12/24",
+		"description": "There is a Phoenix Alliance meeting on Tuesday after school in Room 209."
 	},
-	{
-		"title": "VBall vs. CTEC",
-		"category": "Clubs/Sports",
-		"meetingDate": "2/28/24",
-		"description": "Spiking for the win! The UHS Vball boys and girls take on CTEC! Let's go UHS!"
-	},
-	{
-		"title": "End of 6-week Grades",
-		"category": "New",
-		"meetingDate": "3/1/24",
-		"description": "This is the end of the first 6-week grading period. Remember, take advantage of UHS's academic resources; they will help!"
-	},
-	{
-		"title": "End of 6-week Grades",
+		{
+		"title": "Phoenix Alliance Meeting",
 		"category": "Parents",
-		"meetingDate": "3/1/24",
-		"description": "This is the end of the first 6-week grading period. Remember, take advantage of UHS's academic resources; they will help!"
+		"meetingDate": "3/12/24",
+		"description": "There is a Phoenix Alliance meeting on Tuesday after school in Room 209."
+	},
+	{
+		"title": "VBall Girl's Playoff",
+		"category": "New",
+		"meetingDate": "3/13/24",
+		"description": "Come cheer for the girl's volleyball team against Big Picture! Let's take that championship home!"
+	},
+	{
+		"title": "VBall Girl's Playoff",
+		"category": "Clubs/Sports",
+		"meetingDate": "3/13/24",
+		"description": "Come cheer for the girl's volleyball team against Big Picture! Let's take that championship home!"
+	},
+	{
+		"title": "Science Fair Awards",
+		"category": "New",
+		"meetingDate": "3/14/24",
+		"description": "Check out the Fresno Fair Grounds and support UHS's Science Fair winners!"
+	},
+	{
+		"title": "Science Fair Awards",
+		"category": "Parents",
+		"meetingDate": "3/14/24",
+		"description": "Check out the Fresno Fair Grounds and support UHS's Science Fair winners!"
 	}
 	
 ]
